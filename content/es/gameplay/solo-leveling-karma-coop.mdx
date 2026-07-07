@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cooperativo de Solo Leveling Karma: Guía de Juego en Equipo y Multijugador 2026",
+  description: "Domina los modos cooperativos de Solo Leveling Karma con nuestra guía. Aprende sobre composiciones de equipo, mecánicas de incursión y recompensas multijugador para dominar el juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Coop+Multiplayer+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Solo Leveling Karma"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **cooperativo de Solo Leveling Karma** permite a los jugadores formar equipos para incursiones y mazmorras de alta dificultad.
+- La **sinergia de equipo** es vital, requiriendo un equilibrio de roles de DPS, soporte y tanque para el éxito.
+- Las **herramientas de comunicación** dentro del juego ayudan a coordinar las habilidades definitivas durante las fases de los jefes.
+- Las **recompensas exclusivas**, como armas legendarias y bendiciones, solo se encuentran en los modos multijugador.
+- El **emparejamiento** admite tanto la cola aleatoria como las salas privadas para el juego coordinado de gremios.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo las mecánicas cooperativas de Solo Leveling Karma">
+
+La introducción del **cooperativo de Solo Leveling Karma** cambia fundamentalmente la forma en que los cazadores se enfrentan a las sombras. Mientras que la historia principal se centra en el crecimiento individual de Sung Jinwoo, el componente multijugador te permite llevar a tus cazadores y armas personalizados a un campo de batalla compartido. Este modo está diseñado para jugadores que han alcanzado el progreso de mitad de juego y buscan desafíos que un solo cazador no puede superar por sí mismo.
+
+En este entorno, el "Karma" se refiere a la energía compartida y la sincronización entre los jugadores. A medida que te desempeñas bien en equipo, tu nivel de Karma aumenta, desbloqueando mejoras especializadas basadas en el equipo que benefician a todos en la sala. Comprender el equilibrio entre la habilidad individual y la contribución al equipo es el primer paso para dominar el panorama cooperativo en 2026.
+
+| Característica | Juego en solitario | Juego cooperativo |
+| :--- | :--- | :--- |
+| **Salud del enemigo** | Escalado estándar | Escalado multijugador |
+| **Recompensas** | Tabla de botín única | Botín de bonificación y puntos de Karma |
+| **Estrategia** | Combos en solitario | Sinergia elemental y de roles |
+| **Dificultad** | Ajustable | Solo Alta/Pesadilla |
+| **Resurrecciones** | Limitadas/Basadas en objetos | Asistencia de compañeros de equipo |
+
+<Callout type="tip" title="Consejo de sinergia de Karma">
+Comprueba siempre las bendiciones equipadas de tus compañeros de equipo antes de comenzar una partida. Superponer bendiciones idénticas no siempre se acumula, por lo que diversificar la utilidad de tu equipo es mejor para las incursiones de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Roles de equipo óptimos y selección de personajes">
+
+El éxito en el **cooperativo de Solo Leveling Karma** depende en gran medida de qué tan bien responda la composición de tu equipo a las mecánicas del jefe. A diferencia de las misiones en solitario donde puedes abrirte paso a la fuerza mediante el daño, las incursiones multijugador a menudo presentan temporizadores de enfurecimiento ("Enrage") y mecánicas de eliminación total ("Wipe") que requieren roles específicos.
+
+Los personajes en *Solo Leveling: KARMA* se categorizan generalmente en tres arquetipos principales. Elegir el adecuado para tu estilo de juego, y las necesidades de tu equipo, es esencial para obtener victorias constantes.
+
+<CardGrid cols={3}>
+  <Card title="Tanque de primera línea">
+    - **Defensa/PS altos**
+    - Gestión de la amenaza (Aggro)
+    - Protección de aliados
+  </Card>
+  <Card title="DPS principal">
+    - **Daño de ráfaga**
+    - Enfoque en golpes críticos
+    - Objetivo en puntos débiles del jefe
+  </Card>
+  <Card title="Soporte de utilidad">
+    - **Curación y mejoras**
+    - Control de masas
+    - Reducción del tiempo de recarga de habilidades
+  </Card>
+</CardGrid>
+
+| Rol | Estadística principal | Ideal para | Cazadores recomendados |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Defensa / PS | Atraer el aggro, romper escudos | Baek Yoonho, Kim Chul |
+| **DPS** | Ataque / Crítico | Infligir daño, terminar fases | Sung Jinwoo, Cha Hae-In |
+| **Soporte** | Maná / Celeridad | Curar, proporcionar regeneración de maná | Min Byung-Gu, Lee Joohee |
+
+<Callout type="warning" title="Equilibrio de roles">
+Evita equipos formados únicamente por DPS en la dificultad Pesadilla. Aunque la producción de daño es alta, un solo error puede llevar a la eliminación del equipo sin un tanque o soporte para estabilizar la batalla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para organizar y unirse a incursiones">
+
+Comenzar con el **cooperativo de Solo Leveling Karma** es sencillo, pero optimizar la configuración de tu sala puede ayudarte a encontrar a los compañeros de equipo adecuados más rápido. Ya sea que busques una partida aleatoria rápida o una incursión coordinada de gremio, sigue estos pasos para garantizar una experiencia fluida.
+
+<Steps>
+  <Step num="1" title="Accede al nexo de portales">
+    Navega al menú principal y selecciona el icono 'Portales multijugador'. Asegúrate de que el nivel de poder de tu cazador cumpla con el requisito mínimo para el nivel deseado.
+  </Step>
+  <Step num="2" title="Selecciona el tipo de emparejamiento">
+    Elige entre 'Partida pública' para jugadores aleatorios o 'Crear sala privada' si tienes un grupo específico o miembros del gremio listos para unirse.
+  </Step>
+  <Step num="3" title="Configura las restricciones de la sala">
+    Al organizar la sala, puedes establecer requisitos como el nivel de poder mínimo o clases específicas de cazadores para asegurarte de que tu equipo esté equilibrado para la incursión.
+  </Step>
+  <Step num="4" title="La fase de preparación">
+    Una vez que la sala esté llena, usa el botón 'Listo'. Este es el momento de cambiar armas o bendiciones según las debilidades elementales del jefe de la incursión que se muestran en pantalla.
+  </Step>
+  <Step num="5" title="Inicia el protocolo Arise">
+    El anfitrión inicia la partida. Una vez dentro, mantente cerca de tus compañeros de equipo para beneficiarte de las auras de Karma compartidas y los efectos de curación pasiva.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Estabilidad de la conexión">
+Asegúrate de estar jugando con una conexión estable de Wi-Fi o 5G. Desconectarse durante una partida cooperativa puede resultar en una "Penalización de Karma" temporal, lo que reducirá tus recompensas para las siguientes partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Modos de juego cooperativos y estrategias de jefes">
+
+La variedad de modos en el **cooperativo de Solo Leveling Karma** asegura que los jugadores siempre tengan algo por lo que luchar. Desde incursiones semanales hasta modos de horda interminables, cada uno requiere un enfoque táctico diferente. Los jefes en el modo multijugador tienen significativamente más salud y barras de "Ruptura" (Break) únicas que requieren ataques pesados coordinados para agotarse.
+
+| Nombre del modo | Cantidad de jugadores | Dificultad | Recompensas clave |
+| :--- | :--- | :--- | :--- |
+| **Incursiones de portal rojo** | 3 jugadores | Media | Equipo épico, piedras de mejora |
+| **Mazmorras de la sombra** | 4 jugadores | Difícil | Bendiciones legendarias, esencia |
+| **Jefe mundial** | Más de 12 jugadores | Extrema | Fragmentos de armas míticas, títulos |
+| **Contrarreloj** | 2 jugadores | Variable | Puntos de clasificación, auras cosméticas |
+
+### Estrategia de jefe: Las estatuas gemelas
+Uno de los encuentros cooperativos más icónicos involucra a las estatuas gemelas. Esta pelea requiere que el equipo divida su enfoque. Mientras el tanque mantiene ocupada a la estatua agresiva, los DPS deben concentrarse en la estatua que lanza hechizos para evitar una explosión de fuego en todo el mapa. La comunicación es clave aquí; usa la señal de "Foco de fuego" para coordinar los objetivos.
+
+<Callout type="success" title="Estrategia de victoria">
+Espera al estado de "Ruptura" del jefe antes de desatar todas las habilidades definitivas. El daño aumenta en un 200% durante esta ventana, lo que la convierte en el momento más eficiente para acabar con las barras de salud.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, progresión y lista de verificación">
+
+Participar en el **cooperativo de Solo Leveling Karma** es la forma más rápida de progresar en tu cuenta en 2026. Las recompensas que se ofrecen en el modo multijugador suelen ser superiores a las de las misiones en solitario, especialmente en lo que respecta a los conjuntos de "Equipo de Karma", que proporcionan bonificaciones según la cantidad de compañeros de equipo vivos.
+
+| Nivel de recompensa | Requisito | Botín típico |
+| :--- | :--- | :--- |
+| **Nivel 1 (Bronce)** | Completar 1 incursión | 500 de oro, materiales básicos |
+| **Nivel 2 (Plata)** | Completar 5 incursiones | 2,000 de oro, equipo raro |
+| **Nivel 3 (Oro)** | Completar 10 incursiones | 10,000 de oro, arma épica |
+| **Nivel 4 (Platino)** | Completar sin recibir daño | 50,000 de oro, conjunto legendario de Karma |
+
+<Checklist
+  id="coop-daily-goals"
+  title="Objetivos cooperativos diarios:"
+  items={[
+    "Completa 3 incursiones de emparejamiento público",
+    "Envía 5 puntos de amistad a compañeros de equipo cooperativos",
+    "Alcanza el límite diario de puntos de Karma (1,000 puntos)",
+    "Rompe con éxito la defensa de un jefe 5 veces en multijugador",
+    "Mejora una pieza de equipo específica de Karma"
+  ]}
+/>
+
+<Callout type="tip" title="Prioridad de botín">
+Si juegas como soporte, prioriza el equipo con estadísticas de 'Celeridad' y 'Regeneración de maná'. En el modo cooperativo, tu valor proviene de la frecuencia con la que puedes lanzar curaciones y mejoras, no de tu daño bruto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Existe un requisito de nivel para el cooperativo de Solo Leveling Karma?",
+    answer: "Sí, los jugadores generalmente necesitan alcanzar el nivel de cuenta 20 y completar el capítulo 5 de la historia principal para desbloquear el nexo de portales multijugador."
+  },
+  {
+    question: "¿Puedo jugar en cooperativo con amigos en diferentes plataformas?",
+    answer: "Solo Leveling: KARMA es totalmente compatible con el juego cruzado entre PC, iOS y Android, lo que te permite formar equipo sin importar el dispositivo."
+  },
+  {
+    question: "¿Qué pasa si un compañero de equipo muere durante una incursión?",
+    answer: "Los compañeros de equipo caídos pueden ser resucitados una vez por partida permaneciendo cerca de su fantasma durante 5 segundos. Si el temporizador expira, solo podrán espectar hasta la siguiente fase."
+  },
+  {
+    question: "¿Las recompensas son compartidas o individuales en el modo multijugador?",
+    answer: "Todo el botín en el cooperativo de Solo Leveling Karma es individual. No tienes que preocuparte de que tus compañeros de equipo te 'roben' el botín; cada uno recibe su propio cofre de recompensa."
+  }
+]} />
+
+</Section>
