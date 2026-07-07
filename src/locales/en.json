@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Solo Leveling: Karma - Guides, Weapons & Bosses",
+      "description": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army mechanics, bosses, trailers, release news and official game updates in one place.",
+      "keywords": "Solo Leveling: Karma, Solo Leveling Karma wiki, Netmarble, Roguelite, Shadow Army, bosses, weapons",
+      "ogTitle": "Solo Leveling: Karma - Guides, Weapons & Bosses",
+      "ogDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army mechanics, bosses, trailers, release news and official game updates in one place.",
+      "twitterTitle": "Solo Leveling: Karma - Guides, Weapons & Bosses",
+      "twitterDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army, bosses, trailers, release news and official game updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Anime Roguelite Action RPG",
+    "title": "Solo Leveling: Karma Wiki",
+    "description": "Explore guides, weapons, Blessings, Shadow Army mechanics, bosses, trailers, release news and every official update for Solo Leveling: Karma by Netmarble.",
+    "getFreeCodesCTA": "Latest News",
+    "playOnSteamCTA": "Wishlist Now",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2026",
+        "label": "Release Year"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PC + Mobile",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Roguelite RPG",
+        "label": "Genre"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Official Trailers",
+        "label": "Latest Media"
       }
     }
   },
@@ -785,26 +785,25 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Enter the Gate?",
+    "description": "Follow the official Solo Leveling: Karma channels for trailers, release news, and game updates.",
+    "joinCommunity": "Follow on X",
+    "joinGame": "Visit Official Site"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Solo Leveling: Karma Wiki",
+    "description": "Your complete resource hub for Solo Leveling: Karma guides, weapons, Blessings, Shadow Army mechanics, bosses, and official game updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "website": "Official Website",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Solo Leveling: Karma Wiki. Not affiliated with Netmarble or the developers of Solo Leveling: Karma.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
