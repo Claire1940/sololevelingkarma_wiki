@@ -1,1 +1,546 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Solo Leveling: Karma - Guías, Armas y Jefes",
+      "description": "Descubre guías de Solo Leveling: Karma, armas, Blessings, mecánicas de Shadow Army, jefes, tráileres, noticias de lanzamiento y actualizaciones oficiales del juego en un solo lugar.",
+      "keywords": "Solo Leveling: Karma, Solo Leveling Karma wiki, Netmarble, Roguelite, Shadow Army, jefes, armas",
+      "ogTitle": "Solo Leveling: Karma - Guías, Armas y Jefes",
+      "ogDescription": "Descubre guías de Solo Leveling: Karma, armas, Blessings, mecánicas de Shadow Army, jefes, tráileres, noticias de lanzamiento y actualizaciones oficiales del juego en un solo lugar.",
+      "twitterTitle": "Solo Leveling: Karma - Guías, Armas y Jefes",
+      "twitterDescription": "Descubre guías de Solo Leveling: Karma, armas, Blessings, mecánicas de Shadow Army, jefes, tráileres, noticias de lanzamiento y actualizaciones oficiales del juego."
+    }
+  },
+  "nav": {
+    "release": "Lanzamiento",
+    "guide": "Guía",
+    "gameplay": "Jugabilidad",
+    "trailer": "Tráiler",
+    "characters": "Personajes",
+    "platforms": "Plataformas",
+    "story": "Historia"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "RPG de acción roguelite de anime",
+    "title": "Solo Leveling: Karma Wiki",
+    "description": "Explora guías, armas, Blessings, mecánicas de Shadow Army, jefes, tráileres, noticias de lanzamiento y cada actualización oficial de Solo Leveling: Karma por Netmarble.",
+    "getFreeCodesCTA": "Últimas noticias",
+    "playOnSteamCTA": "Añadir a la lista de deseos",
+    "stats": {
+      "stat1": {
+        "value": "2026",
+        "label": "Año de lanzamiento"
+      },
+      "stat2": {
+        "value": "PC + Móvil",
+        "label": "Plataformas"
+      },
+      "stat3": {
+        "value": "RPG Roguelite",
+        "label": "Género"
+      },
+      "stat4": {
+        "value": "Tráileres oficiales",
+        "label": "Multimedia reciente"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Solo Leveling: Karma",
+    "description": "Domina la trepidante acción roguelite, cambia de arma en mitad del combate, acumula Blessings y lidera el Shadow Army en Solo Leveling: Karma de Netmarble."
+  },
+  "tools": {
+    "title": "Solo Leveling: Karma",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para Solo Leveling: Karma — noticias de lanzamiento, combate, armas, Blessings, jefes, personajes y plataformas.",
+    "cards": [
+      {
+        "icon": "CalendarClock",
+        "title": "Fecha de lanzamiento de Solo Leveling: Karma",
+        "description": "Ventana de lanzamiento, plataformas y el cronograma oficial de revelación"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes de Solo Leveling: Karma",
+        "description": "Partidas roguelite, conceptos básicos del combate y prioridades iniciales"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de combate de Solo Leveling: Karma",
+        "description": "Cambio de armas, Blessings y mecánicas del Shadow Army"
+      },
+      {
+        "icon": "Sword",
+        "title": "Guía de armas de Solo Leveling: Karma",
+        "description": "Tipos de armas, roles de combate y estilos de juego ideales"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Blessings de Solo Leveling: Karma",
+        "description": "Builds de Blessings roguelite, estadísticas y sinergias"
+      },
+      {
+        "icon": "Skull",
+        "title": "Jefes de Solo Leveling: Karma",
+        "description": "Jefes revelados oficialmente y mecánicas de los enfrentamientos"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes de Solo Leveling: Karma",
+        "description": "Sung Jinwoo, el Shadow Army y personajes originales"
+      },
+      {
+        "icon": "MonitorSmartphone",
+        "title": "Requisitos del sistema de Solo Leveling: Karma",
+        "description": "Compatibilidad y especificaciones para plataformas de PC y móviles"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDate": {
+      "title": "Fecha de lanzamiento y cronograma de lanzamiento de Solo Leveling: Karma",
+      "eyebrow": "Actualizaciones de lanzamiento",
+      "intro": "Solo Leveling: Karma es un próximo RPG de acción roguelite desarrollado por Netmarble Neo y publicado por Netmarble. El juego está programado para lanzarse en 2026 en PC, iOS y Android, y contará con una historia original ambientada durante el inexplorado período de guerra de 27 años del universo de Solo Leveling.",
+      "items": [
+        {
+          "date": "2025",
+          "title": "Anuncio oficial del juego",
+          "description": "Netmarble anunció Solo Leveling: Karma como un nuevo RPG de acción roguelite basado en el universo de Solo Leveling. La revelación presentó una nueva historia que explora un período jamás contado conectado con el viaje de Sung Jinwoo."
+        },
+        {
+          "date": "2026",
+          "title": "Ventana de lanzamiento confirmada",
+          "description": "Solo Leveling: Karma está planeado para lanzarse en 2026 en las plataformas de PC, iOS y Android."
+        },
+        {
+          "date": "2026",
+          "title": "Revelaciones de jugabilidad e historia",
+          "description": "Los tráileres oficiales mostraron el sistema de combate roguelite del juego, el cambio de armas, el sistema de Bendiciones y la jugabilidad de acción centrada en el Ejército de Sombras."
+        }
+      ],
+      "highlights": [
+        "Ventana de lanzamiento 2026",
+        "PC, iOS y Android",
+        "RPG de acción roguelite",
+        "Historia original de la Guerra de los 27 Años"
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guía para principiantes de Solo Leveling: Karma",
+      "eyebrow": "Guía para principiantes",
+      "intro": "Solo Leveling: Karma combina el combate de RPG de acción con la progresión roguelite. Los jugadores luchan a través de partidas repetidas, combinan habilidades, fortalecen sus builds y usan diferentes opciones de combate para superar campos de batalla cambiantes.",
+      "steps": [
+        {
+          "title": "Entiende las partidas roguelite",
+          "description": "Entra en etapas de batalla, derrota enemigos, recoge mejoras de poder y mejora tu build durante cada partida."
+        },
+        {
+          "title": "Aprende los conceptos básicos del combate",
+          "description": "Domina el movimiento, los ataques, el cambio de armas y las combinaciones de habilidades para manejar diferentes situaciones de enemigos."
+        },
+        {
+          "title": "Crea tu build en torno a las Bendiciones",
+          "description": "Combina Bendiciones para crear estilos de juego especializados y adapta tu build según las mejoras disponibles."
+        },
+        {
+          "title": "Usa el Ejército de Sombras",
+          "description": "Lucha junto al Ejército de Sombras y combina su apoyo con tus propias habilidades de combate."
+        }
+      ],
+      "quickTips": [
+        "El cambio de armas en medio del combate te permite adaptar tus patrones de ataque a diferentes tipos de enemigos.",
+        "Las Bendiciones son el núcleo de cada partida; elige las que fortalezcan tu estilo de juego preferido.",
+        "El Ejército de Sombras lucha junto a Sung Jinwoo, añadiendo daño extra y control de masas.",
+        "Cada partida roguelite redefine tu build, así que experimenta con nuevas combinaciones en cada intento."
+      ]
+    },
+    "combatGuide": {
+      "title": "Guía de combate de Solo Leveling: Karma",
+      "eyebrow": "Sistemas de combate",
+      "intro": "El sistema de combate en Solo Leveling: Karma se centra en la acción trepidante, el uso flexible de armas y la personalización de builds. Las demostraciones oficiales de jugabilidad destacan el cambio de armas fluido, las combinaciones de Bendiciones y las batallas junto al Ejército de Sombras.",
+      "cards": [
+        {
+          "name": "Cambio de armas",
+          "role": "Combate adaptativo",
+          "description": "Cambia entre diferentes armas durante las batallas para ajustar tu estrategia y crear patrones de ataque flexibles."
+        },
+        {
+          "name": "Bendiciones",
+          "role": "Personalización de builds",
+          "description": "Combina Bendiciones para mejorar las habilidades y desarrollar builds de combate únicos para cada partida."
+        },
+        {
+          "name": "Ejército de Sombras",
+          "role": "Apoyo en batalla",
+          "description": "Lucha junto al Ejército de Sombras de Sung Jinwoo para aumentar el poder de combate y controlar los campos de batalla."
+        },
+        {
+          "name": "Progresión roguelite",
+          "role": "Crecimiento basado en partidas",
+          "description": "Mejora tu enfoque a través de partidas repetidas experimentando con diferentes combinaciones y estrategias."
+        }
+      ]
+    },
+    "weaponsGuide": {
+      "title": "Guía de armas de Solo Leveling: Karma",
+      "eyebrow": "Base de datos de armas",
+      "intro": "Solo Leveling: Karma cuenta con múltiples armas que se pueden cambiar durante el combate. El metraje oficial de jugabilidad enfatiza la variedad de armas y los diferentes estilos de juego, con estadísticas detalladas y una lista completa de armas que se ampliará a medida que se revele más información oficial.",
+      "items": [
+        {
+          "weaponType": "Armas tipo espada",
+          "combatRole": "Daño a corta distancia",
+          "strengths": "Ataques cuerpo a cuerpo rápidos y enfrentamiento directo con los enemigos",
+          "idealPlaystyle": "Combate cuerpo a cuerpo agresivo"
+        },
+        {
+          "weaponType": "Armas de largo alcance",
+          "combatRole": "Control de distancia",
+          "strengths": "Posicionamiento más seguro y presión a distancia sostenida",
+          "idealPlaystyle": "Ataques estratégicos a distancia"
+        },
+        {
+          "weaponType": "Armas especiales",
+          "combatRole": "Builds flexibles",
+          "strengths": "Soporta diferentes combinaciones con habilidades y Blessings",
+          "idealPlaystyle": "Jugadores enfocados en la experimentación"
+        }
+      ]
+    },
+    "blessingsGuide": {
+      "title": "Solo Leveling: Karma Blessings Guide",
+      "eyebrow": "Progresión",
+      "intro": "En lugar de builds de personajes fijas, Solo Leveling: Karma gira en torno a las Blessings que mejoran las habilidades, los atributos y el estilo de combate durante cada incursión en la mazmorra. Los tráileres oficiales de jugabilidad muestran a los jugadores combinando múltiples Blessings a lo largo de una partida para crear builds únicas mientras luchan junto al Shadow Army.",
+      "cards": [
+        {
+          "title": "Mejora de habilidades",
+          "description": "Las Blessings aumentan la efectividad y el nivel de las habilidades de combate obtenidas durante una partida, permitiendo que las facultades se vuelvan significativamente más fuertes con el tiempo."
+        },
+        {
+          "title": "Crecimiento de estadísticas",
+          "description": "Ciertas Blessings mejoran los atributos de combate principales, como el poder ofensivo y la eficiencia de combate general, ayudándote a sobrevivir a encuentros cada vez más difíciles."
+        },
+        {
+          "title": "Diversidad de builds",
+          "description": "Debido a que las Blessings se seleccionan durante cada partida roguelite, las diferentes combinaciones fomentan estilos de juego variados en lugar de una única build óptima."
+        },
+        {
+          "title": "Sinergia de armas",
+          "description": "La jugabilidad oficial muestra múltiples tipos de armas, incluyendo dagas, espadas dobles, espadones, arcos, guadañas y martillos. Las Blessings se pueden combinar con diferentes opciones de armas para dar forma a cada partida."
+        },
+        {
+          "title": "Sinergia con el Shadow Army",
+          "description": "Las Blessings funcionan junto al Shadow Army de Sung Jinwoo, creando combinaciones entre los ataques del jugador, las Sombras invocadas y las habilidades de combo."
+        },
+        {
+          "title": "Valor de rejugabilidad",
+          "description": "El sistema de Blessings está diseñado para que cada incursión en la mazmorra se sienta diferente al ofrecer nuevas combinaciones y opciones de progresión."
+        }
+      ]
+    },
+    "bossGuide": {
+      "title": "Solo Leveling: Karma Boss Guide",
+      "eyebrow": "Jefes",
+      "intro": "Netmarble ha presentado a varios jefes importantes de la serie original de Solo Leveling en Solo Leveling: Karma. Cada encuentro cuenta con mecánicas únicas inspiradas en el material original y sirve como un desafío importante durante la progresión en las mazmorras.",
+      "items": [
+        {
+          "title": "Cerbero (Guardián del Infierno)",
+          "content": "Un enorme guardián de tres cabezas que utiliza ataques cuerpo a cuerpo agresivos y ataques de fuego de área amplia. Los jugadores deben evitar el daño sostenido mientras encuentran ventanas de ataque seguras."
+        },
+        {
+          "title": "Líder Hobgoblin",
+          "content": "Dirige grupos de enemigos de apoyo mientras presiona a los jugadores con poderosos ataques de corto alcance, lo que requiere control de masas y un posicionamiento cuidadoso."
+        },
+        {
+          "title": "Vulcan el Avaricioso",
+          "content": "Un jefe demonio gigante conocido por sus ataques pesados y daño de gran área, que exige una sincronización cuidadosa y una producción de daño sostenida."
+        },
+        {
+          "title": "Rey Demonio Baran",
+          "content": "Uno de los enemigos más reconocibles de Solo Leveling. Las imágenes oficiales confirman su aparición en Solo Leveling: Karma como un encuentro importante con un jefe de alto nivel."
+        },
+        {
+          "title": "Estatua divina del Templo de Cartenon",
+          "content": "La icónica Estatua de Dios regresa con ataques a gran escala inspirados en la secuencia original de la Mazmorra Doble, enfatizando el movimiento y la supervivencia."
+        }
+      ]
+    },
+    "characters": {
+      "title": "Solo Leveling: Karma Characters",
+      "eyebrow": "Personajes",
+      "intro": "Solo Leveling: Karma se centra en la guerra inédita de Sung Jinwoo contra los Monarcas. Los tráileres oficiales también han presentado a varios personajes originales creados específicamente para la historia del juego.",
+      "cards": [
+        {
+          "title": "Sung Jinwoo",
+          "description": "El Monarca de las Sombras y el protagonista jugable de Solo Leveling: Karma. La historia sigue su guerra oculta de 27 años dentro de la Brecha Dimensional mientras comanda al Ejército de las Sombras."
+        },
+        {
+          "title": "Iron",
+          "description": "Uno de los icónicos Soldados de las Sombras de Jinwoo, confirmado a través de demostraciones oficiales de juego como un aliado invocable durante el combate."
+        },
+        {
+          "title": "Igris",
+          "description": "El leal caballero del Ejército de las Sombras regresa como un compañero invocable capaz de participar en ataques combinados característicos."
+        },
+        {
+          "title": "Personaje original de cabello morado",
+          "description": "Un personaje original creado específicamente para Solo Leveling: Karma que aparece de manera destacada en los tráileres oficiales de la historia."
+        },
+        {
+          "title": "Personaje original de cabello rojo",
+          "description": "Un personaje recién presentado que aparece enfrentándose a Jinwoo en el metraje promocional, y del que se espera que juegue un papel importante en la narrativa original."
+        }
+      ]
+    },
+    "systemRequirements": {
+      "title": "Plataformas y requisitos del sistema de Solo Leveling: Karma",
+      "eyebrow": "Plataformas",
+      "intro": "Solo Leveling: Karma se lanzará tanto en PC como en dispositivos móviles. Ya se ha anunciado la disponibilidad oficial de las plataformas, y las especificaciones de hardware detalladas se añadirán una vez que Netmarble las publique.",
+      "items": [
+        {
+          "category": "Plataformas de lanzamiento",
+          "status": "Confirmado",
+          "details": "PC, iOS y Android"
+        },
+        {
+          "category": "Requisitos mínimos para PC",
+          "status": "Próximamente",
+          "details": "Las especificaciones oficiales se publicarán más cerca del lanzamiento."
+        },
+        {
+          "category": "Requisitos recomendados para PC",
+          "status": "Próximamente",
+          "details": "Las especificaciones oficiales se publicarán más cerca del lanzamiento."
+        },
+        {
+          "category": "Requisitos para Android",
+          "status": "Próximamente",
+          "details": "La lista de dispositivos compatibles se compartirá más cerca del lanzamiento."
+        },
+        {
+          "category": "Requisitos para iOS",
+          "status": "Próximamente",
+          "details": "Los modelos de iPhone y iPad compatibles se compartirán más cerca del lanzamiento."
+        },
+        {
+          "category": "Compatibilidad con mando",
+          "status": "Próximamente",
+          "details": "Los detalles de compatibilidad con mando se confirmarán más cerca del lanzamiento."
+        },
+        {
+          "category": "Funciones multiplataforma",
+          "status": "Próximamente",
+          "details": "Los detalles del guardado cruzado y la progresión cruzada se compartirán más cerca del lanzamiento."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Solo Leveling: Karma",
+    "questions": [
+      {
+        "question": "¿Qué es Solo Leveling: Karma?",
+        "answer": "Solo Leveling: Karma es un RPG de acción roguelite de anime desarrollado por Netmarble Neo y publicado por Netmarble, ambientado en el universo de Solo Leveling y centrado en el intercambio de armas, las Bendiciones y el Ejército de las Sombras."
+      },
+      {
+        "question": "¿Cuándo es la fecha de lanzamiento de Solo Leveling: Karma?",
+        "answer": "El lanzamiento de Solo Leveling: Karma está programado para 2026 en PC, iOS y Android, con un cronograma de revelación oficial que sigue cada anuncio importante."
+      },
+      {
+        "question": "¿Qué plataformas serán compatibles con Solo Leveling: Karma?",
+        "answer": "Solo Leveling: Karma estará disponible en PC, iOS y Android en su lanzamiento, para que los jugadores puedan disfrutar de la acción roguelite tanto en PC como en dispositivos móviles."
+      },
+      {
+        "question": "¿Qué es el sistema de Bendiciones en Solo Leveling: Karma?",
+        "answer": "En Solo Leveling: Karma, las Bendiciones son la mecánica de progresión roguelite principal que mejora las habilidades, estadísticas y el estilo de combate durante cada partida, permitiéndote crear un estilo de juego diferente en cada intento."
+      },
+      {
+        "question": "¿Quién es el personaje principal de Solo Leveling: Karma?",
+        "answer": "Solo Leveling: Karma sigue a Sung Jinwoo, el Monarca de las Sombras, durante su guerra no contada de 27 años contra los Monarcas mientras comanda al Ejército de las Sombras a través de la Brecha Dimensional."
+      },
+      {
+        "question": "¿Está conectado Solo Leveling: Karma con el anime y el manhwa de Solo Leveling?",
+        "answer": "Sí. Solo Leveling: Karma cuenta una historia original ambientada durante la brecha inexplorada de 27 años del universo de Solo Leveling, expandiendo el viaje de Sung Jinwoo junto a rostros familiares y nuevos personajes."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para entrar al Portal?",
+    "description": "Sigue los canales oficiales de Solo Leveling: Karma para ver tráileres, noticias sobre el lanzamiento y actualizaciones del juego.",
+    "joinCommunity": "Seguir en X",
+    "joinGame": "Visitar el sitio oficial"
+  },
+  "footer": {
+    "title": "Wiki de Solo Leveling: Karma",
+    "description": "Tu centro de recursos completo para guías, armas, Bendiciones, mecánicas del Ejército de las Sombras, jefes y actualizaciones oficiales de Solo Leveling: Karma.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "website": "Sitio web oficial",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Solo Leveling: Karma Wiki. No afiliado con Netmarble ni con los desarrolladores de Solo Leveling: Karma.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Lanzamiento de Solo Leveling: Karma",
+      "description": "Sigue la fecha de lanzamiento de Solo Leveling: Karma, el despliegue en plataformas, las recompensas de prerregistro y cada actualización de lanzamiento oficial a medida que Netmarble lanza el juego.",
+      "metaTitle": "Fecha de lanzamiento y prerregistro de Solo Leveling: Karma",
+      "metaDescription": "Mantente al tanto de la fecha de lanzamiento de Solo Leveling: Karma, las plataformas compatibles y las recompensas de prerregistro con nuestra cobertura de lanzamiento actualizada al minuto.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es la sección de Lanzamiento?",
+      "whatIsDescription": "Tu centro de información para el cronograma de lanzamiento de Solo Leveling: Karma, disponibilidad de plataformas, bonificaciones de prerregistro y noticias de despliegue directamente desde los canales oficiales de Netmarble.",
+      "why": "¿Por qué seguir nuestra cobertura de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Ventana de lanzamiento confirmada",
+        "step1Description": "Realizamos un seguimiento de los anuncios oficiales de Netmarble para que siempre conozcas las últimas fechas de lanzamiento confirmadas para Solo Leveling: Karma.",
+        "step2Title": "Disponibilidad de plataformas",
+        "step2Description": "Consulta exactamente qué dispositivos y tiendas tendrán el juego en su lanzamiento, desde PC hasta iOS y Android.",
+        "step3Title": "Recompensas de prerregistro",
+        "step3Description": "No te pierdas las recompensas por hitos: encuentra cada bonificación de prerregistro y cómo reclamarlas."
+      },
+      "featured": "Actualizaciones destacadas",
+      "all": "Todas las noticias de lanzamiento"
+    },
+    "guide": {
+      "title": "Guías de Solo Leveling: Karma",
+      "description": "Domina Solo Leveling: Karma con guías de inicio paso a paso, análisis del sistema y guías de estrategia de RPG de acción que cubren Shadows, Blessings, armas y progresión.",
+      "metaTitle": "Guías de Solo Leveling: Karma - Guías de inicio paso a paso y consejos",
+      "metaDescription": "Sube de nivel rápidamente con las guías de Solo Leveling: Karma: guías de inicio paso a paso, builds de Shadow Army, selecciones de Blessing, mejoras de armas y consejos de progresión.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las Guías?",
+      "whatIsDescription": "Guías detalladas paso a paso y guías de estrategia para Solo Leveling: Karma, desde tu primera mazmorra hasta builds de Shadow Army para el endgame y combos de Blessing.",
+      "why": "¿Por qué leer nuestras guías?",
+      "whySteps": {
+        "step1Title": "Guías paso a paso para principiantes",
+        "step1Description": "Rutas paso a paso en el juego temprano para que los nuevos cazadores progresen rápidamente sin desperdiciar recursos.",
+        "step2Title": "Análisis de sistemas",
+        "step2Description": "Explicaciones claras de Shadows, Blessings, armas, estadísticas y cada sistema principal que impulsa tu build.",
+        "step3Title": "Estrategia de RPG de acción",
+        "step3Description": "Rotaciones de combate, tácticas de jefes y planificación de partidas roguelite para adentrarse más en los portales de alto rango."
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías"
+    },
+    "gameplay": {
+      "title": "Jugabilidad de Solo Leveling: Karma",
+      "description": "Explora la jugabilidad de Solo Leveling: Karma: combate de RPG de acción, estructura de partidas roguelite, mecánicas de Shadow Army, combates contra jefes y los sistemas que definen cada partida.",
+      "metaTitle": "Jugabilidad de Solo Leveling: Karma - Combate, roguelite y jefes",
+      "metaDescription": "Sumérgete en las mecánicas de jugabilidad de Solo Leveling: Karma: combate de acción en tiempo real, progresión roguelite, invocaciones de Shadow Army y estrategias para combates contra jefes.",
+      "categoryLabel": "JUGABILIDAD",
+      "whatIs": "¿Qué es la sección de Jugabilidad?",
+      "whatIsDescription": "Un análisis profundo de cómo se juega a Solo Leveling: Karma: el flujo del combate de acción, los bucles de partidas roguelite, la invocación de Shadow Army, el crecimiento de estadísticas y el diseño de encuentros con jefes.",
+      "why": "¿Por qué explorar nuestra cobertura de la jugabilidad?",
+      "whySteps": {
+        "step1Title": "Mecánicas de combate",
+        "step1Description": "Entiende las cadenas de ataques, la esquiva, el tiempo de las habilidades y cómo las Shadows cambian el rumbo de cada combate.",
+        "step2Title": "Estructura de las partidas roguelite",
+        "step2Description": "Aprende cómo escala cada partida, qué se conserva y cómo planificar builds en torno a los portales a los que te enfrentarás.",
+        "step3Title": "Análisis de combates contra jefes",
+        "step3Description": "Tácticas fase por fase para cada jefe principal para que dejes de estancarte y empieces a superarlos."
+      },
+      "featured": "Jugabilidad destacada",
+      "all": "Toda la jugabilidad"
+    },
+    "trailer": {
+      "title": "Tráilers de Solo Leveling: Karma",
+      "description": "Mira cada tráiler de Solo Leveling: Karma: el PV oficial de combate, tráilers de la historia, el video de apertura y las revelaciones de jugabilidad de Netmarble.",
+      "metaTitle": "Tráilers de Solo Leveling: Karma - PV oficial de combate e historia",
+      "metaDescription": "Disfruta de cada tráiler de Solo Leveling: Karma en un solo lugar: el PV oficial de combate, tráilers de la historia, el video de apertura y las revelaciones de jugabilidad de Netmarble.",
+      "categoryLabel": "TRÁILERS",
+      "whatIs": "¿Qué son los Tráilers?",
+      "whatIsDescription": "Todos los lanzamientos oficiales de video de Solo Leveling: Karma en un solo lugar: tráilers de combate, PV de historia, el video de apertura y revelaciones de gameplay del YouTube de Netmarble.",
+      "why": "¿Por qué verlos aquí?",
+      "whySteps": {
+        "step1Title": "Cada lanzamiento oficial",
+        "step1Description": "Recopilamos cada tráiler de Netmarble a medida que sale, para que nunca te pierdas una revelación de combate, historia o apertura.",
+        "step2Title": "Análisis fotograma a fotograma",
+        "step2Description": "Pausa y estudia momentos clave: invocaciones de Shadows, adelantos de jefes y revelaciones de entornos ocultos en cada PV.",
+        "step3Title": "Seguimiento de señales de lanzamiento",
+        "step3Description": "Los tráilers suelen señalar el momento del lanzamiento y las revelaciones de funciones; conectamos cada video con lo que confirma."
+      },
+      "featured": "Tráilers destacados",
+      "all": "Todos los tráilers"
+    },
+    "characters": {
+      "title": "Personajes de Solo Leveling: Karma",
+      "description": "Conoce al elenco de Solo Leveling: Karma: Sung Jinwoo, Antares, Bellion y los rangos del Shadow Army que definen la lista de hunters y monarchs.",
+      "metaTitle": "Personajes de Solo Leveling: Karma - Sung Jinwoo y el Shadow Army",
+      "metaDescription": "Conoce a cada personaje de Solo Leveling: Karma: Sung Jinwoo, los comandantes del Shadow Army como Bellion e Igris, y los Monarchs liderados por Antares.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Quiénes son los personajes?",
+      "whatIsDescription": "Los hunters, Shadows y Monarchs de Solo Leveling: Karma: desde Sung Jinwoo y sus comandantes del Shadow Army hasta rivales como Antares.",
+      "why": "¿Por qué estudiar al elenco?",
+      "whySteps": {
+        "step1Title": "El arco de Sung Jinwoo",
+        "step1Description": "Sigue el crecimiento del protagonista desde el hunter más débil hasta Shadow Monarch y lo que esto significa para tu build.",
+        "step2Title": "Comandantes del Shadow Army",
+        "step2Description": "Aprende los roles de Bellion, Igris y otros Shadows para saber a quién invocar y cuándo.",
+        "step3Title": "Monarchs y rivales",
+        "step3Description": "Comprende a los principales antagonistas como Antares y cómo definen las amenazas del endgame."
+      },
+      "featured": "Personajes destacados",
+      "all": "Todos los personajes"
+    },
+    "platforms": {
+      "title": "Plataformas de Solo Leveling: Karma",
+      "description": "Descubre dónde jugar Solo Leveling: Karma: PC, Android, iOS, Steam y soporte para dispositivos móviles, además de detalles sobre multiplataforma y requisitos del sistema.",
+      "metaTitle": "Plataformas de Solo Leveling: Karma - PC, Android, iOS y Steam",
+      "metaDescription": "Mira todas las plataformas que soporta Solo Leveling: Karma: PC, Steam, Android e iOS, además de requisitos de dispositivo, cross-play y enlaces de descarga.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿Qué es la sección de Plataformas?",
+      "whatIsDescription": "Cobertura de dónde y cómo jugar Solo Leveling: Karma: PC y Steam, Android, iOS, requisitos de dispositivo y detalles multiplataforma.",
+      "why": "¿Por qué consultar nuestras guías de plataformas?",
+      "whySteps": {
+        "step1Title": "Todos los dispositivos compatibles",
+        "step1Description": "Respuestas claras sobre qué configuraciones de PC, teléfonos Android y dispositivos iOS pueden ejecutar Solo Leveling: Karma sin problemas.",
+        "step2Title": "Descarga e instalación",
+        "step2Description": "Configuración paso a paso para cada tienda para que estés listo para jugar en cuanto abran los servidores.",
+        "step3Title": "Detalles multiplataforma",
+        "step3Description": "Averigua si tu progreso se transfiere entre PC y dispositivos móviles antes de comprometerte con un dispositivo principal."
+      },
+      "featured": "Guías de plataformas destacadas",
+      "all": "Todas las guías de plataformas"
+    },
+    "story": {
+      "title": "Historia de Solo Leveling: Karma",
+      "description": "Sumérgete en la historia de Solo Leveling: Karma: cómo se conecta la nueva trama con el manhwa y el anime, los detalles del canon y el lore detrás de las puertas.",
+      "metaTitle": "Historia de Solo Leveling: Karma - Lore, conexiones con el manhwa y el anime",
+      "metaDescription": "Descubre la historia de Solo Leveling: Karma: la nueva narrativa original, los lazos con el manhwa y el anime, las confirmaciones del canon y el lore de las puertas.",
+      "categoryLabel": "HISTORIA",
+      "whatIs": "¿Qué es la sección de Historia?",
+      "whatIsDescription": "La narrativa y el lore de Solo Leveling: Karma: la nueva trama original, su lugar en el canon del manhwa y el anime, y el mundo de las puertas y los cazadores.",
+      "why": "¿Por qué leer nuestra cobertura de la historia?",
+      "whySteps": {
+        "step1Title": "La nueva trama",
+        "step1Description": "Obtén una explicación de la narrativa original de Solo Leveling: Karma: qué hay de nuevo y dónde encaja en el viaje de Sung Jinwoo.",
+        "step2Title": "Conexiones con el manhwa y el anime",
+        "step2Description": "Mira exactamente cómo se conecta el juego con el manhwa y el anime de Solo Leveling, y qué canon confirma.",
+        "step3Title": "Mundo y lore",
+        "step3Description": "Comprende las puertas, el sistema de cazadores y los Monarchs para que siempre entiendas lo que está en juego en la historia."
+      },
+      "featured": "Historia destacada",
+      "all": "Toda la historia"
+    }
+  }
+}
