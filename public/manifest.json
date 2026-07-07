@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Solo Leveling: Karma Wiki - Guides, Weapons & Bosses",
+  "short_name": "Solo Leveling Karma",
+  "description": "Solo Leveling: Karma Wiki covers guides, weapons, bosses, characters, dungeons, and strategies for Netmarble's anime roguelite action RPG.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#7C3AED",
+  "background_color": "#09090B",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
