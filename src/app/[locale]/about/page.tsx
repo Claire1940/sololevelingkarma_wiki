@@ -235,7 +235,8 @@ export default function About() {
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
               <strong>Solo Leveling: Karma Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Solo Leveling: Karma or any official entities.
+              endorsed by, or associated with Chugong, DUBU (Jang Sung-rak), REDICE Studio, Netmarble Corp., or A-1 Pictures.
+              Solo Leveling and all related characters, names, and imagery are trademarks of their respective owners.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.

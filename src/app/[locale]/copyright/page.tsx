@@ -91,8 +91,10 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Netmarble</strong> - Developer and publisher of Solo Leveling: Karma</li>
-              <li><strong>Netmarble</strong> - Creators of the Solo Leveling: Karma game</li>
+              <li><strong>Chugong</strong> - Original author of the Solo Leveling web novel</li>
+              <li><strong>DUBU (Jang Sung-rak) / REDICE Studio</strong> - Creators of the Solo Leveling webtoon</li>
+              <li><strong>Netmarble Corp.</strong> - Developer and publisher of the Solo Leveling: Karma game</li>
+              <li><strong>A-1 Pictures</strong> - Animation studio of the Solo Leveling anime</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -152,9 +154,11 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>Solo Leveling: Karma</strong> - Trademark of Netmarble</li>
-              <li><strong>Solo Leveling: Karma</strong> - Trademark of the game developers</li>
-              <li><strong>Solo Leveling: Karma Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Solo Leveling</strong> - Original web novel trademark of Chugong</li>
+              <li><strong>Solo Leveling</strong> - Webtoon trademark of DUBU (Jang Sung-rak) / REDICE Studio</li>
+              <li><strong>Solo Leveling: Karma</strong> - Game trademark of Netmarble Corp.</li>
+              <li><strong>Solo Leveling</strong> - Anime trademark of A-1 Pictures</li>
+              <li><strong>Solo Leveling: Karma Wiki</strong> - Our own branding (not affiliated with the above rights holders)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
