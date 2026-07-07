@@ -7,7 +7,7 @@
       "ogTitle": "Solo Leveling: Karma - Guides, Weapons & Bosses",
       "ogDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army mechanics, bosses, trailers, release news and official game updates in one place.",
       "twitterTitle": "Solo Leveling: Karma - Guides, Weapons & Bosses",
-      "twitterDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army, bosses, trailers, release news and official game updates."
+      "twitterDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army mechanics, bosses, trailers, release news and official game updates."
     }
   },
   "nav": {},
@@ -52,696 +52,290 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Solo Leveling: Karma Gameplay",
+    "description": "Master fast-paced roguelite action, switch weapons mid-combat, stack Blessings, and command the Shadow Army in Solo Leveling: Karma by Netmarble."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Solo Leveling: Karma",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need for Solo Leveling: Karma — release news, combat, weapons, Blessings, bosses, characters, and platforms.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "CalendarClock",
+        "title": "Solo Leveling: Karma Release Date",
+        "description": "Release window, platforms, and the official reveal timeline"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Solo Leveling: Karma Beginner Guide",
+        "description": "Roguelite runs, combat basics, and early priorities"
+      },
+      {
+        "icon": "Swords",
+        "title": "Solo Leveling: Karma Combat Guide",
+        "description": "Weapon switching, Blessings, and Shadow Army mechanics"
+      },
+      {
+        "icon": "Sword",
+        "title": "Solo Leveling: Karma Weapons Guide",
+        "description": "Weapon types, combat roles, and ideal playstyles"
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Solo Leveling: Karma Blessings",
+        "description": "Roguelite Blessing builds, stats, and synergies"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Skull",
+        "title": "Solo Leveling: Karma Bosses",
+        "description": "Officially revealed bosses and encounter mechanics"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Users",
+        "title": "Solo Leveling: Karma Characters",
+        "description": "Sung Jinwoo, the Shadow Army, and original characters"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "MonitorSmartphone",
+        "title": "Solo Leveling: Karma System Requirements",
+        "description": "PC and mobile platform support and specifications"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "releaseDate": {
+      "title": "Solo Leveling: Karma Release Date & Launch Timeline",
+      "eyebrow": "Release Updates",
+      "intro": "Solo Leveling: Karma is an upcoming roguelite action RPG developed by Netmarble Neo and published by Netmarble. The game is scheduled for release in 2026 on PC, iOS, and Android, featuring an original storyline set during the unexplored 27-year war period of the Solo Leveling universe.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "date": "2025",
+          "title": "Official Game Announcement",
+          "description": "Netmarble announced Solo Leveling: Karma as a new roguelite action RPG based on the Solo Leveling universe. The reveal introduced a new story exploring an untold period connected to Sung Jinwoo's journey."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "date": "2026",
+          "title": "Release Window Confirmed",
+          "description": "Solo Leveling: Karma is planned for release in 2026 across PC, iOS, and Android platforms."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "date": "2026",
+          "title": "Gameplay and Story Reveals",
+          "description": "Official trailers showcased the game's roguelite combat system, weapon switching, Blessings system, and Shadow Army-focused action gameplay."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "2026 Release Window",
+        "PC, iOS & Android",
+        "Roguelite Action RPG",
+        "Original 27-Year War Story"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "beginnerGuide": {
+      "title": "Solo Leveling: Karma Beginner Guide",
+      "eyebrow": "Beginner Guide",
+      "intro": "Solo Leveling: Karma combines action RPG combat with roguelite progression. Players fight through repeated runs, combine abilities, strengthen their builds, and use different combat options to overcome changing battlefields.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Understand Roguelite Runs",
+          "description": "Enter battle stages, defeat enemies, collect power upgrades, and improve your build during each run."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Learn Combat Basics",
+          "description": "Master movement, attacks, weapon switching, and ability combinations to handle different enemy situations."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Build Around Blessings",
+          "description": "Combine Blessings to create specialized playstyles and adapt your build based on available upgrades."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Use the Shadow Army",
+          "description": "Fight alongside the Shadow Army and combine their support with your own combat abilities."
+        }
+      ],
+      "quickTips": [
+        "Weapon switching mid-combat lets you adapt your attack patterns to different enemy types.",
+        "Blessings are the core of every run — pick the ones that strengthen your preferred playstyle.",
+        "The Shadow Army fights alongside Sung Jinwoo, adding extra damage and crowd control.",
+        "Each roguelite run reshapes your build, so experiment with new combinations every attempt."
+      ]
+    },
+    "combatGuide": {
+      "title": "Solo Leveling: Karma Combat Guide",
+      "eyebrow": "Combat Systems",
+      "intro": "The combat system in Solo Leveling: Karma focuses on fast-paced action, flexible weapon usage, and build customization. Official gameplay showcases highlight seamless weapon switching, Blessings combinations, and battles alongside the Shadow Army.",
+      "cards": [
+        {
+          "name": "Weapon Switching",
+          "role": "Adaptive Combat",
+          "description": "Switch between different weapons during battles to adjust your strategy and create flexible attack patterns."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "name": "Blessings",
+          "role": "Build Customization",
+          "description": "Combine Blessings to enhance abilities and develop unique combat builds for each run."
+        },
+        {
+          "name": "Shadow Army",
+          "role": "Battle Support",
+          "description": "Fight together with Sung Jinwoo's Shadow Army to increase combat power and control battlefields."
+        },
+        {
+          "name": "Roguelite Progression",
+          "role": "Run-Based Growth",
+          "description": "Improve your approach through repeated runs by experimenting with different combinations and strategies."
+        }
+      ]
+    },
+    "weaponsGuide": {
+      "title": "Solo Leveling: Karma Weapons Guide",
+      "eyebrow": "Weapons Database",
+      "intro": "Solo Leveling: Karma features multiple weapons that can be switched during combat. Official gameplay footage emphasizes weapon variety and different playstyles, with detailed weapon statistics and the complete weapon list expanding as more official information is revealed.",
+      "items": [
+        {
+          "weaponType": "Sword-Type Weapons",
+          "combatRole": "Close-Range Damage",
+          "strengths": "Fast melee attacks and direct enemy engagement",
+          "idealPlaystyle": "Aggressive melee combat"
+        },
+        {
+          "weaponType": "Long-Range Weapons",
+          "combatRole": "Distance Control",
+          "strengths": "Safer positioning and sustained ranged pressure",
+          "idealPlaystyle": "Strategic ranged attacks"
+        },
+        {
+          "weaponType": "Special Weapons",
+          "combatRole": "Flexible Builds",
+          "strengths": "Supports different combinations with abilities and Blessings",
+          "idealPlaystyle": "Experiment-focused players"
+        }
+      ]
+    },
+    "blessingsGuide": {
+      "title": "Solo Leveling: Karma Blessings Guide",
+      "eyebrow": "Progression",
+      "intro": "Instead of fixed character builds, Solo Leveling: Karma revolves around Blessings that enhance skills, attributes, and combat style during each dungeon run. Official gameplay trailers show players combining multiple Blessings throughout a run to create unique builds while fighting alongside the Shadow Army.",
+      "cards": [
+        {
+          "title": "Skill Enhancement",
+          "description": "Blessings increase the effectiveness and level of combat skills obtained during a run, allowing abilities to become significantly stronger over time."
+        },
+        {
+          "title": "Stat Growth",
+          "description": "Certain Blessings improve core combat attributes such as offensive power and overall combat efficiency, helping you survive increasingly difficult encounters."
+        },
+        {
+          "title": "Build Diversity",
+          "description": "Because Blessings are selected during each roguelite run, different combinations encourage varied playstyles instead of a single optimal build."
+        },
+        {
+          "title": "Weapon Synergy",
+          "description": "Official gameplay shows multiple weapon types including daggers, dual blades, greatswords, bows, scythes, and hammers. Blessings can be combined with different weapon choices to shape each run."
+        },
+        {
+          "title": "Shadow Army Synergy",
+          "description": "Blessings work alongside Sung Jinwoo's Shadow Army, creating combinations between player attacks, summoned Shadows, and combo skills."
+        },
+        {
+          "title": "Replay Value",
+          "description": "The Blessing system is designed to make every dungeon run feel different by offering new combinations and progression choices."
+        }
+      ]
+    },
+    "bossGuide": {
+      "title": "Solo Leveling: Karma Boss Guide",
+      "eyebrow": "Bosses",
+      "intro": "Netmarble has showcased multiple major bosses from the original Solo Leveling series in Solo Leveling: Karma. Each encounter features unique mechanics inspired by the source material and serves as a major challenge during dungeon progression.",
+      "items": [
+        {
+          "title": "Cerberus (Gatekeeper of Hell)",
+          "content": "A massive three-headed guardian that uses aggressive melee attacks and wide-area fire attacks. Players must avoid sustained damage while finding safe attack windows."
+        },
+        {
+          "title": "Hobgoblin Leader",
+          "content": "Commands groups of supporting enemies while pressuring players with powerful close-range attacks, requiring crowd control and careful positioning."
+        },
+        {
+          "title": "Avaricious Vulcan",
+          "content": "A giant demon boss known for heavy attacks and large-area damage, demanding careful timing and sustained damage output."
+        },
+        {
+          "title": "Demonic King Baran",
+          "content": "One of the most recognizable enemies from Solo Leveling. Official footage confirms his appearance in Solo Leveling: Karma as a major high-level boss encounter."
+        },
+        {
+          "title": "Godlike Statue of Cartenon Temple",
+          "content": "The iconic Statue of God returns with large-scale attacks inspired by the original Double Dungeon sequence, emphasizing movement and survival."
+        }
+      ]
+    },
+    "characters": {
+      "title": "Solo Leveling: Karma Characters",
+      "eyebrow": "Characters",
+      "intro": "Solo Leveling: Karma focuses on Sung Jinwoo's previously untold war against the Monarchs. Official trailers have also introduced several original characters created specifically for the game's storyline.",
+      "cards": [
+        {
+          "title": "Sung Jinwoo",
+          "description": "The Shadow Monarch and the playable protagonist of Solo Leveling: Karma. The story follows his hidden 27-year war inside the Dimensional Gap while commanding the Shadow Army."
+        },
+        {
+          "title": "Iron",
+          "description": "One of Jinwoo's iconic Shadow Soldiers, confirmed through official gameplay demonstrations as a summonable ally during combat."
+        },
+        {
+          "title": "Igris",
+          "description": "The loyal knight of the Shadow Army returns as a summonable companion capable of participating in signature combo attacks."
+        },
+        {
+          "title": "Original Purple-Haired Character",
+          "description": "An original character created specifically for Solo Leveling: Karma who appears prominently in the official story trailers."
+        },
+        {
+          "title": "Original Red-Haired Character",
+          "description": "A newly introduced character shown confronting Jinwoo in promotional footage, expected to play a significant role in the original narrative."
+        }
+      ]
+    },
+    "systemRequirements": {
+      "title": "Solo Leveling: Karma Platforms & System Requirements",
+      "eyebrow": "Platforms",
+      "intro": "Solo Leveling: Karma will launch on both PC and mobile devices. Official platform availability has already been announced, with detailed hardware specifications to be added once released by Netmarble.",
+      "items": [
+        {
+          "category": "Release Platforms",
+          "status": "Confirmed",
+          "details": "PC, iOS, and Android"
+        },
+        {
+          "category": "PC Minimum Requirements",
+          "status": "Upcoming",
+          "details": "Official specifications will be published closer to launch."
+        },
+        {
+          "category": "PC Recommended Requirements",
+          "status": "Upcoming",
+          "details": "Official specifications will be published closer to launch."
+        },
+        {
+          "category": "Android Requirements",
+          "status": "Upcoming",
+          "details": "The compatible device list will be shared closer to launch."
+        },
+        {
+          "category": "iOS Requirements",
+          "status": "Upcoming",
+          "details": "Supported iPhone and iPad models will be shared closer to launch."
+        },
+        {
+          "category": "Controller Support",
+          "status": "Upcoming",
+          "details": "Controller compatibility details will be confirmed closer to launch."
+        },
+        {
+          "category": "Cross-Platform Features",
+          "status": "Upcoming",
+          "details": "Cross-save and cross-progression details will be shared closer to launch."
         }
       ]
     }
@@ -749,31 +343,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Solo Leveling: Karma",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Solo Leveling: Karma?",
+        "answer": "Solo Leveling: Karma is an anime roguelite action RPG developed by Netmarble Neo and published by Netmarble, set in the Solo Leveling universe and built around weapon switching, Blessings, and the Shadow Army."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When is the Solo Leveling: Karma release date?",
+        "answer": "Solo Leveling: Karma is scheduled for release in 2026 on PC, iOS, and Android, with the official reveal timeline tracking every major announcement."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Which platforms will Solo Leveling: Karma support?",
+        "answer": "Solo Leveling: Karma will be available on PC, iOS, and Android at launch, so players can enjoy the roguelite action across both desktop and mobile devices."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What is the Blessings system in Solo Leveling: Karma?",
+        "answer": "In Solo Leveling: Karma, Blessings are the core roguelite progression mechanic that enhance skills, stats, and combat style during each run, letting you build a different playstyle every attempt."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Who is the main character of Solo Leveling: Karma?",
+        "answer": "Solo Leveling: Karma follows Sung Jinwoo, the Shadow Monarch, during his untold 27-year war against the Monarchs while commanding the Shadow Army through the Dimensional Gap."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Solo Leveling: Karma connected to the Solo Leveling anime and manhwa?",
+        "answer": "Yes. Solo Leveling: Karma tells an original story set during the unexplored 27-year gap of the Solo Leveling universe, expanding on Sung Jinwoo's journey alongside familiar faces and new characters."
       }
     ]
   },
@@ -799,126 +393,5 @@
     "copyright": "© 2026 Solo Leveling: Karma Wiki. Not affiliated with Netmarble or the developers of Solo Leveling: Karma.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }

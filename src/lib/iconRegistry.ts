@@ -27,6 +27,13 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // Solo Leveling: Karma 工具卡图标
+  CalendarClock: LucideIcons.CalendarClock,
+  GraduationCap: LucideIcons.GraduationCap,
+  Swords: LucideIcons.Swords,
+  Sword: LucideIcons.Sword,
+  Skull: LucideIcons.Skull,
+  MonitorSmartphone: LucideIcons.MonitorSmartphone,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
