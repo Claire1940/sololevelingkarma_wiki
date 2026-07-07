@@ -1,0 +1,213 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling KARMA: Guía de inicio de combate paso a paso",
+  description: "Aprende los conceptos básicos del combate en Solo Leveling KARMA, la elección de armas, la sinergia de Bendiciones, la configuración del Ejército de Sombras y las prioridades del día de lanzamiento para partidas iniciales más rápidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Combat+Starter+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Solo Leveling KARMA",
+  keywords: "Solo Leveling KARMA, combate, guía de inicio, armas, bendiciones, ejército de sombras, consejos"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Solo Leveling KARMA** recompensa la planificación limpia de cada partida, no el presionar botones al azar.
+- **Las armas y las Bendiciones** deben funcionar en conjunto antes de buscar daño puro.
+- **El apoyo del Ejército de Sombras** te ayuda a estabilizar los combates y a superar las fases de presión de los jefes.
+- **Las primeras partidas** deben priorizar la consistencia, la movilidad y ventanas de daño seguras para sobrevivir.
+</Callout>
+
+<Section icon={Map} title="Resumen del combate en Solo Leveling KARMA">
+
+Solo Leveling KARMA se disfruta mejor si se aborda como un RPG de acción basado en partidas individuales, donde cada decisión afecta al siguiente combate. Los jugadores más confiables tratarán cada intento como el borrador de una build: eligen un estilo de arma, lo refuerzan con Bendiciones y luego usan el Ejército de Sombras para cubrir sus debilidades.
+
+<Callout type="tip" title="Mentalidad principal">
+Juega para mantener el ritmo. Si tu build mejora de manera limpia de una sala a otra, tu daño en las fases avanzadas de la partida escalará mucho mejor que con una configuración apresurada de tipo cañón de cristal.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Cuerpo a cuerpo agresivo">
+    - **El mejor daño de ráfaga**
+    - Presión a corta distancia
+    - Fuerte cuando puedes mantenerte sobre el objetivo
+  </Card>
+  <Card title="A distancia seguro">
+    - **Posicionamiento más seguro**
+    - Aprendizaje de jefes más sencillo
+    - Mejor para atracciones de enemigos controladas
+  </Card>
+  <Card title="Híbrido flexible">
+    - **El más adaptable**
+    - Alterna entre distancias
+    - Fuerte con Bendiciones flexibles
+  </Card>
+</CardGrid>
+
+| Estilo | Fuerza principal | Debilidad principal | Mejor caso de uso |
+| --- | --- | --- | --- |
+| Cuerpo a cuerpo agresivo | Ráfaga alta, limpieza rápida | Castigador si se calcula mal | Grupos de enemigos a corta distancia |
+| A distancia seguro | Espaciado seguro, lecturas limpias | Menor presión directa | Aprender patrones de jefes |
+| Híbrido flexible | Perfil de daño adaptable | Depende de buenas decisiones | Partidas de mazmorra impredecibles |
+
+Utiliza este resumen como tu base de referencia antes de buscar una optimización avanzada. Si sabes cómo quieres que se sienta una partida, podrás tomar mejores decisiones cuando el botín y las mejoras comiencen a ramificarse en diferentes direcciones.
+
+</Section>
+
+<Section icon={Swords} title="Plan de partida paso a paso para el éxito temprano">
+
+Las primeras partidas deben servir para crear hábitos que sobrevivan a una mala racha de RNG. No te encierres en un plan frágil demasiado pronto. Un ritmo de apertura constante te ayudará a aprender el espaciado de los enemigos, el tiempo de ataque de las armas y cuándo gastar recursos en lugar de acumularlos.
+
+<Callout type="warning" title="Evita este error">
+No elijas mejoras solo porque parezcan raras. En un roguelite, la mejor opción suele ser la que se adapta a tu ruta actual, no la que tiene los números más llamativos.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Comienza con disciplina de movimiento">
+    Aprende los tiempos de esquiva, la recuperación de ataques y el espaciado antes de intentar forzar el daño bruto. Un movimiento limpio genera espacio para tomar mejores decisiones.
+  </Step>
+  <Step num="2" title="Establece la identidad de tu arma">
+    Comprométete con un estilo cuerpo a cuerpo, a distancia o híbrido lo suficientemente temprano como para que las opciones de mejora sean coherentes. Un equipamiento enfocado es más fácil de escalar.
+  </Step>
+  <Step num="3" title="Construye en torno a la sinergia">
+    Elige Bendiciones, modificadores de ataque y apoyo del Ejército de Sombras que refuercen el mismo plan de combate en lugar de dispersar tu poder.
+  </Step>
+  <Step num="4" title="Reserva poder para las fases de los jefes">
+    Conserva tu ráfaga más fuerte, tus herramientas defensivas y el apoyo de invocaciones para las fases peligrosas en lugar de gastarlo todo en combates contra enemigos comunes.
+  </Step>
+</Steps>
+
+| Fase | Objetivo | Qué priorizar |
+| --- | --- | --- |
+| Salas iniciales | Estabilidad | Movimiento, sincronización, limpiezas seguras |
+| Mitad de partida | Sinergia | Combinar Bendiciones con el tipo de arma |
+| Combates de élite | Eficiencia | Ráfaga, control de masas, recuperación |
+| Fase de jefe | Supervivencia | Ventanas de esquiva, invocaciones, rendimiento sostenido |
+
+Si una partida se siente caótica, enfoca la siguiente en torno a una única identidad de combate. La mayoría de las derrotas tempranas se deben a prioridades mixtas, no solo a un daño bajo.
+
+</Section>
+
+<Section icon={Shield} title="Prioridades de armas y equipamiento">
+
+La elección del arma debe coincidir con la forma en que deseas manejar el espacio. Solo Leveling KARMA está diseñado para realizar ajustes rápidos, pero eso no significa que todas las armas deban tratarse por igual en cada partida. Un buen equipamiento es aquel que mejora tu capacidad para controlar la distancia, castigar las aperturas del enemigo y sobrevivir a los errores.
+
+<Callout type="info" title="Regla de equipamiento">
+Elige el arma que resuelva tu problema actual. Si necesitas limpiezas más seguras, elige control. Si ya tienes control, elige daño de ráfaga.
+</Callout>
+
+| Tipo de arma | Ideal para | Nivel de riesgo | Mentalidad recomendada |
+| --- | --- | --- | --- |
+| Armas tipo espada | Presión a corta distancia | Medio | Mantente agresivo, pero respeta los fotogramas de recuperación |
+| Armas de largo alcance | Práctica de jefes más segura | Bajo | Mantén el espaciado limpio y castiga las aperturas |
+| Armas especiales | Builds flexibles | Medio | Construye en torno a la sinergia, no en piloto automático |
+| Opciones de alta velocidad | Limpieza rápida de salas | Medio-Alto | Gana por ritmo y ejecución |
+
+Un equipamiento inicial práctico suele necesitar un plan de daño claro y una respuesta para situaciones de pánico. Eso significa que tu arma debe cubrir el daño de ráfaga o el control seguro, mientras que las Bendiciones y las invocaciones llenan el vacío.
+
+<Callout type="tip" title="Comprobación práctica del equipamiento">
+Si tu arma solo se siente bien cuando los enemigos se quedan quietos, es demasiado limitada para una partida de roguelite.
+</Callout>
+
+| Ranura | Buena elección | Por qué funciona |
+| --- | --- | --- |
+| Arma principal | Herramienta de daño confiable | Mantiene la consistencia de tu partida |
+| Opción de apoyo | Alcance o utilidad | Te ayuda a recuperarte en salas difíciles |
+| Apoyo de sombras | Invocación defensiva o de ráfaga | Cubre aperturas y la presión de los jefes |
+
+No sobrevalores una sola herramienta de alto daño si te deja expuesto en combates de múltiples oleadas. Los equipamientos más fuertes suelen combinar un arma principal confiable con un sistema que te brinde un respiro.
+
+</Section>
+
+<Section icon={Sparkles} title="Bendiciones, Sombras y sinergia de builds">
+
+Las Bendiciones deben dar forma a tu build en lugar de simplemente inflar los números. Piensa en ellas como el motor que convierte un arma común en una configuración que define la partida. Las mejores combinaciones suelen mejorar un plan claro: mayor daño de habilidades, mejor supervivencia o una presión más confiable durante las fases de los jefes.
+
+<Callout type="success" title="Principio de la mejor build">
+Elige Bendiciones que agudicen tu hábito más fuerte. Si ganas por espaciado, mejora el control. Si ganas por presión, mejora la ráfaga.
+</Callout>
+
+| Enfoque de la build | Dirección de Bendición fuerte | Rol del Ejército de Sombras | Punto débil común |
+| --- | --- | --- | --- |
+| Daño de ráfaga | Amplificación de habilidades | Presión adicional durante aperturas | Poca resistencia |
+| Control seguro | Apoyo defensivo o de espaciado | Cubrir líneas de riesgo | Limpiezas más lentas |
+| Escalado híbrido | Ganancias de estadísticas mixtas | Ayuda flexible en primera línea | Menor daño máximo |
+| Rompejefes | Aumentos de rendimiento sostenido | Aturdimiento y distracción | Velocidad de sala débil |
+
+El Ejército de Sombras no es solo un adorno visual. En el juego práctico, las invocaciones pueden ayudarte a mantener el espacio, distraer la atención del enemigo y crear una ventana para tu secuencia de ataque más fuerte. Utilízalas como una capa táctica, no como una bonificación pasiva.
+
+| Situación | Mejor respuesta | Por qué ayuda |
+| --- | --- | --- |
+| Grupos pequeños de enemigos | Herramienta de limpieza rápida | Mantiene el ritmo alto |
+| Enemigo de élite | Ráfaga controlada | Reduce el tiempo de exposición |
+| Apertura del jefe | Invocación más ráfaga | Maximiza la ventana de presión |
+| Fase de recuperación | Espaciado defensivo | Restablece tu ritmo |
+
+Si la elección de una Bendición no mejora tu plan de partida actual, descártala. La sinergia es más valiosa que la novedad cuando el ritmo del combate comienza a aumentar.
+
+</Section>
+
+<Section icon={Target} title="Lista de verificación de lanzamiento y seguimiento oficial">
+
+Antes de comprometerte con un largo farmeo, asegúrate de que tu configuración esté lista para el seguimiento del lanzamiento, el soporte de idiomas y la experimentación de builds. Solo Leveling KARMA es el tipo de juego donde la información temprana importa, especialmente si deseas comparar plataformas, revelaciones oficiales y nuevos detalles del combate a medida que se publiquen en 2026.
+
+<Callout type="info" title="Qué seguir de cerca">
+Utiliza primero los canales oficiales al verificar las ventanas de lanzamiento, los estrenos de tráileres y los avisos de plataformas. Eso mantiene la planificación de tu build alineada con los anuncios reales.
+</Callout>
+
+<Checklist
+  id="launch-checklist"
+  title="Preparación para el día de lanzamiento"
+  items={[
+    "Confirma tu plataforma e idioma de preferencia",
+    "Añade a marcadores el sitio web oficial y los canales sociales",
+    "Elige una ruta de build inicial para probar primero",
+    "Deja espacio para los cambios de parches y ajustes de equilibrio"
+  ]}
+/>
+
+| Canal oficial | Qué te ayuda a seguir | Enlace |
+| --- | --- | --- |
+| Sitio web oficial | Información de lanzamiento, actualizaciones de funciones, material visual | https://sololeveling.netmarble.com/ |
+| Cuenta oficial de X | Avisos cortos, cambios de horarios, alertas de región | https://x.com/Sololv_KARMA_EN |
+| YouTube oficial | Tráileres, revelaciones de jugabilidad, presentaciones especiales | https://www.youtube.com/@NetmarbleOfficial |
+
+Mantén tus objetivos de la primera semana simples. Un comienzo limpio suele ser mejor que intentar probar cada nueva idea de build a la vez. Una vez que sepas cómo se siente el bucle de combate, podrás expandirte a equipamientos especializados con mucho menos desperdicio.
+
+<Callout type="warning" title="Trampa de la primera semana">
+No te comprometas demasiado con una teoría antes de probar cómo se comportan realmente los enemigos, las invocaciones y las Bendiciones en partidas reales.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Recordatorio rápido">
+Estas respuestas se enfocan en la planificación práctica del juego temprano, no en forzar una única configuración perfecta para cada jugador.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿En qué debería enfocarme primero en Solo Leveling KARMA?",
+    answer: "Comienza con el movimiento, la identidad del arma y la sinergia de las Bendiciones. Si tus primeras partidas se sienten estables, será mucho más fácil evaluar tus opciones de daño."
+  },
+  {
+    question: "¿Es mejor una build cuerpo a cuerpo que una a distancia?",
+    answer: "No siempre. El cuerpo a cuerpo puede limpiar rápidamente, pero la distancia suele ser más segura mientras aprendes los patrones de los jefes. La mejor opción es la que se adapte a tu ejecución."
+  },
+  {
+    question: "¿Qué tan importante es el Ejército de Sombras?",
+    answer: "Muy importante. El Ejército de Sombras añade presión, genera distracciones y te ayuda a gestionar el mal posicionamiento durante los encuentros difíciles."
+  },
+  {
+    question: "¿Cuál es la forma más segura de estructurar las primeras partidas?",
+    answer: "Utiliza un plan de daño principal, una capa de apoyo y Bendiciones que refuercen la misma idea. La consistencia suele vencer a las mejoras dispersas."
+  }
+]} />
+
+</Section>

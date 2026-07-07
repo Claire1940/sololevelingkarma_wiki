@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling Karma: Guía Definitiva de Combate y Bendiciones",
+  description: "Domina Solo Leveling Karma con nuestra guía sobre mecánicas de combate, cambio de armas, el sistema de Bendiciones, invocaciones del Ejército de Sombras y batallas contra jefes legendarios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Combat+and+Blessings+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Solo Leveling Karma",
+  keywords: "Solo Leveling Karma, combate, bendiciones, guía, armas, sombras, jefes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Progresión Principal**: Desarrolla a tu personaje de forma dinámica utilizando el sistema de Bendiciones roguelite de **solo leveling karma** durante cada incursión en la mazmorra.
+- **Mecánicas de Armas**: Cambia entre múltiples tipos de armas sin interrupciones en combate en tiempo real para explotar las debilidades del enemigo.
+- **Ejército de Sombras**: Invoca sombras legendarias como Igris e Iron para ejecutar devastadores combos en equipo.
+- **Jefes Icónicos**: Prepárate para encuentros de alto riesgo contra bestias legendarias, incluyendo a Cerberus y Baran.
+</Callout>
+
+<Section icon={Map} title="Resumen de Solo Leveling Karma y Cronograma de Lanzamiento">
+
+El próximo RPG de acción roguelite **solo leveling karma**, desarrollado por Netmarble Neo y publicado por Netmarble, aporta un giro fresco a la franquicia. Ambientado durante el período inexplorado de la guerra de 27 años del universo de Solo Leveling, los jugadores experimentarán una historia original que sirve de puente entre la serie original y Solo Leveling: Ragnarok.
+
+| Hito | Fecha Esperada | Disponibilidad de Plataforma | Detalles |
+|---|---|---|---|
+| **Anuncio Oficial** | 2025 | PC, iOS, Android | Juego revelado como un RPG de acción roguelite. |
+| **Revelaciones de Jugabilidad** | 2026 | PC, iOS, Android | Los tráileres mostraron los sistemas de Bendiciones y Armas. |
+| **Lanzamiento Oficial** | **2026** | PC, iOS, Android | Lanzamiento global planeado para plataformas móviles y PC. |
+
+<Callout type="tip" title="Disponibilidad de Plataforma">
+Dado que el juego se lanzará de forma nativa tanto en PC como en móviles, se anticipan funciones de progresión cruzada que te permitirán llevar tus partidas roguelite a través de diferentes dispositivos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistema de Combate y Mecánicas de Cambio de Armas">
+
+El combate en **solo leveling karma** se centra en la acción de alta velocidad, esquives precisos y el intercambio de armas en tiempo real. En lugar de estar limitados a un solo estilo de combate, los jugadores pueden equipar y alternar entre diversos tipos de armas a mitad de la batalla para adaptarse a las condiciones cambiantes del campo de batalla.
+
+<CardGrid cols={3}>
+  <Card title="Armas Cuerpo a Cuerpo">
+    - **Tipos**: Dagas, Espadas Dobles, Espadones, Guadañas
+    - **Rol**: Alto DPS a corta distancia
+    - **Estilo**: Asalto agresivo
+  </Card>
+  <Card title="Armas a Distancia">
+    - **Tipos**: Arcos
+    - **Rol**: Control de distancia seguro
+    - **Estilo**: Posicionamiento estratégico
+  </Card>
+  <Card title="Armas Pesadas">
+    - **Tipos**: Martillos
+    - **Rol**: Romper escudos y Aturdir
+    - **Estilo**: Golpes lentos de alto impacto
+  </Card>
+</CardGrid>
+
+Para maximizar tu eficiencia en combate, debes entender cómo se desempeña cada tipo de arma en la batalla. La siguiente tabla compara las categorías principales de armas reveladas por Netmarble.
+
+| Categoría de Arma | Rol en Combate | Fortalezas | Debilidades | Estilo de Juego Ideal |
+|---|---|---|---|---|
+| **Armas tipo Espada** | Daño a Corta Distancia | Ataques rápidos, alta movilidad | Requiere permanecer cerca del peligro | Combate cuerpo a cuerpo agresivo |
+| **Armas de Larga Distancia** | Control de Distancia | Posicionamiento seguro, presión constante | Defensa baja, vulnerable a cierres de brecha | Ataques estratégicos a distancia |
+| **Armas Especiales** | Construcciones Flexibles | Alta sinergia con Bendiciones | Muy dependiente de las combinaciones de build | Jugadores enfocados en la experimentación |
+
+<Callout type="warning" title="Sinergia de Armas">
+No dependas de una sola arma. Algunos jefes tienen escudos que son muy resistentes a los ataques de corte rápido, pero se rompen fácilmente bajo los golpes de un martillo pesado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Sistema de Bendiciones y Personalización de Builds">
+
+El núcleo de la progresión roguelite en **solo leveling karma** es el sistema de Bendiciones. En lugar de construcciones de personajes estáticas y permanentes, los jugadores recolectan y combinan Bendiciones dinámicas durante cada incursión individual en la mazmorra. Esto asegura que no haya dos partidas iguales.
+
+| Tipo de Bendición | Efecto Primario | Impacto en Combate | Prioridad de Escalado |
+|---|---|---|---|
+| **Mejora de Habilidades** | Aumenta los niveles de habilidad | Potencia el daño de habilidades activas y reduce enfriamientos | Alta |
+| **Crecimiento de Estadísticas** | Mejora atributos principales | Mejora el poder de ataque base, tasa crítica y defensa | Media |
+| **Sinergia de Sombras** | Mejora unidades invocadas | Aumenta la frecuencia de ataque y el daño de combo del Ejército de Sombras | Alta |
+| **Utilidad y Supervivencia** | Mejoras de utilidad | Otorga regeneración de salud, recuperación de dash más rápida o escudos | Baja |
+
+Para construir una build poderosa durante una partida, los jugadores deben seguir un proceso de selección estructurado.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Arma Inicial">
+    Elige un arma que coincida con tu estilo de juego preferido (por ejemplo, Dagas rápidas para críticos altos, o un Espadón para daño pesado).
+  </Step>
+  <Step num="2" title="Prioriza las Mejoras de Habilidad">
+    Durante las etapas iniciales, selecciona Bendiciones que mejoren directamente tus habilidades de arma activas para limpiar oleadas de enemigos regulares rápidamente.
+  </Step>
+  <Step num="3" title="Sinergia con el Ejército de Sombras">
+    Adquiere Bendiciones que activen ataques cooperativos cada vez que invoques a Igris, Iron u otros Soldados de Sombra.
+  </Step>
+  <Step num="4" title="Equilibra con Estadísticas de Supervivencia">
+    Antes de entrar en las cámaras de los jefes, obtén al menos una Bendición defensiva o de curación para resistir durante las largas peleas contra jefes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Variedad de Builds">
+Experimenta con combinaciones inusuales. Una build de Arco a distancia combinada con Bendiciones que mejoran la defensa del Ejército de Sombras puede permitirte llover daño mientras tus invocaciones mantienen la línea frontal.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Invocaciones del Ejército de Sombras y Compañeros de Combate">
+
+El icónico Ejército de Sombras de Sung Jinwoo está totalmente integrado en el ciclo de juego. Los jugadores pueden invocar soldados de sombra leales durante el combate para distraer a los enemigos, absorber daño y realizar poderosos ataques combinados cooperativos.
+
+| Soldado de Sombra | Rol en Combate | Habilidad Distintiva | Mejor Sinergia |
+|---|---|---|---|
+| **Igris** | Compañero de DPS Principal | Ataques de corte rápidos, alto daño crítico | Builds de tasa crítica, dagas rápidas |
+| **Iron** | Tanque y Control de Masas | Provoca a los enemigos, alta defensa, generación de escudos | Builds de arco a distancia, configuraciones frágiles |
+
+<Checklist
+  id="shadow-army-goals"
+  title="Consejos de Combate del Ejército de Sombras:"
+  items={[
+    "Invoca a Iron inmediatamente cuando estés rodeado para atraer el aggro enemigo.",
+    "Sincroniza tus habilidades definitivas con los ataques de Igris para activar multiplicadores de daño por combo.",
+    "Recolecta Bendiciones de Sinergia de Sombras para disminuir los enfriamientos de invocación.",
+    "Vigila tu medidor de invocación y reserva tus sombras para la aparición de enemigos de élite."
+  ]}
+/>
+
+<Callout type="info" title="Personajes Originales">
+Además de las sombras familiares, los tráileres oficiales han mostrado personajes originales de cabello púrpura y cabello rojo que desempeñarán papeles importantes en la historia exclusiva del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Encuentros con Jefes Confirmados Oficialmente">
+
+Las batallas contra jefes en **solo leveling karma** están diseñadas para poner a prueba tus reflejos, tu eficiencia al cambiar de armas y tus elecciones de Bendiciones. Netmarble ha confirmado varias Bestias Mágicas icónicas de la serie original como jefes principales de las mazmorras.
+
+| Nombre del Jefe | Tipo de Ataque | Mecánica Clave | Estrategia de Contraataque |
+|---|---|---|---|
+| **Cerberus** | Fuego / Cuerpo a cuerpo | Embestidas agresivas, charcos de fuego de área amplia | Evita pararte en el fuego; usa armas de alta movilidad. |
+| **Líder Hobgoblin** | Cuerpo a cuerpo / Enjambre | Invoca esbirros menores, golpes pesados cuerpo a cuerpo | Usa habilidades de control de masas y Bendiciones de efecto de área. |
+| **Vulcan el Avaricioso** | Pesado / Fuego | Golpes masivos al suelo, daño de área extensa en la arena | Sincroniza tus esquives perfectamente; ataca durante sus marcos de recuperación. |
+| **Rey Demonio Baran** | Rayo / Cuerpo a cuerpo | Teletransportación de alta velocidad, ataques de rayo | Lleva armas rápidas como dagas; mantente muy móvil. |
+| **Estatua Divina** | Magia / Láser | Ataques láser masivos, mecánicas de pisotones en toda la sala | Observa los indicadores en el suelo; prioriza la supervivencia sobre el DPS. |
+
+<Callout type="warning" title="Preparación para Jefes">
+Ajusta siempre tus armas equipadas antes de entrar en la cámara de un jefe. Llevar un martillo lento contra un jefe altamente ágil como Baran puede hacer que el encuentro sea innecesariamente difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes (FAQ) de Solo Leveling Karma">
+
+<FAQ items={[
+  {
+    question: "¿En qué plataformas estará disponible Solo Leveling Karma?",
+    answer: "Se ha confirmado oficialmente que el juego se lanzará en las plataformas PC, iOS y Android."
+  },
+  {
+    question: "¿Cómo funciona el sistema de Bendiciones en Solo Leveling Karma?",
+    answer: "Las Bendiciones son mejoras temporales que se recolectan durante una partida roguelite. Mejoran tus habilidades, potencian tus estadísticas y crean sinergias únicas con tus armas y el Ejército de Sombras."
+  },
+  {
+    question: "¿Puedo jugar como otros personajes además de Sung Jinwoo?",
+    answer: "El protagonista jugable principal es Sung Jinwoo. Sin embargo, puedes invocar a soldados de sombra icónicos como Igris e Iron para que luchen a tu lado, y conocerás a personajes de la historia original a lo largo de la campaña."
+  },
+  {
+    question: "¿Cuándo es la fecha de lanzamiento de Solo Leveling Karma?",
+    answer: "Netmarble ha programado oficialmente la ventana de lanzamiento para el año 2026."
+  }
+]} />
+
+</Section>

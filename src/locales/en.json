@@ -10,7 +10,15 @@
       "twitterDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army mechanics, bosses, trailers, release news and official game updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "guide": "Guide",
+    "gameplay": "Gameplay",
+    "trailer": "Trailer",
+    "characters": "Characters",
+    "platforms": "Platforms",
+    "story": "Story"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -393,5 +401,146 @@
     "copyright": "© 2026 Solo Leveling: Karma Wiki. Not affiliated with Netmarble or the developers of Solo Leveling: Karma.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "release": {
+      "title": "Solo Leveling: Karma Release",
+      "description": "Track the Solo Leveling: Karma release date, platform rollout, pre-registration rewards, and every official launch update as Netmarble ships the game.",
+      "metaTitle": "Solo Leveling: Karma Release Date & Pre-Registration",
+      "metaDescription": "Stay on top of the Solo Leveling: Karma release date, supported platforms, and pre-registration rewards with our up-to-the-minute launch coverage.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release section?",
+      "whatIsDescription": "Your hub for Solo Leveling: Karma launch timing, platform availability, pre-registration bonuses, and rollout news straight from Netmarble's official channels.",
+      "why": "Why follow our release coverage?",
+      "whySteps": {
+        "step1Title": "Confirmed release window",
+        "step1Description": "We track Netmarble's official announcements so you always know the latest confirmed release timing for Solo Leveling: Karma.",
+        "step2Title": "Platform availability",
+        "step2Description": "See exactly which devices and storefronts will get the game at launch, from PC to iOS and Android.",
+        "step3Title": "Pre-registration rewards",
+        "step3Description": "Don't miss milestone rewards—find every pre-registration bonus and how to claim them."
+      },
+      "featured": "Featured Updates",
+      "all": "All Release News"
+    },
+    "guide": {
+      "title": "Solo Leveling: Karma Guides",
+      "description": "Master Solo Leveling: Karma with beginner walkthroughs, system breakdowns, and action-RPG strategy guides covering Shadows, Blessings, weapons, and progression.",
+      "metaTitle": "Solo Leveling: Karma Guides - Beginner Walkthroughs & Tips",
+      "metaDescription": "Level up fast with Solo Leveling: Karma guides: beginner walkthroughs, Shadow Army builds, Blessing picks, weapon upgrades, and progression tips.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are the Guides?",
+      "whatIsDescription": "In-depth walkthroughs and strategy guides for Solo Leveling: Karma, from your first dungeon to endgame Shadow Army builds and Blessing combos.",
+      "why": "Why read our guides?",
+      "whySteps": {
+        "step1Title": "Beginner-friendly walkthroughs",
+        "step1Description": "Step-by-step paths through early game so new hunters ramp up fast without wasted resources.",
+        "step2Title": "System breakdowns",
+        "step2Description": "Clear explanations of Shadows, Blessings, weapons, stats, and every core system that drives your build.",
+        "step3Title": "Action-RPG strategy",
+        "step3Description": "Combat rotations, boss tactics, and roguelite run planning to push deeper into high-rank gates."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "gameplay": {
+      "title": "Solo Leveling: Karma Gameplay",
+      "description": "Explore Solo Leveling: Karma gameplay: action-RPG combat, roguelite run structure, Shadow Army mechanics, boss fights, and the systems that define each run.",
+      "metaTitle": "Solo Leveling: Karma Gameplay - Combat, Roguelite & Bosses",
+      "metaDescription": "Dive into Solo Leveling: Karma gameplay mechanics: real-time action combat, roguelite progression, Shadow Army summons, and boss fight strategies.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is the Gameplay section?",
+      "whatIsDescription": "A deep dive into how Solo Leveling: Karma plays—action combat flow, roguelite run loops, Shadow Army summoning, stat growth, and boss encounter design.",
+      "why": "Why explore our gameplay coverage?",
+      "whySteps": {
+        "step1Title": "Combat mechanics",
+        "step1Description": "Understand attack chains, dodging, skill timing, and how Shadows turn the tide of every fight.",
+        "step2Title": "Roguelite run structure",
+        "step2Description": "Learn how each run scales, what carries over, and how to plan builds around the gates you'll face.",
+        "step3Title": "Boss fight breakdowns",
+        "step3Description": "Phase-by-phase tactics for every major boss so you stop hitting walls and start clearing."
+      },
+      "featured": "Featured Gameplay",
+      "all": "All Gameplay"
+    },
+    "trailer": {
+      "title": "Solo Leveling: Karma Trailers",
+      "description": "Watch every Solo Leveling: Karma trailer—official combat PV, story trailers, opening movie, and gameplay reveals from Netmarble.",
+      "metaTitle": "Solo Leveling: Karma Trailers - Official Combat & Story PV",
+      "metaDescription": "Catch every Solo Leveling: Karma trailer in one place: official combat PV, story trailers, opening movie, and gameplay reveals from Netmarble.",
+      "categoryLabel": "TRAILERS",
+      "whatIs": "What are the Trailers?",
+      "whatIsDescription": "All official Solo Leveling: Karma video releases in one place—combat trailers, story PVs, the opening movie, and gameplay reveals from Netmarble's YouTube.",
+      "why": "Why watch here?",
+      "whySteps": {
+        "step1Title": "Every official release",
+        "step1Description": "We collect each Netmarble trailer as it drops, so you never miss a combat, story, or opening reveal.",
+        "step2Title": "Frame-by-frame breakdowns",
+        "step2Description": "Pause and study key moments—Shadow summons, boss teases, and environment reveals hidden in each PV.",
+        "step3Title": "Release signal tracking",
+        "step3Description": "Trailers often signal launch timing and feature reveals; we connect each video to what it confirms."
+      },
+      "featured": "Featured Trailers",
+      "all": "All Trailers"
+    },
+    "characters": {
+      "title": "Solo Leveling: Karma Characters",
+      "description": "Meet the Solo Leveling: Karma cast: Sung Jinwoo, Antares, Bellion, and the Shadow Army ranks that define the roster of hunters and monarchs.",
+      "metaTitle": "Solo Leveling: Karma Characters - Sung Jinwoo & Shadow Army",
+      "metaDescription": "Get to know every Solo Leveling: Karma character: Sung Jinwoo, the Shadow Army commanders like Bellion and Igris, and the Monarchs led by Antares.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "Who are the Characters?",
+      "whatIsDescription": "The hunters, Shadows, and Monarchs of Solo Leveling: Karma—from Sung Jinwoo and his Shadow Army commanders to rivals like Antares.",
+      "why": "Why study the cast?",
+      "whySteps": {
+        "step1Title": "Sung Jinwoo's arc",
+        "step1Description": "Trace the protagonist's growth from weakest hunter to Shadow Monarch and what it means for your build.",
+        "step2Title": "Shadow Army commanders",
+        "step2Description": "Learn the roles of Bellion, Igris, and other Shadows so you know which to summon and when.",
+        "step3Title": "Monarchs and rivals",
+        "step3Description": "Understand the major antagonists like Antares and how they shape the endgame threats."
+      },
+      "featured": "Featured Characters",
+      "all": "All Characters"
+    },
+    "platforms": {
+      "title": "Solo Leveling: Karma Platforms",
+      "description": "Find out where to play Solo Leveling: Karma: PC, Android, iOS, Steam, and mobile device support, plus cross-platform and system requirement details.",
+      "metaTitle": "Solo Leveling: Karma Platforms - PC, Android, iOS & Steam",
+      "metaDescription": "See every platform Solo Leveling: Karma supports: PC, Steam, Android, and iOS, plus device requirements, cross-play, and download links.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What is the Platforms section?",
+      "whatIsDescription": "Coverage of where and how to play Solo Leveling: Karma—PC and Steam, Android, iOS, device requirements, and cross-platform details.",
+      "why": "Why check our platform guides?",
+      "whySteps": {
+        "step1Title": "Every supported device",
+        "step1Description": "Clear answers on which PC setups, Android phones, and iOS devices can run Solo Leveling: Karma smoothly.",
+        "step2Title": "Download and install",
+        "step2Description": "Step-by-step setup for each storefront so you're ready to play the moment servers open.",
+        "step3Title": "Cross-platform details",
+        "step3Description": "Know whether your progress carries across PC and mobile before you commit to a main device."
+      },
+      "featured": "Featured Platform Guides",
+      "all": "All Platform Guides"
+    },
+    "story": {
+      "title": "Solo Leveling: Karma Story",
+      "description": "Dive into the Solo Leveling: Karma story: how the new storyline connects to the manhwa and anime, canon details, and the lore behind the gates.",
+      "metaTitle": "Solo Leveling: Karma Story - Lore, Manhwa & Anime Connections",
+      "metaDescription": "Unpack the Solo Leveling: Karma story: the original new narrative, ties to the manhwa and anime, canon confirmations, and the lore of the gates.",
+      "categoryLabel": "STORY",
+      "whatIs": "What is the Story section?",
+      "whatIsDescription": "The narrative and lore of Solo Leveling: Karma—the new original storyline, its place in the manhwa and anime canon, and the world of gates and hunters.",
+      "why": "Why read our story coverage?",
+      "whySteps": {
+        "step1Title": "The new storyline",
+        "step1Description": "Get the original Solo Leveling: Karma narrative explained—what's new and where it fits Sung Jinwoo's journey.",
+        "step2Title": "Manhwa and anime ties",
+        "step2Description": "See exactly how the game connects to the Solo Leveling manhwa and anime, and what canon it confirms.",
+        "step3Title": "World and lore",
+        "step3Description": "Understand the gates, the hunter system, and the Monarchs so the story's stakes always land."
+      },
+      "featured": "Featured Story",
+      "all": "All Story"
+    }
+  }
 }

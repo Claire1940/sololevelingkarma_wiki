@@ -1,0 +1,244 @@
+import { Map, Swords, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling KARMA Action RPG: Guía de Creación de Personaje para Principiantes",
+  description: "Aprende sobre los sistemas de combate confirmados, roles de armas, Bendiciones, conceptos básicos del Ejército de Sombras, preparación para jefes y la hoja de ruta de lanzamiento de Solo Leveling KARMA.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3B0764/fff?text=Beginner+Build+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Solo Leveling KARMA"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **solo leveling karma action rpg** combina partidas de estilo roguelite, combates rápidos y decisiones de equipamiento en torno a las Bendiciones y el Ejército de Sombras.
+- Las **plataformas confirmadas** son PC, iOS y Android, con una ventana de lanzamiento programada para 2026.
+- El **mejor enfoque inicial** es dominar el movimiento, el cambio de armas y aprender cómo cada intento de incursión modifica tu equipamiento.
+- La **preparación para los jefes** es más importante que el daño bruto cuando los encuentros añaden ataques de área amplia y una presión agresiva.
+</Callout>
+
+<Section icon={Map} title="Resumen de Lanzamiento de Solo Leveling KARMA">
+
+Solo Leveling KARMA se perfila como un RPG de acción con estructura roguelite, una presentación de anime oscuro y una historia original ambientada durante el inexplorado periodo de la guerra de 27 años. Mantén tus expectativas basadas en los sistemas oficiales que ya están confirmados: soporte de plataformas, cobertura de tráileres y pilares fundamentales de combate.
+
+Sigue el sitio oficial y la cuenta oficial de X para recibir actualizaciones sobre el lanzamiento:
+[Sitio oficial](https://sololeveling.netmarble.com/) y [X oficial](https://x.com/Sololv_KARMA_EN).
+
+<Callout type="tip" title="Lectura de Lanzamiento">
+La forma más clara de seguir este juego es centrarse primero en las características confirmadas: ventana de lanzamiento, plataformas, publicación de tráileres y sistemas principales.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Género">
+    - **RPG de acción roguelite**
+    - Progresión basada en incursiones
+    - La variedad de equipamiento importa
+  </Card>
+  <Card title="Plataformas">
+    - **PC**
+    - **iOS**
+    - **Android**
+  </Card>
+  <Card title="Alcance de la Historia">
+    - **Periodo de la guerra de 27 años**
+    - Capa narrativa original
+    - Sung Jinwoo en el centro de la acción
+  </Card>
+  <Card title="Identidad Visual">
+    - **Tono de anime oscuro**
+    - Energía de sombra purpúrea
+    - Presentación de combate premium
+  </Card>
+</CardGrid>
+
+| Resumen | Detalles Confirmados | Por Qué Importa |
+|---|---|---|
+| Ventana de lanzamiento | **2026** | Planifica en base al calendario oficial de lanzamiento, no a rumores. |
+| Plataformas | **PC, iOS, Android** | Ajusta tus expectativas al soporte multiplataforma. |
+| Estilo principal | **RPG de acción roguelite** | Cada intento debe premiar la adaptación, no el juego en piloto automático. |
+| Enfoque de la historia | **Guerra inédita de 27 años** | El juego expande el lore de Solo Leveling con una nueva perspectiva. |
+
+<Callout type="warning" title="Qué No Asumir">
+No des por sentado ningún meta definitivo, requisitos de hardware ni predicciones sobre la plantilla de personajes hasta que Netmarble publique la próxima actualización oficial.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de Combate que Definen Cada Incursión">
+
+El núcleo del juego es un combate flexible. Las demostraciones oficiales apuntan a una acción de ritmo rápido, cambio de armas, variedad de configuraciones impulsada por Bendiciones y el apoyo del Ejército de Sombras. Esa combinación significa que tu mejor partida rara vez será igual dos veces.
+
+Piensa en términos de sistemas, no solo en números de daño. Una incursión limpia depende de qué tan bien combines la movilidad, la elección de armas y las sinergias de tu configuración.
+
+<Callout type="info" title="Bucle Principal">
+Cada incursión en una mazmorra debe tratarse como un rompecabezas en tiempo real: sobrevive al principio, escala tu poder mediante Bendiciones y luego convierte ese poder en control sobre el jefe.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Cambio de Armas">
+    Cambia de armas para responder a los diferentes patrones de los enemigos y mantener una presión alta.
+  </Card>
+  <Card title="Bendiciones">
+    Modificadores de configuración que definen la fuerza de las habilidades, el ritmo de combate y la identidad de la partida.
+  </Card>
+  <Card title="Ejército de Sombras">
+    Añade invocaciones y apoyo en el campo de batalla para ampliar tus opciones tácticas.
+  </Card>
+  <Card title="Progreso Roguelite">
+    Las partidas repetidas te enseñarán a dominar los tiempos, tomar decisiones de ruta y atacar con mayor seguridad.
+  </Card>
+</CardGrid>
+
+| Sistema | Rol en Combate | Prioridad para Principiantes |
+|---|---|---|
+| Cambio de armas | Mantiene la ofensiva flexible | **Alta** |
+| Bendiciones | Define la configuración de la partida | **Muy Alta** |
+| Ejército de Sombras | Añade presión y apoyo | **Alta** |
+| Progresión roguelite | Recompensa la adaptación a lo largo del tiempo | **Muy Alta** |
+
+| Tipo de Arma | Mejor Uso | Fortaleza | Precaución |
+|---|---|---|---|
+| Dagas / Doble Espada | Presión a corta distancia | Ataques rápidos, combos cerrados | Mantén la disciplina en el rango cuerpo a cuerpo |
+| Espadones / Martillos | Gran daño de ráfaga | Impacto fuerte, ventanas de golpe claras | Recuperación más lenta tras realizar un ataque |
+| Arcos | Distanciamiento seguro | Control a larga distancia, ataques seguros | Menos permisivo si te posicionas mal |
+| Guadañas / Armas especiales | Configuraciones flexibles | Gran potencial de sinergia | Depende de los tiempos de la configuración |
+
+<Callout type="success" title="Prioridad de Combate">
+Si quieres incursiones iniciales más limpias, aprende primero el distanciamiento con los enemigos y en segundo lugar los combos de daño. La supervivencia crea espacio para mejores configuraciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración de la Primera Partida: Desarrolla Hábitos Duraderos">
+
+Tus primeras incursiones deben centrarse en el control, no en la perfección. El juego recompensa a los jugadores que saben leer los patrones de ataque, cambian de armas con un propósito y eligen Bendiciones que complementen el equipamiento que ya han comenzado a construir.
+
+Utiliza la fase inicial para eliminar complicaciones. Si una elección dificulta el control de la partida, descártala a menos que el beneficio sea evidente.
+
+<Callout type="warning" title="Trampa para Principiantes">
+No fuerces una única ruta de arma \"óptima\" en cada partida. La estructura roguelite está diseñada para penalizar los hábitos rígidos.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Aprende el flujo inicial">
+    Concéntrate en el movimiento, los ataques básicos y cuándo retirarte. Las esquivas limpias importan más que el daño codicioso en los primeros encuentros.
+  </Step>
+  <Step num="2" title="Elige una identidad de arma">
+    Comienza con una preferencia cuerpo a cuerpo o a distancia y manténla el tiempo suficiente para aprender su ritmo antes de mezclar opciones más complejas.
+  </Step>
+  <Step num="3" title="Usa Bendiciones para reforzar tu plan">
+    Elige mejoras que potencien tu estilo de juego actual en lugar de buscar aumentos de poder aleatorios que no encajen con tu partida.
+  </Step>
+  <Step num="4" title="Trata cada muerte como información">
+    Vuelve a jugar el mismo contenido aplicando un solo ajuste a la vez para que puedas aislar qué fue lo que realmente mejoró tu supervivencia.
+  </Step>
+</Steps>
+
+| Prioridad Inicial | Qué Hacer | Resultado Esperado |
+|---|---|---|
+| Supervivencia | Aprender el tiempo de esquiva y el posicionamiento | Menos partidas desperdiciadas |
+| Comodidad con el arma | Mantenerse con un solo estilo al principio | Memoria muscular más rápida |
+| Sinergia de Bendiciones | Acumular bonificaciones compatibles | Mejor escalado en la partida |
+| Lectura de enemigos | Observar señales visuales y ataques de área | Intentos de jefe más seguros |
+
+<Checklist
+  id="starter-habits"
+  title="Lista de Verificación de la Primera Partida:"
+  items={[
+    "Domina el tiempo de esquiva antes de buscar combos largos",
+    "Apégate a un estilo de arma preferido al principio",
+    "Elige Bendiciones que coincidan con tu plan actual",
+    "Practica la retirada tras realizar ataques arriesgados",
+    "Analiza los ataques de los jefes después de cada derrota"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Armas, Bendiciones y Preparación para Jefes">
+
+Una vez que entiendas los conceptos básicos, el siguiente paso es dar coherencia a tu configuración. El enfoque más sólido suele ser el más simple: elige un estilo de arma, selecciona Bendiciones que lo potencien y luego prepárate para las mecánicas de los jefes que castigan el posicionamiento descuidado.
+
+La lista de jefes oficiales ya muestra de dónde proviene la dificultad. Las amenazas de área amplia, la presión cuerpo a cuerpo agresiva y los monstruos gigantes exigen paciencia.
+
+<Callout type="success" title="Regla de Configuración">
+Una buena partida debe sentirse conectada: la elección del arma, las Bendiciones y el apoyo del Ejército de Sombras deben apuntar en la misma dirección.
+</Callout>
+
+| Jefe | Amenaza Principal | Enfoque de Preparación |
+|---|---|---|
+| Cerbero | Ataques de fuego amplios, presión intensa | Mantener la distancia, castigar en ventanas seguras |
+| Líder de los Hobgoblins | Añade enemigos menores y peligro a corta distancia | Controlar el espacio y eliminar amenazas menores |
+| Vulcan el Avaricioso | Ataques de gran tamaño y fuerte daño de área | Medir los movimientos, evitar comprometerse de más |
+| Baran, el Rey de los Demonios | Presencia de jefe de alto nivel | Aprender las ventanas de patrones y atacar con ráfagas seguras |
+| Estatua Divina del Templo de Cartenon | Ataques a gran escala | Priorizar la supervivencia y el posicionamiento |
+
+| Elección de Configuración | Mejor Combinación | Por Qué Funciona |
+|---|---|---|
+| Combate cuerpo a cuerpo rápido | Bendiciones de movilidad | Te permite mantener la agresividad sin quedar atrapado |
+| Combate cuerpo a cuerpo pesado | Mejoras de daño y sincronización | Recompensa las aperturas deliberadas y de gran impacto |
+| Juego a distancia | Herramientas de seguridad y distanciamiento | Reduce el riesgo durante fases de jefes desconocidas |
+| Configuración híbrida | Bendiciones flexibles | Mantiene tus opciones abiertas a medida que evoluciona la partida |
+
+<Callout type="info" title="Recordatorio del Ejército de Sombras">
+Utiliza al Ejército de Sombras como un multiplicador de fuerza, no como un sustituto para aprender el comportamiento del enemigo. El apoyo es más efectivo cuando tu posicionamiento ya es sólido.
+</Callout>
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Verificación para Preparación de Jefes:"
+  items={[
+    "Presta atención a los patrones de ataque de área amplia",
+    "Guarda las herramientas de movilidad para las fases peligrosas",
+    "No dediques cada movimiento a infligir daño",
+    "Mantén listo un plan de armas de respaldo",
+    "Usa las invocaciones para abrir ventanas de ataque seguras"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes y Lista de Seguimiento de Lanzamiento">
+
+Utiliza esta sección como referencia rápida antes del lanzamiento y después de la próxima actualización oficial. El objetivo es simple: mantenerte alineado con la información confirmada y evitar basarte en especulaciones.
+
+<Callout type="tip" title="Mejor Práctica">
+Consulta primero el sitio oficial y la cuenta de X cuando busques noticias sobre el lanzamiento, actualizaciones de tráileres o nuevos detalles de juego.
+</Callout>
+
+| Elemento de Seguimiento | Estado | Por Qué Importa |
+|---|---|---|
+| Actualizaciones del sitio oficial | Activo | La mejor fuente para noticias de lanzamiento y características |
+| Publicaciones oficiales en X | Activo | El lugar más rápido para enterarse de las fechas de anuncios |
+| Lanzamiento de tráileres | Previsto | Revela detalles del combate, jefes y fragmentos de la historia |
+| Confirmación de plataformas | Confirmado | PC, iOS y Android ya están asegurados |
+
+<FAQ items={[
+  {
+    question: "¿De qué trata solo leveling karma action rpg?",
+    answer: "Es un RPG de acción roguelite programado para 2026 centrado en Sung Jinwoo, con un combate estructurado en torno al cambio de armas, las Bendiciones y el apoyo del Ejército de Sombras."
+  },
+  {
+    question: "¿Qué plataformas están confirmadas para Solo Leveling KARMA?",
+    answer: "PC, iOS y Android son las plataformas confirmadas, por lo que debes planificar para un lanzamiento multidispositivo."
+  },
+  {
+    question: "¿En qué deberían enfocarse primero los principiantes?",
+    answer: "Comienza con el movimiento, la comodidad con las armas y las Bendiciones que refuercen tu configuración actual, en lugar de intentar dominar todo a la vez."
+  },
+  {
+    question: "¿Son los jefes una parte importante del juego?",
+    answer: "Sí. Jefes confirmados como Cerbero, Vulcan el Avaricioso, Baran y la Estatua de Cartenon sugieren un fuerte desafío basado en el aprendizaje de patrones."
+  }
+]} />
+
+<Callout type="info" title="Conclusión Final">
+Planifica en base a lo que ya es oficial: un lanzamiento en 2026, soporte multiplataforma, combate flexible y una progresión basada en incursiones que recompensa la adaptación inteligente.
+</Callout>
+
+</Section>

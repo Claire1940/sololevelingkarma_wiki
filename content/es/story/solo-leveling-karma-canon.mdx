@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling Karma: Mecánicas de Combate y Comparación de Bendiciones",
+  description: "Domina Solo Leveling Karma con nuestra guía detallada de combate. Compara sistemas de armas, Bendiciones, invocaciones del Ejército de Sombras y estrategias contra jefes para el RPG de Netmarble de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Combat+and+Blessings+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Solo Leveling Karma"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Aprende a dominar el campo de batalla en **solo leveling karma** usando el intercambio de armas y las Bendiciones.
+- **Mecánica clave**: Cambia sin interrupciones entre múltiples tipos de armas durante el combate para romper las defensas enemigas.
+- **Mejor estrategia**: Combina mejoras de Bendiciones aleatorias para crear poderosas builds de roguelite específicas para cada partida.
+- **Consejo crítico**: Invoca Soldados de Sombra legendarios como Igris e Iron para ejecutar ataques combinados de alto impacto.
+- **Mejor opción**: Prioriza las armas de tipo Espada para un DPS rápido a corta distancia, pasando a armas de largo alcance por seguridad.
+</Callout>
+
+<Section icon={Swords} title="Fundamentos del Combate en Solo Leveling Karma">
+
+Desarrollado por Netmarble Neo, **solo leveling karma** es un próximo RPG de acción roguelite isométrico programado para su lanzamiento en la segunda mitad de 2026 en PC, iOS y Android. A diferencia de los títulos tradicionales centrados en la narrativa, este juego sumerge a los jugadores en la inexplorada guerra de 27 años de los Monarcas dentro de la Brecha Dimensional. El ciclo de juego principal se centra en la progresión por partidas, lo que requiere adaptarse a campos de batalla en constante cambio mediante el uso de sistemas de combate dinámicos.
+
+La base del combate en **solo leveling karma** se apoya en tres sistemas pilares: el intercambio adaptable de armas, las habilidades elementales y el apoyo en tiempo real del icónico Ejército de Sombras de Sung Jinwoo.
+
+| Pilar de Combate | Función Principal | Beneficio Táctico |
+| :--- | :--- | :--- |
+| Intercambio de Armas | Cambio instantáneo entre tipos de armas equipadas | Mantener la presión ofensiva y explotar las debilidades enemigas |
+| Sistema de Bendiciones | Mejoras aleatorias de habilidades y estadísticas por partida | Personaliza tu build dinámicamente durante cada incursión en la mazmorra |
+| Ejército de Sombras | Invocación de soldados leales como Igris e Iron | Distraer a jefes de élite y activar ataques combinados devastadores |
+
+<Callout type="tip" title="Consejo Profesional: Domina el Cambio">
+No te limites a un solo tipo de arma durante una incursión. Cambiar de arma en medio de un combo cancela las animaciones de recuperación, lo que te permite encadenar ataques pesados y mantener a las agresivas Bestias Mágicas aturdidas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía de Armas y Comparación de Estilos de Juego">
+
+En **solo leveling karma**, Sung Jinwoo tiene acceso a un arsenal versátil que incluye dagas, espadas dobles, mandobles, arcos, guadañas y martillos. Gestionar estas categorías de armas y comprender sus fortalezas y debilidades es vital para sobrevivir a los encuentros de alto nivel.
+
+<CardGrid cols={3}>
+  <Card title="Armas tipo Espada">
+    - **Rol de Combate**: Daño a corta distancia
+    - **Fortalezas**: Ataques cuerpo a cuerpo rápidos, excelente movilidad y enfrentamiento directo.
+    - **Debilidades**: Requiere permanecer peligrosamente cerca de enemigos de élite.
+  </Card>
+  <Card title="Armas de Largo Alcance">
+    - **Rol de Combate**: Control de distancia
+    - **Fortalezas**: Permite un posicionamiento seguro, presión constante a distancia y control de masas.
+    - **Debilidades**: Menor daño de ráfaga; requiere mantener la distancia.
+  </Card>
+  <Card title="Armas Especiales">
+    - **Rol de Combate**: Utilidad flexible
+    - **Fortalezas**: Alta sinergia con Bendiciones elementales y habilidades especializadas.
+    - **Debilidades**: Altamente dependiente de la sinergia de la build para ser efectiva.
+  </Card>
+</CardGrid>
+
+Para ayudarte a planificar tu equipo, la siguiente tabla compara las clases de armas principales reveladas por los desarrolladores, destacando sus roles de combate y estilos de juego ideales.
+
+| Clase de Arma | Rol de Combate | Fortaleza Principal | Estilo de Juego Ideal |
+| :--- | :--- | :--- | :--- |
+| Tipo Espada | DPS a corta distancia | Golpes rápidos, alta movilidad | Combate cuerpo a cuerpo agresivo |
+| Largo Alcance | Control de distancia | Posicionamiento seguro, presión a distancia | Kiting estratégico |
+| Armas Especiales | Sinergia flexible | Alta compatibilidad con Bendiciones | Builds centradas en la experimentación |
+
+<Callout type="warning" title="Restricciones de Armas">
+Algunas Bendiciones de alto nivel solo se aplican a clases de armas específicas (como potenciar el daño de corte para espadas o el daño de perforación para arcos). Alinea siempre tus Bendiciones activas con tus armas equipadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Funciona el Sistema de Bendiciones">
+
+El sistema de Bendiciones sirve como la mecánica principal de progresión roguelite en **solo leveling karma**. En lugar de depender de builds de personajes estáticas, cada partida presenta mejoras de Bendiciones aleatorias que alteran tus estadísticas, mejoran tus habilidades y dictan tu estrategia de combate.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Bendición Inicial">
+    Al comienzo de una incursión, elige entre un conjunto de Bendiciones iniciales aleatorias para establecer la base de tu estilo de juego.
+  </Step>
+  <Step num="2" title="Supera Etapas de Combate">
+    Derrota oleadas de Bestias Mágicas y despeja salas para adquirir opciones adicionales de Bendiciones, acumulando sus efectos progresivamente.
+  </Step>
+  <Step num="3" title="Sinergia con las Armas">
+    Selecciona mejoras que potencien directamente tus armas equipadas, como aumentar la velocidad de ataque para dagas o la tasa crítica para guadañas.
+  </Step>
+  <Step num="4" title="Activa Combos de Sombra">
+    Equipa Bendiciones avanzadas que activan habilidades cooperativas y efectos visuales al invocar a miembros de tu Ejército de Sombras.
+  </Step>
+</Steps>
+
+La tabla a continuación resume las categorías principales de Bendiciones que encontrarás durante tus incursiones dentro de la Brecha Dimensional.
+
+| Categoría de Bendición | Efecto Principal | Enfoque Estratégico |
+| :--- | :--- | :--- |
+| Mejora de Habilidades | Aumenta el nivel de habilidades y reduce enfriamientos | Estilos de juego basados en el spam de habilidades |
+| Crecimiento de Estadísticas | Potencia el poder ofensivo, la salud y la defensa | Supervivencia general y DPS puro |
+| Bendiciones Elementales | Añade efectos de rayo, escarcha o piedra a los ataques | Explotar las debilidades elementales de los jefes |
+| Sinergia de Sombras | Mejora las estadísticas de las sombras y activa combos | Rutas de build centradas en la invocación |
+
+<Callout type="success" title="Ventaja Elemental">
+Las imágenes oficiales de combate destacan tres elementos principales: Mensajero del Rayo, Mensajero de la Escarcha y Mensajero de la Piedra. Acumular Bendiciones de Escarcha es muy recomendable para principiantes, ya que ralentiza a jefes rápidos como Cerberus.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Invocación del Ejército de Sombras">
+
+Ningún juego de Solo Leveling está completo sin el Ejército de Sombras. En **solo leveling karma**, Sung Jinwoo puede invocar soldados de sombra leales para luchar junto a él en tiempo real, proporcionando tanto apoyo ofensivo como utilidad táctica.
+
+- **Igris**: El caballero leal regresa como un compañero cuerpo a cuerpo de alta movilidad. Destaca por ejecutar ataques de corte rápidos e iniciar maniobras de combo distintivas junto a Jinwoo.
+- **Iron**: Esta unidad tanque masiva es perfecta para el control de masas. Iron atrae la atención de los enemigos, absorbe golpes pesados y aturde a grandes grupos de Bestias Mágicas.
+- **Combos de Sombra**: Ciertas Bendiciones te permiten activar ataques conjuntos. Cuando se sincroniza correctamente, invocar una Sombra durante una animación de cambio de arma desata un golpe devastador que barre el campo de batalla.
+
+<Callout type="info" title="Invocación Táctica">
+No invoques a todo tu Ejército de Sombras a la vez. Reserva a Iron para las fases en las que los jefes ejecutan ataques de área amplia para ayudar a distraerlos, y libera a Igris cuando el jefe esté aturdido para maximizar tu ventana de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jefes Revelados Oficialmente y Estrategias">
+
+A medida que progreses por las mazmorras roguelite de **solo leveling karma**, te enfrentarás a Bestias Mágicas icónicas de la serie original, cada una con mecánicas únicas y señales visuales de alto contraste.
+
+| Nombre del Jefe | Estilo de Combate | Peligro Clave | Estrategia de Contraataque |
+| :--- | :--- | :--- | :--- |
+| Cerberus | Melé Agresivo | Ataques de fuego de área, quemadura continua | Esquiva los charcos de fuego, usa Bendiciones de Escarcha para ralentizarlo |
+| Líder Hobgoblin | Control de Masas | Invoca esbirros de apoyo, melé pesado | Elimina primero a los esbirros, usa a Iron para distraer al líder |
+| Vulcan el Avaricioso | Gran Daño de Área | Golpes masivos al suelo, daño de fuego sostenido | Mantén la distancia, explota sus lentas recuperaciones con armas de largo alcance |
+| Rey Demonio Baran | Asalto de Alta Velocidad | Ataques rápidos como el rayo, teletransporte | Sincroniza tus esquivas perfectamente, confía en combos de cambio rápido de arma |
+| Estatua del Templo de Cartenon | Peligro a Gran Escala | Láseres devastadores, trampas ambientales | Prioriza el movimiento constante y el posicionamiento seguro |
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Preparación antes del Jefe:"
+  items={[
+    "Equipa al menos un arma de Largo Alcance para la fase de kiting seguro",
+    "Acumula Bendiciones de Escarcha o Rayo para explotar debilidades elementales",
+    "Asegúrate de que las invocaciones de tu Ejército (Igris/Iron) no estén en enfriamiento",
+    "Identifica las zonas seguras en el campo de batalla antes de iniciar la pelea"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes de Solo Leveling Karma">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la fecha de lanzamiento de Solo Leveling Karma?",
+    answer: "Solo Leveling Karma está programado oficialmente para lanzarse en la segunda mitad de 2026 en las plataformas PC, iOS y Android."
+  },
+  {
+    question: "¿Es Solo Leveling Karma una secuela directa de Solo Leveling: Arise?",
+    answer: "No. Aunque ha sido desarrollado por el mismo estudio (Netmarble Neo), Solo Leveling Karma es un RPG de acción roguelite independiente que se centra en una historia original ambientada durante la guerra no contada de 27 años dentro de la Brecha Dimensional."
+  },
+  {
+    question: "¿Cómo afecta el sistema de Bendiciones al juego en Solo Leveling Karma?",
+    answer: "Las Bendiciones son mejoras aleatorias que se seleccionan durante cada partida. Mejoran tus estadísticas, potencian tus habilidades de armas y te permiten crear estilos de juego completamente únicos cada vez que entras en una mazmorra."
+  },
+  {
+    question: "¿Puedo jugar Solo Leveling Karma en Steam?",
+    answer: "Actualmente, Netmarble ha confirmado versiones para PC y móviles, pero se espera que se lance a través del Netmarble PC Launcher en lugar de Steam inicialmente."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,220 @@
+import { Swords, Shield, Map, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Combates de jefes en Solo Leveling KARMA: Guía de patrones de 2026",
+  description: "Aprende las configuraciones más seguras para los combates de jefes en Solo Leveling KARMA, patrones de jefes, enfrentamientos de armas y preparativos para tus partidas de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/fff?text=Boss+Fight+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Solo Leveling KARMA",
+  keywords: "solo leveling karma, combate de jefes, guía de patrones, mejores armas, bendiciones, cerberus, baran"
+}
+
+<Callout type="tip" title="Guía rápida">
+- **El combate de jefes en Solo Leveling KARMA** recompensa la paciencia, las esquivas limpias y las ventanas de daño cortas.
+- **Las bendiciones y el cambio de armas** deben definir tu build antes de entrar a la arena de un jefe.
+- **Cerberus, Baran y la Estatua del Dios** exigen primero movimiento y luego daño.
+- **Las partidas más seguras** se logran aprendiendo patrones, no forzando combos codiciosos.
+- **Las actualizaciones oficiales** siguen siendo la mejor fuente para descubrir nuevos jefes y sistemas.
+</Callout>
+
+<Section icon={Swords} title="Fundamentos del combate de jefes en Solo Leveling KARMA">
+
+La forma más segura de afrontar los encuentros de **combate de jefes en Solo Leveling KARMA** es tratar cada arena primero como una prueba de patrones y luego como un control de DPS. Los materiales oficiales de Netmarble apuntan hacia un ciclo de RPG de acción roguelite, por lo que tus mejores resultados provendrán de partidas repetidas, equipamientos flexibles y un posicionamiento disciplinado.
+
+<Callout type="info" title="Regla principal">
+La presión de los jefes en este juego parece favorecer el movimiento, el tiempo de ráfaga y las elecciones de build inteligentes por encima de la agresión constante.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Ofensiva agresiva">
+    - **Ideal para**: ventanas de oportunidad cortas
+    - **Fortaleza**: daño de ráfaga rápido
+    - **Riesgo**: castiga las esquivas descuidadas
+  </Card>
+  <Card title="Media distancia controlada">
+    - **Ideal para**: partidas de aprendizaje más seguras
+    - **Fortaleza**: espaciado más claro
+    - **Riesgo**: más débil si dudas demasiado tiempo
+  </Card>
+  <Card title="Juego apoyado por invocaciones">
+    - **Ideal para**: aliviar la presión
+    - **Fortaleza**: permite que las Sombras compartan el aggro
+    - **Riesgo**: depende de una sinergia de build limpia
+  </Card>
+</CardGrid>
+
+| Arquetipo de jefe | Qué castiga | Mejor respuesta |
+|---|---|---|
+| Luchador de corto alcance | Combos cuerpo a cuerpo codiciosos | Esquiva una vez, golpea una vez, restablece |
+| Lanzador de gran área de efecto (AoE) | Quedarse quieto | Reposiciónate temprano y con frecuencia |
+| Comandante de múltiples enemigos | Visión de túnel | Elimina los esbirros y luego vuelve a atacar |
+| Monstruo grande | Reacciones tardías | Lee los telégrafos y mantente en movimiento |
+
+Si quieres el punto de referencia oficial más confiable, mantén abierta la [página web oficial de Solo Leveling KARMA](https://sololeveling.netmarble.com/) mientras sigues las actualizaciones de revelaciones y notas de juego. Ese sitio es el lugar más limpio para verificar las mecánicas recién anunciadas antes de planificar una build.
+
+</Section>
+
+<Section icon={Shield} title="Prepara el equipamiento adecuado antes de cada jefe">
+
+Los combates de jefes en este juego deben prepararse en torno a las **Bendiciones**, la variedad de armas y la suficiente supervivencia para mantener la calma bajo presión. Las descripciones oficiales del juego destacan el cambio de armas, el apoyo del Ejército de Sombras y la variedad de builds basadas en cada partida, por lo que una configuración rígida suele ser menos flexible que una enfocada.
+
+<Callout type="warning" title="Evita este error">
+No te encierres en una configuración de daño puro si el jefe tiene cadenas de ataque largas o ráfagas de gran área. Necesitas herramientas de escape.
+</Callout>
+
+| Ranura de equipamiento | Enfoque recomendado | Por qué ayuda |
+|---|---|---|
+| Arma principal | Opción cuerpo a cuerpo rápida o a distancia segura | Te permite responder a diferentes aperturas |
+| Arma secundaria | Perfil de daño alternativo | Cubre enfrentamientos débiles y fases complicadas |
+| Bendiciones | Daño, supervivencia o mejoras de habilidad | Adapta tu partida al comportamiento del jefe |
+| Apoyo de Sombras | Presión confiable y distracción | Te da un respiro en arenas estrechas |
+
+<Checklist
+  id="boss-prep"
+  title="Lista de verificación antes del combate:"
+  items={[
+    "Elige un arma para las ventanas de ráfaga y otra para un espaciado más seguro",
+    "Elige Bendiciones que mejoren tu ritmo de combate preferido",
+    "Guarda las opciones de movimiento para los telégrafos más grandes del jefe",
+    "Usa el apoyo de Sombras para estabilizar las fases difíciles",
+    "Revisa el patrón de ataque del jefe antes de presionar para hacer daño"
+  ]}
+/>
+
+| Prioridad de la build | Buena elección | Por qué |
+|---|---|---|
+| Seguridad | Esquivas, espaciado, herramientas de reinicio | Te ayuda a sobrevivir en partidas más largas |
+| Consistencia | Ataques fáciles de leer | Reduce las decisiones de pánico |
+| Ráfaga | Combos cortos y repetibles | Convierte las pequeñas aperturas en daño |
+| Flexibilidad | Cambio de armas | Se adapta a los cambios de fase |
+
+Usa la [cuenta oficial de X de Solo Leveling KARMA](https://x.com/Sololv_KARMA_EN) para ver las publicaciones de revelaciones y lanzamientos multimedia si quieres adelantarte a los anuncios de equilibrio o de jefes. Para una guía de jefes, el tiempo es clave, y las publicaciones en redes sociales oficiales suelen aparecer primero.
+
+</Section>
+
+<Section icon={Map} title="Conoce la lista oficial de jefes y sus patrones de amenaza">
+
+La alineación de jefes revelada actualmente ofrece una imagen clara de lo que este juego espera de ti: mecánicas sólidas, grandes zonas de amenaza y fases de combate que castigan la vacilación. Cerberus, Avaricious Vulcan, el Rey Demonio Baran, el Líder Hobgoblin y la Estatua del Templo de Cartenon implican perfiles de peligro muy diferentes.
+
+<Callout type="tip" title="Consejo de lectura de patrones">
+Comienza cada combate observando los dos primeros telégrafos en lugar de apresurarte a hacer daño. Ese hábito revela rápidamente el ritmo del jefe.
+</Callout>
+
+| Jefe | Amenaza principal | Contramedida más segura |
+|---|---|---|
+| Cerberus | Agresión de múltiples golpes y presión de fuego | Circula hacia afuera, castiga después de los ataques de embestida |
+| Líder Hobgoblin | Esbirros y presión de grupo | Elimina primero a los enemigos de apoyo |
+| Avaricious Vulcan | Golpes pesados y de área amplia | Mantente en movimiento y evita compromisos largos |
+| Rey Demonio Baran | Ráfagas devastadoras a mitad de combate | Guarda la movilidad para sus ventanas más fuertes |
+| Estatua del Templo de Cartenon | Pruebas de supervivencia masivas | Concéntrate en la evasión y el posicionamiento |
+
+<Callout type="info" title="Lo que más importa">
+Estos combates consisten menos en memorizar un guion completo y más en reconocer uno o dos patrones de peligro repetidos desde el principio.
+</Callout>
+
+| Acción telegrafiada | Significado probable | Tu respuesta |
+|---|---|---|
+| Preparación lenta | Se aproxima un golpe pesado | Muévete primero, ataca después |
+| El jefe se detiene brevemente | Fin de una cadena de combo | Contraataca una o dos veces |
+| Efecto en toda la arena | Cambio de fase o peligro de área (AoE) | Vuelve al centro y restablece el espaciado |
+| Aparecen esbirros | Comienzo de la fase de control | Elimina a los esbirros antes de las ventanas de ráfaga |
+
+Los avances oficiales y las notas de lanzamiento son el mejor lugar para confirmar qué jefes están completamente revelados y cómo quiere presentarlos Netmarble. Esto es importante porque una guía de combate de jefes debe mantenerse ligada al material confirmado, no a los rumores.
+
+</Section>
+
+<Section icon={Target} title="Estrategia paso a paso para los combates de jefes de Solo Leveling KARMA">
+
+Un plan sólido para un jefe es simple: entra con una build estable, aprende el ritmo y luego inflige daño solo cuando la arena sea segura. Aquí es donde la mayoría de los jugadores pierden sus partidas. Se sobrecomprometen durante la primera buena oportunidad y luego son alcanzados por el siguiente patrón.
+
+<Callout type="success" title="Mejor práctica">
+Trata cada transición de fase como un punto de reinicio. Restablece el espaciado, recupera tu ritmo y solo entonces vuelve a presionar con el daño.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Comienza con la observación">
+    Dedica los primeros segundos a leer la velocidad de movimiento, la longitud del combo y el tiempo de las áreas de efecto (AoE). No busques hacer daño antes de conocer el patrón.
+  </Step>
+  <Step num="2" title="Gasta la movilidad con sabiduría">
+    Usa las esquivas y las herramientas de reposicionamiento solo cuando el jefe se comprometa con una amenaza real. El movimiento aleatorio dificulta el cálculo del tiempo, no lo facilita.
+  </Step>
+  <Step num="3" title="Ataca en ráfagas cortas">
+    Realiza un combo limpio y luego retírate. Si puedes añadir un seguimiento de forma segura, hazlo solo después de que la ventana de recuperación sea obvia.
+  </Step>
+  <Step num="4" title="Estabilízate durante los picos de presión">
+    Cuando aparezcan esbirros, zonas de fuego o ataques amplios, cambia inmediatamente del modo de daño al modo de supervivencia.
+  </Step>
+  <Step num="5" title="Cierra el combate con disciplina">
+    El tramo final es donde los movimientos codiciosos fallan con más frecuencia. Mantén el mismo ritmo que usaste con la salud baja y termina con control.
+  </Step>
+</Steps>
+
+| Error común | Por qué falla | Mejor hábito |
+|---|---|---|
+| Curarse demasiado tarde | No deja ventana de recuperación | Cúrate antes de recibir el próximo golpe importante |
+| Buscar cada apertura | Provoca un intercambio de daño desfavorable | Usa solo las ventanas garantizadas |
+| Ignorar a los esbirros | Crea presión adicional | Elimina primero a los enemigos de apoyo |
+| Spam de esquivas | Agota tus herramientas de escape | Esquiva solo ante ataques comprometidos |
+
+Si tu build se inclina hacia el combate cuerpo a cuerpo, necesitas una sincronización más estricta. Si se inclina hacia el ataque a distancia o el apoyo de invocaciones, ganas un poco más de espacio para respirar, pero se aplica la misma regla: sobrevive primero al patrón del jefe y luego aprovecha la oportunidad.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de combate de jefes y preguntas frecuentes">
+
+Antes de entrar a otra arena, asegúrate de que tu configuración sea enfocada y repetible. El marco oficial del juego sugiere un ciclo roguelite, lo que significa que la consistencia es más valiosa que una sola partida espectacular.
+
+<Callout type="tip" title="Recordatorio final">
+Una partida limpia con una build estable enseña más que cinco intentos apresurados con mejoras aleatorias.
+</Callout>
+
+<Checklist
+  id="final-boss-check"
+  title="Lista de verificación para el día del combate:"
+  items={[
+    "Confirma tu arma principal y tu arma de respaldo",
+    "Elige Bendiciones que coincidan con tu ritmo de daño",
+    "Revisa el telégrafo de apertura del jefe antes de entablar combate",
+    "Conserva suficiente movilidad para emergencias de fase tardía",
+    "Restablece tu espaciado después de cada secuencia de ataque importante"
+  ]}
+/>
+
+| Prioridad | Pregúntate | Si la respuesta es No |
+|---|---|---|
+| Supervivencia | ¿Puedo evitar dos golpes grandes seguidos? | Reestructura tu build para mayor seguridad |
+| Daño | ¿Puedo castigar después de cada apertura? | Acorta tu combo |
+| Control | ¿Puedo lidiar con los esbirros o la presión de área? | Cambia tus opciones de apoyo |
+| Consistencia | ¿Puedo repetir este plan en cada partida? | Simplifica la build |
+
+<Callout type="info" title="Enlaces de referencia oficiales">
+Usa la [página web oficial del juego](https://sololeveling.netmarble.com/) para las actualizaciones principales y la [cuenta oficial de X](https://x.com/Sololv_KARMA_EN) para las publicaciones de revelaciones y lanzamientos multimedia.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más segura de afrontar los encuentros de combate de jefes en Solo Leveling KARMA?",
+    answer: "Concéntrate en la lectura de patrones, ventanas de daño cortas y un movimiento controlado. Las partidas más seguras provienen de la paciencia, no de la agresión constante."
+  },
+  {
+    question: "¿Para qué jefes debería esperar prepararme primero?",
+    answer: "Las amenazas reveladas oficialmente incluyen a Cerberus, el Líder Hobgoblin, Avaricious Vulcan, el Rey Demonio Baran y la Estatua del Templo de Cartenon."
+  },
+  {
+    question: "¿Debería armar mi build para daño o para supervivencia?",
+    answer: "Comienza con supervivencia y consistencia, luego añade daño solo si ya te sientes cómodo con los telégrafos del jefe. Ese enfoque se adapta mejor a un RPG de acción roguelite."
+  },
+  {
+    question: "¿Importan las Bendiciones en los combates de jefes?",
+    answer: "Sí. Las Bendiciones definen tu partida, mejoran la sinergia con las armas y pueden hacer que los encuentros difíciles sean mucho más manejables cuando se eligen con intención."
+  }
+]} />
+
+</Section>

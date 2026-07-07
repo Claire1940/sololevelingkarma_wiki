@@ -1,0 +1,235 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía roguelike de acción de Solo Leveling KARMA: Consejos para principiantes",
+  description: "Aprende cómo afrontar Solo Leveling KARMA con consejos prácticos para principiantes, prioridades de armas, sinergia de Bendiciones y preparación de jefes para tus primeras partidas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/24124d/fff?text=Beginner+Tips",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Solo Leveling KARMA",
+  keywords: "solo leveling karma, guía roguelike, consejos principiantes, armas, bendiciones, ejército de sombras"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía roguelike de acción de Solo Leveling KARMA**: Concéntrate en el combate basado en partidas individuales, no en construcciones fijas.
+- **Armas y Bendiciones**: Adapta tus elecciones priorizando primero la supervivencia y, en segundo lugar, el daño.
+- **Ejército de Sombras**: Utiliza las invocaciones para controlar el espacio y crear ventanas de ataque más seguras.
+- **Preparación para jefes**: Aprende los patrones desde el principio y luego castiga sus aperturas con ráfagas disciplinadas.
+</Callout>
+
+<Section icon={Map} title="Fundamentos de Combate en Solo Leveling KARMA">
+
+Solo Leveling KARMA se perfila como un RPG de acción roguelite diseñado en torno a partidas repetidas, combate flexible y cambios de equipamiento de un intento a otro. El material oficial apunta a un lanzamiento en 2026 para PC, iOS y Android, con una historia original ambientada durante el período inexplorado de la guerra de 27 años del universo de Solo Leveling. Eso significa que el enfoque más seguro es tratar cada partida como un rompecabezas: aprender, adaptarse y mejorar.
+
+| Elemento Confirmado | Estado | Por Qué Importa |
+|---|---|---|
+| Tipo de Juego | RPG de acción roguelite | Las partidas recompensarán la adaptación y el aprendizaje constante |
+| Plataformas | PC, iOS, Android | Tu configuración debe adaptarse tanto al juego en escritorio como en móviles |
+| Ambientación | Período original de la guerra de 27 años | El contenido de la historia es nuevo, no solo una repetición de escenas conocidas |
+| Sistemas Centrales | Armas, Bendiciones, Ejército de Sombras | Estas son las capas principales que definen cada configuración |
+| Ventana de Lanzamiento | 2026 | Las actualizaciones oficiales importan más que la especulación |
+
+El sitio web oficial es el mejor lugar para mantener tus expectativas realistas: [Solo Leveling: KARMA](https://sololeveling.netmarble.com/). Para actualizaciones en redes sociales, guarda en favoritos la cuenta oficial de X en [@Sololv_KARMA_EN](https://x.com/Sololv_KARMA_EN) y el canal oficial de YouTube de Netmarble.
+
+<Callout type="info" title="Alcance Oficial">
+Mantente enfocado en los sistemas confirmados: armas, Bendiciones, apoyo del Ejército de Sombras, jefes y el despliegue en plataformas. Evita planificar demasiado en torno a características que aún no han sido anunciadas.
+</Callout>
+
+La lectura que un buen editor hace del juego es simple: el bucle de combate debería recompensar la toma de decisiones limpias más que el grindeo puro. Si quieres un comienzo estable, prioriza la supervivencia y el daño confiable antes de buscar combinaciones vistosas.
+
+| Qué Vigilar | Qué Significa Habitualmente | Respuesta del Jugador |
+|---|---|---|
+| Cambio de armas | Flujo de combate flexible | Practica las transiciones, no te limites a usar tu arma favorita |
+| Elección de Bendiciones | Mejoras que definen la partida | Elige la mejora que apoye tu plan de juego actual |
+| Sinergia del Ejército de Sombras | Presión y control adicionales | Usa las invocaciones para crear aperturas seguras |
+| Mecánicas de jefes | Encuentros basados en patrones | Guarda las esquivas para los avisos importantes, no para ataques menores |
+
+</Section>
+
+<Section icon={Target} title="Cómo Empezar tu Primera Partida">
+
+Tus primeras partidas deben centrarse en aprender el ritmo, no en demostrar tu capacidad de daño. La mentalidad más eficiente para el juego temprano es mantener tu configuración simple, registrar qué opciones te resultan confiables y evitar forzar una sinergia que solo funciona sobre el papel.
+
+<Steps>
+  <Step num="1" title="Elige un rango de combate cómodo">
+    Comienza con presión a corta distancia o con un juego más seguro a media/larga distancia. Una preferencia clara de rango hace que esquivar, medir las distancias y calcular los tiempos de los combos sea más fácil de leer.
+  </Step>
+  <Step num="2" title="Aprende un patrón de ataque confiable">
+    Construye tu juego en torno a un bucle básico que puedas repetir bajo presión. Si un combo solo funciona en condiciones perfectas, es demasiado frágil para tus primeras partidas.
+  </Step>
+  <Step num="3" title="Invierte mejoras en la consistencia">
+    Elige mejoras que aumenten la supervivencia, la movilidad o el daño estable antes de buscar bonificaciones de nicho que dependan de combinaciones de botín raras.
+  </Step>
+  <Step num="4" title="Analiza qué ha fallado">
+    Después de cada partida, identifica si el problema fue el posicionamiento, el tiempo de reacción o la selección de mejoras. Corregir un error a la vez genera un progreso más rápido.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Regla de la Primera Partida">
+Si una opción parece vistosa pero poco confiable, evítala. En el estilo de juego roguelite, las victorias constantes suelen provenir de hábitos estables, no de configuraciones arriesgadas para destacar.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Cuerpo a Cuerpo Agresivo">
+    - **Ideal para:** jugadores que prefieren la presión directa  
+    - Entradas rápidas y ventanas de castigo veloces  
+    - Más peligroso si fallas al esquivar
+  </Card>
+  <Card title="Híbrido Equilibrado">
+    - **Ideal para:** aprendizaje flexible  
+    - Mezcla ataque, movimiento y recuperación  
+    - Más fácil de ajustar cuando una partida se complica
+  </Card>
+  <Card title="Control Seguro">
+    - **Ideal para:** victorias tempranas cautelosas  
+    - Ofrece más espacio para el tiempo de reacción  
+    - Fuerte cuando los patrones de los jefes aún no son familiares
+  </Card>
+</CardGrid>
+
+| Objetivo Temprano | Qué Hacer | Por Qué Ayuda |
+|---|---|---|
+| Aprender las distancias | Lucha en un rango que puedas controlar | Reduce el pánico y los movimientos innecesarios |
+| Practicar la esquiva | Reacciona primero a los avisos más obvios | Desarrolla confianza para las fases de los jefes |
+| Tener un plan de respaldo | Mantén un segundo plan de ataque | Ayuda cuando tu configuración preferida no está disponible |
+| Vigilar los enfriamientos | Evita rotaciones vacías | Mantiene el flujo de daño activo durante las aperturas |
+
+</Section>
+
+<Section icon={Swords} title="Sinergia entre Armas, Bendiciones y el Ejército de Sombras">
+
+El hábito más fuerte al principio es tratar las armas, las Bendiciones y el Ejército de Sombras como un único sistema unificado en lugar de tres características separadas. Cuando estas piezas se apoyan entre sí, tus partidas fluyen mejor. Cuando chocan, terminas pasando demasiado tiempo cubriendo debilidades en lugar de maximizar el daño.
+
+<Callout type="warning" title="Error de Configuración a Evitar">
+No te encasilles en una configuración solo porque una parte parezca fuerte. Un arma excelente con un soporte deficiente de Bendiciones puede resultar peor que una combinación más simple con una sinergia más limpia.
+</Callout>
+
+| Sistema | Tarea Principal | Mejor Uso | Riesgo Común |
+|---|---|---|---|
+| Armas | Daño principal y rango de combate | Flujo de combate directo | Comprometerse demasiado con un solo rango |
+| Bendiciones | Escalamiento entre partidas | Adaptar la configuración al momento | Elegir mejoras que no conectan entre sí |
+| Ejército de Sombras | Presión y control del campo | Crear ventanas de ataque más seguras | Depender de las invocaciones para resolverlo todo |
+| Conocimiento de Jefes | Lectura de patrones | Sobrevivir a encuentros difíciles | Daño codicioso durante fases peligrosas |
+
+El enfoque de juego oficial sugiere que el combate flexible importa más que un único equipamiento "perfecto". Eso hace que la elección de la categoría de arma sea especialmente importante.
+
+| Tipo de Arma | Ideal Para | Fortaleza | Debilidad |
+|---|---|---|---|
+| Armas tipo espada | Ofensiva a corta distancia | Presión rápida y golpes directos | Requiere un posicionamiento sólido |
+| Armas de largo alcance | Combate más seguro | Control de distancia y espacio | Puede rendir menos si te mantienes demasiado lejos |
+| Armas especiales | Configuraciones adaptables | Gran potencial de sinergia | Depende en gran medida del resto de la partida |
+
+| Estilo de Bendición | Qué Mejora | Cuándo Destaca |
+|---|---|---|
+| Prioridad de Daño | Velocidad de ráfaga y limpieza | Cuando tu arma ya se siente estable |
+| Prioridad de Sustento | Seguridad y recuperación | Cuando los enemigos te presionan intensamente |
+| Prioridad de Movilidad | Esquiva y reposicionamiento | Cuando los patrones de los jefes exigen movimiento |
+| Prioridad de Sinergia | Valor combinado entre sistemas | Cuando tu partida ya está definiendo un tema claro |
+
+Una regla práctica es elegir la Bendición que reduzca tus errores. El daño bruto solo importa si sobrevives lo suficiente para aplicarlo. El apoyo del Ejército de Sombras se vuelve más valioso cuando te ayuda a controlar el espacio, interrumpir la presión enemiga o ganar tiempo para recuperar tu ritmo.
+
+</Section>
+
+<Section icon={Sparkles} title="Prioridades de Configuración para Partidas Más Seguras">
+
+Si quieres que tus primeras victorias se sientan más fluidas, organiza tus decisiones por orden de prioridad. En una estructura roguelite, la primera mejora que eliges suele influir en el resto de la partida más de lo que esperas. Por eso debes favorecer la estabilidad antes que la especialización.
+
+<Callout type="success" title="Orden de Prioridad Práctico">
+Comienza con la supervivencia, luego el daño confiable, después la movilidad y, solo entonces, busca la sinergia perfecta. Este orden mantiene tu configuración funcional incluso cuando la partida te ofrece opciones incómodas.
+</Callout>
+
+| Prioridad | Enfoque | Por Qué Va Primero |
+|---|---|---|
+| 1 | Herramientas de supervivencia | Mantiene la partida viva ante los errores |
+| 2 | Daño confiable | Te permite limpiar salas sin estancarte |
+| 3 | Movilidad | Hace que los avisos de los jefes sean más fáciles de responder |
+| 4 | Opciones de sinergia | Mejora una configuración que ya funciona |
+| 5 | Extras de utilidad | Buen valor adicional, pero rara vez la primera opción |
+
+| Patrón de Configuración | Objetivo Simple | Ideal Para |
+|---|---|---|
+| Presión directa | Golpear fuerte y seguir moviéndose | Jugadores que prefieren un ritmo agresivo |
+| Distanciamiento controlado | Atacar desde ángulos más seguros | Jugadores que valoran la supervivencia |
+| Cambio flexible | Adaptarse al tipo de enemigo | Partidas con presiones enemigas mixtas |
+| Soporte de invocaciones | Dejar que los aliados creen aperturas | Encuentros con un fuerte control de pantalla |
+
+Una pauta útil de edición es evitar sobrevalorar las combinaciones "perfectas" antes de comprender el encuentro en sí. Si una Bendición mejora tu capacidad para esquivar, reposicionarte o recuperarte de un error, a menudo es más valiosa que una bonificación de daño vistosa.
+
+Utiliza esta breve lista de verificación para evaluar las mejoras durante una partida:
+
+<Checklist
+  id="build-priority-checklist"
+  title="Lista de Verificación de Planificación de Partida:"
+  items={[
+    "¿Esta elección mejora la supervivencia o la movilidad?",
+    "¿Mi arma sigue sintiéndose fácil de controlar?",
+    "¿Mis Bendiciones apoyan el mismo plan de combate?",
+    "¿Puedo manejar una fase de jefe si la pelea se alarga?"
+  ]}
+/>
+
+El material oficial de 2026 también sugiere que el juego está diseñado para la experimentación repetible. Eso significa que tu mejor estrategia a largo plazo es construir un pequeño conjunto de hábitos confiables que funcionen en múltiples partidas, en lugar de memorizar una ruta rígida.
+
+</Section>
+
+<Section icon={Trophy} title="Preparación de Jefes, Lista de Verificación y Preguntas Frecuentes">
+
+Las peleas de jefes son donde se pone a prueba la lógica de tu configuración. La mejor manera de prepararse es comprender qué tipo de presión genera cada encuentro y luego elegir una respuesta que te mantenga en movimiento. No necesitas superar todo a la vez; solo necesitas sobrevivir a las partes peligrosas el tiempo suficiente para ganar el intercambio.
+
+| Jefe | Amenaza Principal | Mejor Respuesta |
+|---|---|---|
+| Cerberus | Presión de múltiples golpes y zonas de fuego | Mantente en movimiento y castiga tras aperturas claras |
+| Líder Hobgoblin | Enemigos adicionales y agresión cuerpo a cuerpo | Limpia el campo y evita quedar acorralado |
+| Vulcan el Avaricioso | Daño de área masivo | Guarda las herramientas de movimiento para los avisos grandes |
+| Baran | Patrones de ataque con ráfagas intensas | Mantén la paciencia y evita intercambios codiciosos |
+| Estatua del Creador | Presión masiva en la arena | Prioriza las ventanas de supervivencia sobre los golpes adicionales |
+
+<Callout type="info" title="Regla de Preparación de Jefes">
+Si puedes identificar el patrón, la pelea se vuelve manejable. Si intentas forzar el daño antes de entender el conjunto de movimientos, el encuentro generalmente se complicará.
+</Callout>
+
+Usa la siguiente lista de verificación antes de entrar a un encuentro difícil:
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Lista de Verificación de Preparación de Jefes:"
+  items={[
+    "Lleva una configuración que siga funcionando bajo presión",
+    "Mantén al menos una opción de esquiva confiable disponible",
+    "Sabe qué patrones de ataque son los más seguros de castigar",
+    "Evita gastar todos los recursos durante la fase de apertura",
+    "Usa el apoyo del Ejército de Sombras para crear espacio para respirar"
+  ]}
+/>
+
+Para el seguimiento del lanzamiento, mantén los canales oficiales abiertos en una nueva pestaña y consúltalos regularmente:
+- [Sitio web oficial de Solo Leveling: KARMA](https://sololeveling.netmarble.com/)
+- [Cuenta oficial de X](https://x.com/Sololv_KARMA_EN)
+- [Canal oficial de YouTube de Netmarble](https://www.youtube.com/@NetmarbleOfficial)
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de abordar el contenido de la guía roguelike de acción de Solo Leveling KARMA como principiante?",
+    answer: "Comienza con la supervivencia, luego aprende un rango de ataque confiable y, solo entonces, añade Bendiciones o armas que expandan tus opciones."
+  },
+  {
+    question: "¿Debería centrarme primero en el daño o en la defensa?",
+    answer: "La defensa y la consistencia deben ser lo primero. El daño importa, pero solo después de que tu personaje pueda sobrevivir a los errores comunes y a la presión de los jefes."
+  },
+  {
+    question: "¿Qué tan importante es el Ejército de Sombras en Solo Leveling KARMA?",
+    answer: "Muy importante. El Ejército de Sombras debe ayudarte a controlar el espacio, crear ventanas seguras y apoyar tu propio flujo de combate."
+  },
+  {
+    question: "¿Qué debería vigilar antes del lanzamiento?",
+    answer: "Sigue las actualizaciones oficiales sobre las fechas de lanzamiento, los detalles de las plataformas, las demostraciones de combate y cualquier nueva revelación de jefes o sistemas."
+  }
+]} />
+
+</Section>

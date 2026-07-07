@@ -1,1 +1,470 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "solo-leveling-karma-antares",
+        "file": "solo-leveling-karma-antares"
+      },
+      {
+        "slug": "solo-leveling-karma-bellion",
+        "file": "solo-leveling-karma-bellion"
+      },
+      {
+        "slug": "solo-leveling-karma-characters",
+        "file": "solo-leveling-karma-characters"
+      },
+      {
+        "slug": "solo-leveling-karma-main-character",
+        "file": "solo-leveling-karma-main-character"
+      },
+      {
+        "slug": "solo-leveling-karma-sung-jin-woo",
+        "file": "solo-leveling-karma-sung-jin-woo"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "solo-leveling-karma-action-rpg",
+        "file": "solo-leveling-karma-action-rpg"
+      },
+      {
+        "slug": "solo-leveling-karma-boss-fight",
+        "file": "solo-leveling-karma-boss-fight"
+      },
+      {
+        "slug": "solo-leveling-karma-combat",
+        "file": "solo-leveling-karma-combat"
+      },
+      {
+        "slug": "solo-leveling-karma-gameplay",
+        "file": "solo-leveling-karma-gameplay"
+      },
+      {
+        "slug": "solo-leveling-karma-roguelike",
+        "file": "solo-leveling-karma-roguelike"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "solo-leveling-karma-action-roguelike-guide",
+        "file": "solo-leveling-karma-action-roguelike-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-beginner-guide",
+        "file": "solo-leveling-karma-beginner-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-gameplay-guide",
+        "file": "solo-leveling-karma-gameplay-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-system-guide",
+        "file": "solo-leveling-karma-system-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-walkthrough",
+        "file": "solo-leveling-karma-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "solo-leveling-karma-android",
+        "file": "solo-leveling-karma-android"
+      },
+      {
+        "slug": "solo-leveling-karma-ios",
+        "file": "solo-leveling-karma-ios"
+      },
+      {
+        "slug": "solo-leveling-karma-mobile",
+        "file": "solo-leveling-karma-mobile"
+      },
+      {
+        "slug": "solo-leveling-karma-pc",
+        "file": "solo-leveling-karma-pc"
+      },
+      {
+        "slug": "solo-leveling-karma-steam",
+        "file": "solo-leveling-karma-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "solo-leveling-karma-platform",
+        "file": "solo-leveling-karma-platform"
+      },
+      {
+        "slug": "solo-leveling-karma-pre-registration",
+        "file": "solo-leveling-karma-pre-registration"
+      },
+      {
+        "slug": "solo-leveling-karma-release-date",
+        "file": "solo-leveling-karma-release-date"
+      },
+      {
+        "slug": "solo-leveling-karma-release-window",
+        "file": "solo-leveling-karma-release-window"
+      },
+      {
+        "slug": "solo-leveling-karma-release",
+        "file": "solo-leveling-karma-release"
+      }
+    ],
+    "story": [
+      {
+        "slug": "solo-leveling-karma-anime",
+        "file": "solo-leveling-karma-anime"
+      },
+      {
+        "slug": "solo-leveling-karma-canon",
+        "file": "solo-leveling-karma-canon"
+      },
+      {
+        "slug": "solo-leveling-karma-manhwa",
+        "file": "solo-leveling-karma-manhwa"
+      },
+      {
+        "slug": "solo-leveling-karma-new-story",
+        "file": "solo-leveling-karma-new-story"
+      },
+      {
+        "slug": "solo-leveling-karma-story",
+        "file": "solo-leveling-karma-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "solo-leveling-karma-gameplay-trailer",
+        "file": "solo-leveling-karma-gameplay-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-official-trailer",
+        "file": "solo-leveling-karma-official-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-opening",
+        "file": "solo-leveling-karma-opening"
+      },
+      {
+        "slug": "solo-leveling-karma-story-trailer",
+        "file": "solo-leveling-karma-story-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-trailer",
+        "file": "solo-leveling-karma-trailer"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "solo-leveling-karma-antares",
+        "file": "solo-leveling-karma-antares"
+      },
+      {
+        "slug": "solo-leveling-karma-bellion",
+        "file": "solo-leveling-karma-bellion"
+      },
+      {
+        "slug": "solo-leveling-karma-characters",
+        "file": "solo-leveling-karma-characters"
+      },
+      {
+        "slug": "solo-leveling-karma-main-character",
+        "file": "solo-leveling-karma-main-character"
+      },
+      {
+        "slug": "solo-leveling-karma-sung-jin-woo",
+        "file": "solo-leveling-karma-sung-jin-woo"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "solo-leveling-karma-action-rpg",
+        "file": "solo-leveling-karma-action-rpg"
+      },
+      {
+        "slug": "solo-leveling-karma-boss-fight",
+        "file": "solo-leveling-karma-boss-fight"
+      },
+      {
+        "slug": "solo-leveling-karma-combat",
+        "file": "solo-leveling-karma-combat"
+      },
+      {
+        "slug": "solo-leveling-karma-gameplay",
+        "file": "solo-leveling-karma-gameplay"
+      },
+      {
+        "slug": "solo-leveling-karma-roguelike",
+        "file": "solo-leveling-karma-roguelike"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "solo-leveling-karma-action-roguelike-guide",
+        "file": "solo-leveling-karma-action-roguelike-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-beginner-guide",
+        "file": "solo-leveling-karma-beginner-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-gameplay-guide",
+        "file": "solo-leveling-karma-gameplay-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-system-guide",
+        "file": "solo-leveling-karma-system-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-walkthrough",
+        "file": "solo-leveling-karma-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "solo-leveling-karma-android",
+        "file": "solo-leveling-karma-android"
+      },
+      {
+        "slug": "solo-leveling-karma-ios",
+        "file": "solo-leveling-karma-ios"
+      },
+      {
+        "slug": "solo-leveling-karma-mobile",
+        "file": "solo-leveling-karma-mobile"
+      },
+      {
+        "slug": "solo-leveling-karma-pc",
+        "file": "solo-leveling-karma-pc"
+      },
+      {
+        "slug": "solo-leveling-karma-steam",
+        "file": "solo-leveling-karma-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "solo-leveling-karma-platform",
+        "file": "solo-leveling-karma-platform"
+      },
+      {
+        "slug": "solo-leveling-karma-pre-registration",
+        "file": "solo-leveling-karma-pre-registration"
+      },
+      {
+        "slug": "solo-leveling-karma-release-date",
+        "file": "solo-leveling-karma-release-date"
+      },
+      {
+        "slug": "solo-leveling-karma-release-window",
+        "file": "solo-leveling-karma-release-window"
+      },
+      {
+        "slug": "solo-leveling-karma-release",
+        "file": "solo-leveling-karma-release"
+      }
+    ],
+    "story": [
+      {
+        "slug": "solo-leveling-karma-anime",
+        "file": "solo-leveling-karma-anime"
+      },
+      {
+        "slug": "solo-leveling-karma-canon",
+        "file": "solo-leveling-karma-canon"
+      },
+      {
+        "slug": "solo-leveling-karma-manhwa",
+        "file": "solo-leveling-karma-manhwa"
+      },
+      {
+        "slug": "solo-leveling-karma-new-story",
+        "file": "solo-leveling-karma-new-story"
+      },
+      {
+        "slug": "solo-leveling-karma-story",
+        "file": "solo-leveling-karma-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "solo-leveling-karma-gameplay-trailer",
+        "file": "solo-leveling-karma-gameplay-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-official-trailer",
+        "file": "solo-leveling-karma-official-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-opening",
+        "file": "solo-leveling-karma-opening"
+      },
+      {
+        "slug": "solo-leveling-karma-story-trailer",
+        "file": "solo-leveling-karma-story-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-trailer",
+        "file": "solo-leveling-karma-trailer"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "solo-leveling-karma-antares",
+        "file": "solo-leveling-karma-antares"
+      },
+      {
+        "slug": "solo-leveling-karma-bellion",
+        "file": "solo-leveling-karma-bellion"
+      },
+      {
+        "slug": "solo-leveling-karma-characters",
+        "file": "solo-leveling-karma-characters"
+      },
+      {
+        "slug": "solo-leveling-karma-main-character",
+        "file": "solo-leveling-karma-main-character"
+      },
+      {
+        "slug": "solo-leveling-karma-sung-jin-woo",
+        "file": "solo-leveling-karma-sung-jin-woo"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "solo-leveling-karma-action-rpg",
+        "file": "solo-leveling-karma-action-rpg"
+      },
+      {
+        "slug": "solo-leveling-karma-boss-fight",
+        "file": "solo-leveling-karma-boss-fight"
+      },
+      {
+        "slug": "solo-leveling-karma-combat",
+        "file": "solo-leveling-karma-combat"
+      },
+      {
+        "slug": "solo-leveling-karma-gameplay",
+        "file": "solo-leveling-karma-gameplay"
+      },
+      {
+        "slug": "solo-leveling-karma-roguelike",
+        "file": "solo-leveling-karma-roguelike"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "solo-leveling-karma-action-roguelike-guide",
+        "file": "solo-leveling-karma-action-roguelike-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-beginner-guide",
+        "file": "solo-leveling-karma-beginner-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-gameplay-guide",
+        "file": "solo-leveling-karma-gameplay-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-system-guide",
+        "file": "solo-leveling-karma-system-guide"
+      },
+      {
+        "slug": "solo-leveling-karma-walkthrough",
+        "file": "solo-leveling-karma-walkthrough"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "solo-leveling-karma-android",
+        "file": "solo-leveling-karma-android"
+      },
+      {
+        "slug": "solo-leveling-karma-ios",
+        "file": "solo-leveling-karma-ios"
+      },
+      {
+        "slug": "solo-leveling-karma-mobile",
+        "file": "solo-leveling-karma-mobile"
+      },
+      {
+        "slug": "solo-leveling-karma-pc",
+        "file": "solo-leveling-karma-pc"
+      },
+      {
+        "slug": "solo-leveling-karma-steam",
+        "file": "solo-leveling-karma-steam"
+      }
+    ],
+    "release": [
+      {
+        "slug": "solo-leveling-karma-platform",
+        "file": "solo-leveling-karma-platform"
+      },
+      {
+        "slug": "solo-leveling-karma-pre-registration",
+        "file": "solo-leveling-karma-pre-registration"
+      },
+      {
+        "slug": "solo-leveling-karma-release-date",
+        "file": "solo-leveling-karma-release-date"
+      },
+      {
+        "slug": "solo-leveling-karma-release-window",
+        "file": "solo-leveling-karma-release-window"
+      },
+      {
+        "slug": "solo-leveling-karma-release",
+        "file": "solo-leveling-karma-release"
+      }
+    ],
+    "story": [
+      {
+        "slug": "solo-leveling-karma-anime",
+        "file": "solo-leveling-karma-anime"
+      },
+      {
+        "slug": "solo-leveling-karma-canon",
+        "file": "solo-leveling-karma-canon"
+      },
+      {
+        "slug": "solo-leveling-karma-manhwa",
+        "file": "solo-leveling-karma-manhwa"
+      },
+      {
+        "slug": "solo-leveling-karma-new-story",
+        "file": "solo-leveling-karma-new-story"
+      },
+      {
+        "slug": "solo-leveling-karma-story",
+        "file": "solo-leveling-karma-story"
+      }
+    ],
+    "trailer": [
+      {
+        "slug": "solo-leveling-karma-gameplay-trailer",
+        "file": "solo-leveling-karma-gameplay-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-official-trailer",
+        "file": "solo-leveling-karma-official-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-opening",
+        "file": "solo-leveling-karma-opening"
+      },
+      {
+        "slug": "solo-leveling-karma-story-trailer",
+        "file": "solo-leveling-karma-story-trailer"
+      },
+      {
+        "slug": "solo-leveling-karma-trailer",
+        "file": "solo-leveling-karma-trailer"
+      }
+    ]
+  }
+}

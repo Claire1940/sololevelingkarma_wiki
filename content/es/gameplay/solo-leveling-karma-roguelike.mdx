@@ -1,0 +1,200 @@
+import { Map, Target, Swords, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling KARMA: Guía para Principiantes, Builds y Consejos de Jefes",
+  description: "Aprende las prioridades de la primera partida en Solo Leveling KARMA, la sinergia de armas y bendiciones, la preparación para jefes y los detalles del lanzamiento oficial en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7C3AED/fff?text=Solo+Leveling+KARMA+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Solo Leveling KARMA"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Solo Leveling KARMA** combina partidas roguelite y combate de RPG de acción, por lo que cada intento debe avanzar hacia un plan claro.
+- Las **Bendiciones** impulsan el crecimiento entre partidas, haciendo que la sinergia sea más importante que buscar mejoras aleatorias.
+- El apoyo del **Ejército de Sombras** recompensa la paciencia, el posicionamiento y las ventanas de daño explosivo despejadas contra enemigos de élite y jefes.
+- Se ha confirmado que **PC, iOS y Android** serán las plataformas de lanzamiento para la ventana de estreno en 2026.
+</Callout>
+
+<Section icon={Map} title="Resumen del Lanzamiento de Solo Leveling KARMA">
+
+Solo Leveling KARMA está diseñado como un RPG de acción roguelite rápido y rejugable, en lugar de un juego de grindeo con builds fijas. La forma más segura de seguir el juego es a través del portal oficial, el sitio principal y los canales sociales de Netmarble, que son los lugares más confiables para obtener noticias sobre el lanzamiento y actualizaciones de tráileres.
+
+<Callout type="info" title="Puntos de Partida Oficiales">
+Guarda estos enlaces en marcadores para obtener la cobertura de lanzamiento más limpia: [sitio web oficial](https://sololeveling.netmarble.com/), [portal KARMA](https://sololeveling-karma.netmarble.com/en/), [X oficial](https://x.com/Sololv_KARMA_EN) y el [YouTube de Netmarble](https://www.youtube.com/@NetmarbleOfficial).
+</Callout>
+
+| Dato | Detalles |
+|---|---|
+| Tipo de juego | RPG de acción roguelite |
+| Ventana de lanzamiento | 2026 |
+| Plataformas | PC, iOS, Android |
+| Gancho de la historia | Narrativa original durante la guerra de 27 años |
+| Sistemas principales | Armas, Bendiciones, Ejército de Sombras |
+| Idiomas soportados | Inglés, japonés, español |
+
+Un plan de lanzamiento sólido comienza con lo básico: comprender la hoja de ruta de las plataformas, estar atento a las actualizaciones de los tráileres y tratar el juego primero como un bucle de creación de builds y luego como un RPG de acción centrado en la historia.
+
+</Section>
+
+<Section icon={Target} title="Primeras Partidas y Prioridades de Combate">
+
+Tus primeras partidas deben centrarse en la consistencia, no en el daño llamativo. El bucle principal parece estar construido en torno a intentos repetidos, selección inteligente de mejoras y aprender cuándo atacar, reiniciar o reposicionarse. Si te decides por un único estilo de combate desde el principio, cada elección de Bendición será más fácil de evaluar.
+
+<Callout type="tip" title="Mentalidad de Principiante">
+Elige una dirección de daño, un hábito de supervivencia y una regla de respuesta ante jefes antes de empezar a buscar una dificultad más alta.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Cuerpo a Cuerpo Agresivo">
+    - **Ideal para:** Jugadores que disfrutan de la presión a corta distancia
+    - **Fortaleza:** Ventanas de castigo rápidas
+    - **Riesgo:** Muy castigado por un mal posicionamiento
+  </Card>
+  <Card title="A Distancia Seguro">
+    - **Ideal para:** Jugadores que valoran el control
+    - **Fortaleza:** Posicionamiento más fácil y reinicios más seguros
+    - **Riesgo:** Menor presión si juegas demasiado a la distancia
+  </Card>
+  <Card title="Híbrido Flexible">
+    - **Ideal para:** Experimentadores
+    - **Fortaleza:** Planificación de partidas adaptable
+    - **Riesgo:** Sinergia débil si las elecciones no se enfocan
+  </Card>
+</CardGrid>
+
+| Prioridad | En qué centrarse | Por qué es importante |
+|---|---|---|
+| Aprender el movimiento | Tiempos de esquiva, posicionamiento, reinicios | Los jefes castigan los intercambios codiciosos |
+| Comprometerse con un estilo | Cuerpo a cuerpo, a distancia o híbrido | Mantiene las mejoras coherentes |
+| Priorizar elecciones con sinergia | Daño, estadísticas, apoyo | El valor acumulativo supera al poder aleatorio |
+| Guardar ventanas de ráfaga | Después de que el enemigo se comprometa | Daño más seguro y eliminaciones más limpias |
+
+<Steps>
+  <Step num="1" title="Elige un Estilo de Combate">
+    Comienza con cuerpo a cuerpo, a distancia o híbrido y evita dividir tus mejoras iniciales en demasiadas direcciones.
+  </Step>
+  <Step num="2" title="Lee las Primeras Bendiciones">
+    Prioriza las elecciones que refuercen tu estilo, especialmente aumentos de daño, supervivencia o sinergia de armas.
+  </Step>
+  <Step num="3" title="Usa las Sombras para Aliviar la Presión">
+    Deja que el Ejército de Sombras cree espacio, luego entra en acción solo cuando los enemigos se hayan comprometido con un ataque.
+  </Step>
+  <Step num="4" title="Revisa Qué Falló">
+    Después de que termine una partida, identifica si el problema fue el posicionamiento, una mala combinación de mejoras o una mala sincronización de la ráfaga.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergia de Armas, Bendiciones y Ejército de Sombras">
+
+La mayor fortaleza de Solo Leveling KARMA es cómo se complementan sus sistemas. Las armas marcan tu ritmo de combate, las Bendiciones definen la identidad de tu partida y el apoyo del Ejército de Sombras convierte las buenas decisiones en victorias más seguras. Si una pieza choca con las demás, tu build se sentirá más débil incluso cuando los números individuales parezcan buenos.
+
+<Callout type="warning" title="Trampa de Build a Evitar">
+No busques cada mejora que parezca fuerte. En un roguelite, el poder disperso suele perder frente a una configuración enfocada con sinergia real.
+</Callout>
+
+| Sistema | Rol principal | Ideal para | Riesgo principal |
+|---|---|---|---|
+| Armas | Patrón de combate principal | Planificación de daño directo | Cambiar sin un propósito |
+| Bendiciones | Escalado y sinergia de partida | Juego enfocado en la build | Elegir mejoras incompatibles |
+| Ejército de Sombras | Soporte y presión | Ventanas de ráfaga más seguras | Extenderse demasiado sin cobertura |
+| Partidas roguelite | Rejugabilidad y adaptación | Aprender a través de la repetición | Tratar cada partida de la misma manera |
+
+| Tipo de arma | Alcance | Mejor uso | Notas |
+|---|---|---|---|
+| Armas tipo espada | Cuerpo a cuerpo | Presión rápida | Fuerte cuando puedes mantenerte cerca |
+| Armas de largo alcance | Distancia | Control más seguro | Ayuda a proteger la salud y el ritmo |
+| Armas especiales | Mixto | Builds flexibles | Depende en gran medida de la sinergia de Bendiciones |
+
+Usa esta regla general: si tu arma requiere contacto cercano, elige Bendiciones que te ayuden a sobrevivir y a pegarte a los objetivos; si tu arma recompensa la distancia, elige mejoras que mantengan a los enemigos en tu zona de control. Esa lógica debería facilitar mucho las elecciones iniciales de build.
+
+<Callout type="tip" title="Regla Simple de Sinergia">
+Si una Bendición ayuda a tu estilo de arma actual, generalmente es más fuerte que una mejora genérica sin una conexión real.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación de Jefes y Planificación de Partidas">
+
+Los encuentros con jefes deben abordarse como pruebas de patrones, no como carreras de daño. Los tráileres oficiales destacan amenazas icónicas como Cerberus, Baran, la Estatua del Creador y otros enemigos de alta presión, lo que significa que la disciplina de movimiento importa tanto como el daño infligido.
+
+<Callout type="success" title="Objetivo en la Batalla de Jefe">
+La mejor preparación para un jefe es la ejecución tranquila: aprende el patrón, mantén un buen posicionamiento y usa tu ráfaga de daño solo después de que aparezca una apertura segura.
+</Callout>
+
+| Jefe | Presión principal | Mejor respuesta | Prioridad |
+|---|---|---|---|
+| Cerberus | Zonas de fuego y cuerpo a cuerpo agresivo | Muévete temprano, no te quedes estático | Alta |
+| Líder Hobgoblin | Esbirros más presión a corta distancia | Elimina los esbirros y mantén el espacio | Alta |
+| Vulcan el Avaricioso | Daño de área pesado | Espera a ventanas de ráfaga seguras | Alta |
+| Rey Demonio Baran | Presión de jefe de alto nivel | Castiga solo después de ataques claros | Muy alta |
+| Estatua del Templo de Cartenon | Grandes pruebas de supervivencia | Céntrate primero en el movimiento | Muy alta |
+
+Un plan de jefe limpio generalmente sigue tres reglas: mantén una ruta de escape abierta, evita gastar todos los enfriamientos a la vez y deja de atacar en el momento en que tu posicionamiento se complique. Esa disciplina importa más que la agresión bruta en la progresión temprana.
+
+| Hábito antes del jefe | Beneficio |
+|---|---|
+| Guardar la ráfaga | Mejores ventanas de castigo |
+| Mantener opciones de distancia | Reposicionamiento más seguro |
+| Observar las señales de ataque | Esquivas más limpias |
+| Reiniciar entre fases | Menor riesgo de pánico |
+
+Si deseas el canal de referencia oficial más confiable, mantente atento al [portal KARMA](https://sololeveling-karma.netmarble.com/en/) y al [sitio web oficial](https://sololeveling.netmarble.com/) para futuras actualizaciones de jefes y sistemas.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Lanzamiento y Preguntas Frecuentes">
+
+Antes del lanzamiento, organiza tu configuración para que tus primeras horas sean de aprendizaje y no de buscar actualizaciones dispersas. Los canales oficiales ya te brindan una base sólida de información sobre plataformas, tráileres y cobertura de idiomas.
+
+<Callout type="info" title="Preparación para el Lanzamiento">
+Utiliza primero los canales oficiales, luego crea tus propias notas sobre estilos de armas, prioridades de Bendiciones y hábitos de respuesta ante jefes.
+</Callout>
+
+<Checklist
+  id="launch-readiness"
+  title="Antes de tu Primera Partida:"
+  items={[
+    "Guarda en marcadores el sitio web oficial y el portal KARMA",
+    "Sigue la cuenta oficial de X para estar al tanto de las actualizaciones",
+    "Elige un estilo de arma antes de buscar mejoras",
+    "Sigue las Bendiciones que apoyen un plan de build",
+    "Revisa los patrones de los jefes antes de gastar recursos"
+  ]}
+/>
+
+| Recurso | Por qué usarlo | Tipo de enlace |
+|---|---|---|
+| Sitio web oficial | Anuncios principales y marca | Centro primario |
+| Portal KARMA | Noticias específicas del juego y detalles de lanzamiento | Centro del juego |
+| X oficial | Actualizaciones en redes sociales más rápidas | Feed social |
+| YouTube de Netmarble | Archivo de tráileres y metraje | Canal de video |
+
+<FAQ items={[
+  {
+    question: "¿Cuándo está programado el lanzamiento de Solo Leveling KARMA?",
+    answer: "La ventana de lanzamiento confirmada es 2026, con un lanzamiento planificado para PC, iOS y Android."
+  },
+  {
+    question: "¿Es Solo Leveling KARMA un RPG basado en clases?",
+    answer: "Parece más cercano a un RPG de acción roguelite, donde las armas, las bendiciones y el apoyo del Ejército de Sombras definen la build más que las clases fijas."
+  },
+  {
+    question: "¿Qué deberían priorizar los principiantes primero?",
+    answer: "Comienza con el movimiento, luego elige un estilo de arma y solo toma las bendiciones que apoyen ese plan."
+  },
+  {
+    question: "¿Qué fuentes oficiales vale la pena seguir?",
+    answer: "El sitio web oficial, el portal KARMA, la cuenta oficial de X y el canal de YouTube de Netmarble son las fuentes de lanzamiento más útiles."
+  }
+]} />
+
+</Section>

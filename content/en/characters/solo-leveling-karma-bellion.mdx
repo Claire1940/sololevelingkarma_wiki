@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling Karma: Ultimate Combat & Blessings Guide",
+  description: "Master Solo Leveling Karma with our guide to combat mechanics, weapon switching, the Blessing system, Shadow Army summons, and legendary boss battles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Combat+and+Blessings+Guide",
+  date: "2026-07-07",
+  author: "solo leveling karma Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Progression**: Build your character dynamically using the roguelite **solo leveling karma** Blessing system during each dungeon run.
+- **Weapon Mechanics**: Swap between multiple weapon types seamlessly in real-time combat to exploit enemy weaknesses.
+- **Shadow Army**: Summon legendary shadows like Igris and Iron to execute devastating team combos.
+- **Iconic Bosses**: Prepare for high-stakes encounters against legendary beasts including Cerberus and Baran.
+</Callout>
+
+<Section icon={Map} title="Solo Leveling Karma Overview & Launch Timeline">
+
+The upcoming roguelite action RPG **solo leveling karma**, developed by Netmarble Neo and published by Netmarble, brings a fresh twist to the franchise. Set during the unexplored 27-year war period of the Solo Leveling universe, players experience an original storyline bridging the gap between the original series and Solo Leveling: Ragnarok. 
+
+| Milestone | Expected Date | Platform Availability | Details |
+|---|---|---|---|
+| **Official Announcement** | 2025 | PC, iOS, Android | Game revealed as a roguelite action RPG. |
+| **Gameplay Reveals** | 2026 | PC, iOS, Android | Trailers showcased Blessing and Weapon systems. |
+| **Official Release** | **2026** | PC, iOS, Android | Global launch planned for mobile and PC platforms. |
+
+<Callout type="tip" title="Platform Availability">
+Since the game is launching natively on both PC and mobile, cross-progression features are highly anticipated to let you carry your roguelite runs across devices.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat System & Weapon Switching Mechanics">
+
+Combat in **solo leveling karma** focuses on high-speed action, precise dodging, and real-time weapon swapping. Instead of being locked into a single combat style, players can equip and switch between diverse weapon types mid-combat to adapt to changing battlefield conditions.
+
+<CardGrid cols={3}>
+  <Card title="Melee Weapons">
+    - **Types**: Daggers, Dual Blades, Greatswords, Scythes
+    - **Role**: High close-range DPS
+    - **Style**: Aggressive assault
+  </Card>
+  <Card title="Ranged Weapons">
+    - **Types**: Bows
+    - **Role**: Safe distance control
+    - **Style**: Strategic positioning
+  </Card>
+  <Card title="Heavy Weapons">
+    - **Types**: Hammers
+    - **Role**: Shield breaking & Stun
+    - **Style**: Slow, high-impact hits
+  </Card>
+</CardGrid>
+
+To maximize your combat efficiency, you must understand how each weapon type performs in battle. The table below compares the core weapon categories revealed by Netmarble.
+
+| Weapon Category | Combat Role | Strengths | Weaknesses | Ideal Playstyle |
+|---|---|---|---|---|
+| **Sword-Type Weapons** | Close-Range Damage | Fast melee attacks, high mobility | Requires staying close to danger | Aggressive melee combat |
+| **Long-Range Weapons** | Distance Control | Safe positioning, consistent pressure | Low defense, vulnerable to gap-closers | Strategic ranged attacks |
+| **Special Weapons** | Flexible Builds | High synergy with Blessings | Highly dependent on build combinations | Experiment-focused players |
+
+<Callout type="warning" title="Weapon Synergy">
+Do not rely on a single weapon. Some bosses have shields that are highly resistant to fast slashing attacks but break easily under heavy hammer strikes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Blessing System & Build Customization">
+
+The core of the roguelite progression in **solo leveling karma** is the Blessing system. Instead of static, permanent character builds, players collect and combine dynamic Blessings during each individual dungeon run. This ensures that no two runs feel exactly the same.
+
+| Blessing Type | Primary Effect | Combat Impact | Scaling Priority |
+|---|---|---|---|
+| **Skill Enhancement** | Increases skill levels | Boosts active ability damage and lowers cooldowns | High |
+| **Stat Growth** | Enhases core attributes | Improves raw attack power, critical rate, and defense | Medium |
+| **Shadow Synergy** | Buffs summoned units | Increases Shadow Army attack frequency and combo damage | High |
+| **Utility & Survival** | Utility boosts | Grants health regeneration, faster dash recovery, or shield | Low |
+
+To construct a powerful build during a run, players should follow a structured selection process.
+
+<Steps>
+  <Step num="1" title="Select Your Starter Weapon">
+    Choose a weapon that matches your preferred playstyle (e.g., fast Daggers for high crit, or a Greatsword for heavy damage).
+  </Step>
+  <Step num="2" title="Prioritize Skill Enhancements">
+    During early stages, select Blessings that directly upgrade your active weapon skills to clear regular enemy waves quickly.
+  </Step>
+  <Step num="3" title="Synergize with the Shadow Army">
+    Acquire Blessings that trigger cooperative attacks whenever you summon Igris, Iron, or other Shadow Soldiers.
+  </Step>
+  <Step num="4" title="Balance with Survival Stats">
+    Before entering boss chambers, grab at least one defensive or healing Blessing to sustain through long boss fights.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Build Variety">
+Experiment with unusual combinations. A ranged Bow build paired with Shadow Army defense-buffing Blessings can allow you to rain down damage while your summons hold the front line.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Shadow Army Summons & Combat Companions">
+
+Sung Jinwoo's iconic Shadow Army is fully integrated into the gameplay loop. Players can summon loyal shadow soldiers during combat to distract enemies, absorb damage, and perform powerful cooperative combo attacks.
+
+| Shadow Soldier | Combat Role | Signature Ability | Best Synergy |
+|---|---|---|---|
+| **Igris** | Main DPS Companion | Fast slashing attacks, high critical damage | Critical-rate builds, fast daggers |
+| **Iron** | Tank & Crowd Control | Taunts enemies, high defense, shield generation | Ranged bow builds, fragile setups |
+
+<Checklist
+  id="shadow-army-goals"
+  title="Shadow Army Combat Tips:"
+  items={[
+    "Summon Iron immediately when surrounded to draw enemy aggro.",
+    "Time your ultimate skills alongside Igris's attacks to trigger combo damage multipliers.",
+    "Collect Shadow Synergy Blessings to decrease summon cooldowns.",
+    "Watch your summon gauge and save your shadows for elite enemy spawns."
+  ]}
+/>
+
+<Callout type="info" title="Original Characters">
+In addition to familiar shadows, official trailers have teased original purple-haired and red-haired characters who will play major roles in the game's exclusive storyline.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Officially Confirmed Boss Encounters">
+
+Boss battles in **solo leveling karma** are designed to test your reflexes, weapon-switching efficiency, and Blessing choices. Netmarble has confirmed several iconic Magic Beasts from the original series as major dungeon bosses.
+
+| Boss Name | Attack Type | Key Mechanic | Counter Strategy |
+|---|---|---|---|
+| **Cerberus** | Fire / Melee | Aggressive rushes, wide-area fire puddles | Avoid standing in fire; use high-mobility weapons. |
+| **Hobgoblin Leader** | Melee / Swarm | Summons minor minions, heavy melee strikes | Use crowd-control skills and area-of-effect Blessings. |
+| **Avaricious Vulcan** | Heavy / Fire | Massive ground slams, large-area arena damage | Time your dodges perfectly; attack during recovery frames. |
+| **Demonic King Baran** | Lightning / Melee | High-speed teleportation, lightning strikes | Bring fast weapons like daggers; stay highly mobile. |
+| **Godlike Statue** | Magic / Laser | Massive laser attacks, room-wide stomp mechanics | Watch the floor indicators; prioritize survival over DPS. |
+
+<Callout type="warning" title="Boss Preparation">
+Always adjust your equipped weapons before entering a boss chamber. Bringing a slow hammer against a highly agile boss like Baran can make the encounter unnecessarily difficult.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solo Leveling Karma FAQ">
+
+<FAQ items={[
+  {
+    question: "What platforms will Solo Leveling Karma be available on?",
+    answer: "The game is officially confirmed to launch on PC, iOS, and Android platforms."
+  },
+  {
+    question: "How does the Blessing system work in Solo Leveling Karma?",
+    answer: "Blessings are temporary upgrades collected during a roguelite run. They enhance your skills, boost your stats, and create unique synergies with your weapons and Shadow Army."
+  },
+  {
+    question: "Can I play as characters other than Sung Jinwoo?",
+    answer: "The main playable protagonist is Sung Jinwoo. However, you can summon iconic Shadow Soldiers like Igris and Iron to fight alongside you, and meet original story characters throughout the campaign."
+  },
+  {
+    question: "When is the release date for Solo Leveling Karma?",
+    answer: "Netmarble has officially scheduled the release window for the year 2026."
+  }
+]} />
+
+</Section>
