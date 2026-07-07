@@ -1,0 +1,4 @@
+# 此文件用于保留 content/ 目录骨架。
+# scripts/generate-content-manifest.mjs 要求 content/ 目录必须存在（否则 exit(1)），
+# CI (.github/workflows/deploy-workers.yml) 在 build 前会运行该脚本生成内容清单。
+# 当前为新站初始化状态，无任何 MDX 内容；后续阶段会在此目录下按 locale/contentType 写入新内容。

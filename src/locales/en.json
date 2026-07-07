@@ -10,14 +10,7 @@
       "twitterDescription": "Discover Solo Leveling: Karma guides, weapons, Blessings, Shadow Army, bosses, trailers, release news and official game updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
