@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling Karma PS5: Performance & Setup Guide",
+  description: "Optimize your Solo Leveling Karma PS5 experience. Learn the best graphics settings, controller configurations, and early progression tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PS5+Setup+Guide",
+  date: "2026-07-13",
+  author: "solo leveling karma Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Solo Leveling Karma PS5** performance relies heavily on selecting the correct graphic mode to match your display.
+- **Performance mode** is highly recommended to maintain a stable 60 FPS during fast-paced hack-and-slash combat.
+- **DualSense features** like haptic feedback and adaptive triggers can be adjusted to reduce hand fatigue.
+- **SSD optimization** ensures near-instantaneous loading times when moving between dungeons and the hunter lobby.
+</Callout>
+
+<Section icon={Map} title="Console Performance and Platform Overview">
+
+The release of Solo Leveling: KARMA on modern consoles brings the high-octane hunter action to the big screen. Developed by Netmarble, this entry leverages console hardware to deliver fast loading times, enhanced visual effects, and stable frame rates. Players transitioning from mobile or PC versions will find that the console adaptation introduces specific optimizations tailored to the hardware architecture.
+
+Understanding the technical foundations of the console version helps in configuring the game for optimal play. The game utilizes advanced rendering techniques to recreate the signature webtoon art style in full 3D, demanding significant GPU and CPU resources during intense boss fights where multiple visual effects occur simultaneously.
+
+| Technical Aspect | Specification Details |
+| :--- | :--- |
+| **Developer** | Netmarble |
+| **Target Frame Rate** | Up to 60 FPS |
+| **HDR Support** | HDR10 Compatible |
+| **Storage Required** | Approximately 45 GB |
+| **Controller Support** | DualSense Wireless Controller |
+
+<Callout type="info" title="Platform Compatibility">
+The game is optimized specifically for current-generation architecture. While cross-save functionality is supported via Netmarble account linking, graphics settings must be configured individually on each device.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Graphics Modes and Visual Optimization">
+
+To cater to different player preferences, the game offers distinct visual modes. Choosing between visual fidelity and fluid gameplay is crucial, especially in a title where dodge timings and animation frames dictate combat success. The high-speed combat sequences benefit greatly from higher frame rates, while the cinematic story moments look best at native resolutions.
+
+The console version features dynamic resolution scaling to maintain performance during heavy combat scenarios. When multiple hunters trigger their ultimate skills at the same time, the engine temporarily adjusts the internal resolution to prevent stuttering.
+
+| Graphic Mode | Target Resolution | Target Frame Rate | Ray Tracing | Recommended For |
+| :--- | :--- | :--- | :--- | :--- |
+| **Performance** | Dynamic 1440p | 60 FPS | Disabled | High-level dungeon clearing |
+| **Quality** | Native 4K | 30 FPS | Enabled | Cinematic story playthrough |
+| **Balanced** | Dynamic 4K | 45-60 FPS | Disabled | General exploration and farming |
+
+<CardGrid cols={3}>
+  <Card title="Performance Mode">
+    - **Prioritizes stable 60 FPS**
+    - Reduced particle effects
+    - Faster input response times
+  </Card>
+  <Card title="Quality Mode">
+    - **Native 4K resolution**
+    - Enhanced shadows and reflections
+    - Ideal for capturing screenshots
+  </Card>
+  <Card title="Balanced Mode">
+    - **Variable refresh rate required**
+    - Compromise between detail and speed
+    - Suitable for mid-tier challenges
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="VRR Recommendation">
+If your display supports Variable Refresh Rate, enabling it in the console system settings allows Balanced Mode to run much smoother, minimizing perceived frame drops during intense raids.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Controller Layout and DualSense Setup">
+
+The combat system requires precise execution of combos, evasive maneuvers, and quick-time events. Customizing the controller layout can significantly improve reaction times. The default scheme assigns primary attacks to the face buttons, but some players prefer mapping dodge or skill triggers to the bumpers for better camera control during combat.
+
+The DualSense controller provides immersive haptic feedback that corresponds to the weight of different weapons. Heavy broadswords produce strong, slow vibrations, while swift daggers offer light, rapid pulses.
+
+| Action | Default Button | Recommended Alternative | Purpose of Change |
+| :--- | :--- | :--- | :--- |
+| **Basic Attack** | Square | Square | Standard combo execution |
+| **Evasion / Dodge** | Circle | R1 | Keep thumb on right stick |
+| **Hunter Skill 1** | Triangle | Triangle | Quick access to primary skill |
+| **Hunter Skill 2** | Cross | Cross | Quick access to secondary skill |
+| **Extreme Evasion** | R1 | L1 | Easier timing for counterattacks |
+
+<Steps>
+  <Step num="1" title="Access Settings Menu">
+    Navigate to the main menu, select the gear icon, and open the Controller submenu.
+  </Step>
+  <Step num="2" title="Select Custom Preset">
+    Switch the control scheme from Default to Custom to unlock individual button mapping.
+  </Step>
+  <Step num="3" title="Rebind Evasion Controls">
+    Map the dodge function to a bumper button to allow simultaneous camera rotation and movement.
+  </Step>
+  <Step num="4" title="Adjust Trigger Sensitivity">
+    Set the trigger deadzones to low to ensure immediate activation of skills mapped to the triggers.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Trigger Fatigue">
+Adaptive triggers add resistance to skill activations. If you experience hand fatigue during long grinding sessions, consider lowering the trigger effect intensity in the game options.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Progression Strategies">
+
+Succeeding in dungeons requires a solid understanding of class synergy and enemy weaknesses. Players should focus on building a balanced team of hunters that can break enemy shields and apply crowd control effects. The lock-on mechanic is highly useful for tracking bosses, but it should be disabled when fighting large groups of minor enemies to prevent camera disorientation.
+
+Progression is gated by character level, weapon upgrades, and artifact sets. Clearing daily instance dungeons is the most reliable method for obtaining high-tier upgrade materials.
+
+| Content Type | Primary Reward | Daily Limit | Recommended Power |
+| :--- | :--- | :--- | :--- |
+| **Instance Dungeons** | Artifact Gear | 3 Entries | Varies by difficulty level |
+| **Encore Missions** | Weapon Upgrade Materials | 3 Entries | Match target boss level |
+| **Battlefield of Time** | Gold and Gems | Weekly Reset | Highest possible power |
+
+<Checklist
+  id="daily-milestones"
+  title="Daily Progression Checklist:"
+  items={[
+    "Complete all daily missions for experience points",
+    "Clear three instance dungeons for artifact upgrades",
+    "Run encore missions to gather weapon materials",
+    "Claim free daily shop package and gold rewards",
+    "Participate in active guild contribution activities"
+  ]}
+/>
+
+<Callout type="success" title="Artifact Set Synergy">
+Always prioritize matching artifact set bonuses over raw individual stats. A complete four-piece set bonus often provides greater utility than mismatched high-level gear.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Troubleshooting and System Maintenance">
+
+Even with console optimization, players may occasionally encounter performance hiccups, network disconnections, or visual glitches. Keeping the game client updated and maintaining adequate storage space helps prevent common errors. Because the game requires an active internet connection for progression tracking, a stable network setup is highly recommended.
+
+If you experience persistent frame rate drops, clearing the console system cache or reinstalling the game data can resolve underlying file corruption issues.
+
+| Issue | Potential Cause | Recommended Solution |
+| :--- | :--- | :--- |
+| **Stuttering in lobbies** | High player density | Switch to a less populated channel |
+| **Connection errors** | Unstable wireless signal | Use a wired LAN connection if possible |
+| **Texture pop-in** | External drive bottleneck | Move the game to the internal console SSD |
+| **HDR washed out** | Incorrect system calibration | Adjust HDR settings in the system dashboard |
+
+<Callout type="warning" title="Storage Space Requirement">
+Ensure you have at least 10 GB of free space beyond the initial installation size to accommodate temporary patch files and system updates.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Solo Leveling Karma PS5 support cross-play?",
+    question_id: "faq-cross-play",
+    answer: "Yes, the game supports cross-play and cross-progression. You can link your console account to your Netmarble account to share progress with mobile and PC platforms."
+  },
+  {
+    question: "How do I redeem promo codes on the console version?",
+    question_id: "faq-redeem-codes",
+    answer: "Console players can redeem codes by visiting the official Netmarble redemption website and entering their account member code alongside the active coupon code."
+  },
+  {
+    question: "What is the benefit of playing on Performance mode?",
+    question_id: "faq-performance-mode",
+    answer: "Performance mode targets 60 FPS, which reduces input lag and makes dodging boss attacks much easier compared to the 30 FPS Quality mode."
+  },
+  {
+    question: "Can I play the game offline?",
+    question_id: "faq-offline-play",
+    answer: "No, the game requires a persistent internet connection to verify account data, load server events, and save character progression."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Check the official game community channels regularly for server maintenance schedules and patch notes detailing console-specific updates.
+</Callout>
+
+</Section>

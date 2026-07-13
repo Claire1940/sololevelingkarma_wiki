@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Solo Leveling Karma PS5: Guía de Rendimiento y Configuración",
+  description: "Optimiza tu experiencia en Solo Leveling Karma PS5. Aprende los mejores ajustes gráficos, configuraciones de control y consejos de progresión temprana.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PS5+Setup+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Solo Leveling Karma"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El rendimiento de **Solo Leveling Karma PS5** depende en gran medida de seleccionar el modo gráfico correcto que se ajuste a tu pantalla.
+- Se recomienda encarecidamente el **modo Rendimiento** para mantener unos 60 FPS estables durante el trepidante combate hack-and-slash.
+- Las **funciones de DualSense**, como la retroalimentación háptica y los gatillos adaptativos, pueden ajustarse para reducir la fatiga manual.
+- La **optimización del SSD** garantiza tiempos de carga casi instantáneos al moverse entre las mazmorras y el lobby de cazadores.
+</Callout>
+
+<Section icon={Map} title="Rendimiento de la Consola y Resumen de la Plataforma">
+
+El lanzamiento de Solo Leveling: KARMA en consolas modernas lleva la acción de cazadores de alto octanaje a la pantalla grande. Desarrollado por Netmarble, esta entrega aprovecha el hardware de la consola para ofrecer tiempos de carga rápidos, efectos visuales mejorados y tasas de cuadros estables. Los jugadores que transicionen desde las versiones de móvil o PC encontrarán que la adaptación para consola introduce optimizaciones específicas diseñadas para la arquitectura del hardware.
+
+Comprender los fundamentos técnicos de la versión de consola ayuda a configurar el juego para una partida óptima. El juego utiliza técnicas de renderizado avanzadas para recrear el estilo artístico característico del webtoon en 3D completo, lo que exige recursos significativos de GPU y CPU durante las intensas peleas contra jefes donde ocurren múltiples efectos visuales simultáneamente.
+
+| Aspecto Técnico | Detalles de Especificación |
+| :--- | :--- |
+| **Desarrollador** | Netmarble |
+| **Tasa de Cuadros Objetivo** | Hasta 60 FPS |
+| **Soporte HDR** | Compatible con HDR10 |
+| **Almacenamiento Requerido** | Aproximadamente 45 GB |
+| **Soporte de Control** | Control inalámbrico DualSense |
+
+<Callout type="info" title="Compatibilidad de Plataforma">
+El juego está optimizado específicamente para la arquitectura de la generación actual. Aunque se admite la funcionalidad de guardado cruzado a través de la vinculación de la cuenta de Netmarble, los ajustes gráficos deben configurarse individualmente en cada dispositivo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Modos Gráficos y Optimización Visual">
+
+Para adaptarse a las diferentes preferencias de los jugadores, el juego ofrece distintos modos visuales. Elegir entre la fidelidad visual y una jugabilidad fluida es crucial, especialmente en un título donde los tiempos de esquiva y los cuadros de animación dictan el éxito en el combate. Las secuencias de combate de alta velocidad se benefician enormemente de tasas de cuadros más altas, mientras que los momentos cinematográficos de la historia se ven mejor en resoluciones nativas.
+
+La versión de consola cuenta con escalado de resolución dinámico para mantener el rendimiento durante escenarios de combate pesado. Cuando varios cazadores activan sus habilidades definitivas al mismo tiempo, el motor ajusta temporalmente la resolución interna para evitar tirones.
+
+| Modo Gráfico | Resolución Objetivo | Tasa de Cuadros Objetivo | Trazado de Rayos | Recomendado Para |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rendimiento** | 1440p Dinámico | 60 FPS | Desactivado | Limpieza de mazmorras de alto nivel |
+| **Calidad** | 4K Nativo | 30 FPS | Activado | Partida de historia cinematográfica |
+| **Equilibrado** | 4K Dinámico | 45-60 FPS | Desactivado | Exploración general y farmeo |
+
+<CardGrid cols={3}>
+  <Card title="Modo Rendimiento">
+    - **Prioriza 60 FPS estables**
+    - Efectos de partículas reducidos
+    - Tiempos de respuesta de entrada más rápidos
+  </Card>
+  <Card title="Modo Calidad">
+    - **Resolución 4K nativa**
+    - Sombras y reflejos mejorados
+    - Ideal para capturar capturas de pantalla
+  </Card>
+  <Card title="Modo Equilibrado">
+    - **Requiere Tasa de Refresco Variable (VRR)**
+    - Compromiso entre detalle y velocidad
+    - Adecuado para desafíos de nivel medio
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Recomendación de VRR">
+Si tu pantalla admite la Tasa de Refresco Variable (VRR), activarla en los ajustes del sistema de la consola permite que el Modo Equilibrado funcione mucho más fluido, minimizando las caídas de cuadros percibidas durante las incursiones intensas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Diseño del Control y Configuración de DualSense">
+
+El sistema de combate requiere una ejecución precisa de combos, maniobras evasivas y eventos de tiempo rápido (QTE). Personalizar el diseño del control puede mejorar significativamente los tiempos de reacción. El esquema predeterminado asigna los ataques principales a los botones frontales, pero algunos jugadores prefieren mapear la esquiva o los activadores de habilidades a los botones superiores (bumpers) para un mejor control de la cámara durante el combate.
+
+El control DualSense proporciona una retroalimentación háptica inmersiva que se corresponde con el peso de las diferentes armas. Las espadas pesadas producen vibraciones fuertes y lentas, mientras que las dagas veloces ofrecen pulsos ligeros y rápidos.
+
+| Acción | Botón Predeterminado | Alternativa Recomendada | Propósito del Cambio |
+| :--- | :--- | :--- | :--- |
+| **Ataque Básico** | Cuadrado | Cuadrado | Ejecución de combo estándar |
+| **Evasión / Esquiva** | Círculo | R1 | Mantener el pulgar en el stick derecho |
+| **Habilidad de Cazador 1** | Triángulo | Triángulo | Acceso rápido a la habilidad primaria |
+| **Habilidad de Cazador 2** | Equis | Equis | Acceso rápido a la habilidad secundaria |
+| **Evasión Extrema** | R1 | L1 | Tiempo más fácil para contraataques |
+
+<Steps>
+  <Step num="1" title="Acceder al Menú de Ajustes">
+    Navega al menú principal, selecciona el icono del engranaje y abre el submenú de Control.
+  </Step>
+  <Step num="2" title="Seleccionar Ajuste Personalizado">
+    Cambia el esquema de control de Predeterminado a Personalizado para desbloquear el mapeo individual de botones.
+  </Step>
+  <Step num="3" title="Reasignar Controles de Evasión">
+    Mapea la función de esquiva a un botón superior para permitir la rotación de la cámara y el movimiento simultáneos.
+  </Step>
+  <Step num="4" title="Ajustar Sensibilidad de los Gatillos">
+    Establece las zonas muertas de los gatillos en bajo para asegurar la activación inmediata de las habilidades mapeadas a los gatillos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Fatiga de Gatillo">
+Los gatillos adaptativos añaden resistencia a las activaciones de habilidades. Si experimentas fatiga en las manos durante largas sesiones de farmeo, considera reducir la intensidad del efecto de los gatillos en las opciones del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Estrategias de Progresión">
+
+Tener éxito en las mazmorras requiere una comprensión sólida de la sinergia de clases y las debilidades de los enemigos. Los jugadores deben centrarse en construir un equipo equilibrado de cazadores que puedan romper los escudos enemigos y aplicar efectos de control de masas. La mecánica de fijación de objetivo es muy útil para rastrear jefes, pero debe desactivarse al luchar contra grandes grupos de enemigos menores para evitar la desorientación de la cámara.
+
+La progresión está limitada por el nivel del personaje, las mejoras de armas y los conjuntos de artefactos. Limpiar las mazmorras de instancia diarias es el método más confiable para obtener materiales de mejora de alto nivel.
+
+| Tipo de Contenido | Recompensa Principal | Límite Diario | Poder Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Mazmorras de Instancia** | Equipo de Artefacto | 3 Entradas | Varía según el nivel de dificultad |
+| **Misiones Encore** | Materiales de Mejora de Armas | 3 Entradas | Coincidir con el nivel del jefe objetivo |
+| **Campo de Batalla del Tiempo** | Oro y Gemas | Reinicio Semanal | El poder más alto posible |
+
+<Checklist
+  id="daily-milestones"
+  title="Lista de Verificación de Progresión Diaria:"
+  items={[
+    "Completa todas las misiones diarias para obtener puntos de experiencia",
+    "Limpia tres mazmorras de instancia para mejoras de artefactos",
+    "Realiza misiones encore para recolectar materiales de armas",
+    "Reclama el paquete diario gratuito de la tienda y las recompensas de oro",
+    "Participa en actividades de contribución de gremio activas"
+  ]}
+/>
+
+<Callout type="success" title="Sinergia de Conjunto de Artefactos">
+Prioriza siempre combinar las bonificaciones de conjunto de artefactos sobre las estadísticas individuales puras. Un conjunto completo de cuatro piezas a menudo proporciona una mayor utilidad que piezas de nivel alto que no coinciden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solución de Problemas y Mantenimiento del Sistema">
+
+Incluso con la optimización de la consola, los jugadores pueden encontrar ocasionalmente problemas de rendimiento, desconexiones de red o fallos visuales. Mantener el cliente del juego actualizado y disponer de un espacio de almacenamiento adecuado ayuda a prevenir errores comunes. Debido a que el juego requiere una conexión a Internet activa para el seguimiento de la progresión, se recomienda encarecidamente una configuración de red estable.
+
+Si experimentas caídas persistentes en la tasa de cuadros, borrar el caché del sistema de la consola o reinstalar los datos del juego puede resolver problemas subyacentes de corrupción de archivos.
+
+| Problema | Causa Potencial | Solución Recomendada |
+| :--- | :--- | :--- |
+| **Tirones en los lobbies** | Alta densidad de jugadores | Cambia a un canal menos poblado |
+| **Errores de conexión** | Señal inalámbrica inestable | Usa una conexión LAN por cable si es posible |
+| **Aparición repentina de texturas** | Cuello de botella en unidad externa | Mueve el juego al SSD interno de la consola |
+| **HDR lavado** | Calibración incorrecta del sistema | Ajusta la configuración HDR en el panel del sistema |
+
+<Callout type="warning" title="Requisito de Espacio de Almacenamiento">
+Asegúrate de tener al menos 10 GB de espacio libre más allá del tamaño de instalación inicial para acomodar archivos de parches temporales y actualizaciones del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Admite Solo Leveling Karma PS5 el juego cruzado?",
+    question_id: "faq-cross-play",
+    answer: "Sí, el juego admite el juego cruzado y la progresión cruzada. Puedes vincular tu cuenta de consola a tu cuenta de Netmarble para compartir el progreso con las plataformas móviles y de PC."
+  },
+  {
+    question: "¿Cómo canjeo códigos promocionales en la versión de consola?",
+    question_id: "faq-redeem-codes",
+    answer: "Los jugadores de consola pueden canjear códigos visitando el sitio web oficial de canje de Netmarble e ingresando su código de miembro de cuenta junto con el código de cupón activo."
+  },
+  {
+    question: "¿Cuál es el beneficio de jugar en modo Rendimiento?",
+    question_id: "faq-performance-mode",
+    answer: "El modo Rendimiento apunta a 60 FPS, lo que reduce el retraso de entrada y hace que esquivar los ataques de los jefes sea mucho más fácil en comparación con el modo Calidad de 30 FPS."
+  },
+  {
+    question: "¿Puedo jugar el juego sin conexión?",
+    question_id: "faq-offline-play",
+    answer: "No, el juego requiere una conexión a Internet persistente para verificar los datos de la cuenta, cargar eventos del servidor y guardar la progresión del personaje."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Consulta regularmente los canales oficiales de la comunidad del juego para ver los horarios de mantenimiento del servidor y las notas del parche que detallan las actualizaciones específicas para consolas.
+</Callout>
+
+</Section>

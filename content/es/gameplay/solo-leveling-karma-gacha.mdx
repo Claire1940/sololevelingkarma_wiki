@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gacha de Solo Leveling KARMA: Guía de Mecánicas y Reroll 2026",
+  description: "Domina el sistema de gacha de Solo Leveling KARMA con nuestra guía sobre tasas de invocación, estrategias de reroll y lista de niveles de personajes para el ARPG roguelite de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Karma+Gacha+System+Guide",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de Solo Leveling KARMA",
+  keywords: "solo leveling karma gacha, reroll, tasas de invocación, tier list, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Gacha de Solo Leveling KARMA**: Este sistema se enfoca en invocar Cazadores y Armas especializadas adaptadas al ciclo de juego del ARPG roguelite.
+- **Estrategia de Reroll**: Apunta a conseguir al menos un Cazador SSR y su arma insignia dentro de las primeras 20 tiradas para un progreso óptimo.
+- **Sistema de Pity (Garantía)**: Se garantiza un SSR a las 80 tiradas, con un 50/50 de probabilidad de obtener al personaje del banner promocional.
+- **Sinergia Roguelite**: Los personajes en Karma poseen "Habilidades de Karma" únicas que evolucionan de manera diferente durante cada incursión en las mazmorras.
+- **Gestión de Recursos**: Prioriza gastar Piedras de Esencia en los Banners Limitados en lugar del banner de Selección Estándar.
+</Callout>
+
+<Section icon={Map} title="Introducción al Sistema de Gacha de Solo Leveling KARMA">
+
+El **gacha de Solo Leveling KARMA** representa un cambio significativo en la forma en que Netmarble aborda la franquicia de Solo Leveling. A diferencia de su predecesor, *Arise*, este título integra las mecánicas de invocación directamente dentro de una estructura roguelite. Los jugadores deben navegar por un complejo sistema de adquisición de personajes que equilibra la formación de un elenco a largo plazo con las necesidades inmediatas de las incursiones aleatorias en las mazmorras. En este entorno, tu "Karma" no es solo un elemento de la historia; es una estadística medible que influye en tu suerte al invocar y en tu límite de poder dentro del juego.
+
+<Callout type="tip" title="Nota del Editor">
+Aunque los diseños visuales pueden parecer similares a los de títulos anteriores, el ritmo de combate en Karma es significativamente más rápido, lo que hace que ciertos personajes SSR de alta movilidad sean más valiosos que los tanques puros.
+</Callout>
+
+| Característica | Solo Leveling KARMA | Solo Leveling: Arise |
+| :--- | :--- | :--- |
+| **Género de Juego** | ARPG Roguelite | RPG de Acción |
+| **Enfoque del Gacha** | Cazadores y Mejoras de Karma | Cazadores y Armas |
+| **Límite de Pity** | 80 Tiradas | 80 Tiradas |
+| **Tasas de Invocación** | 1.2% para SSR | 1.2% para SSR |
+| **Facilidad de Reroll** | Moderada (15 min) | Fácil (10 min) |
+
+</Section>
+
+<Section icon={Sparkles} title="Comprendiendo las Tasas de Invocación y Tipos de Banner">
+
+Para tener éxito en el **gacha de Solo Leveling KARMA**, debes entender la distribución de probabilidad de los distintos banners. El juego suele presentar tres tipos principales de invocaciones: la Selección de Reclutamiento, el Banner Limitado con Rate-Up y el Reclutamiento de Apoyo Exclusivo de Armas. Cada uno cumple un propósito específico en tu viaje de progresión.
+
+**Puntos Destacados del Video:**
+- Desglose detallado del repertorio de Cazadores SSR y las clasificaciones del meta actual.
+- Guía visual paso a paso para el método de reroll más rápido en 2026.
+- Comparación de sinergias de armas para los tres mejores personajes iniciales.
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Solo Leveling: Karma - Gacha System Explained" />
+
+<Callout type="warning" title="Advertencia de Reinicio de Pity">
+Obtener un SSR antes de la tirada 80 reiniciará inmediatamente tu contador de garantía. Siempre lleva el registro de tu "soft pity" (garantía blanda) que comienza en la tirada 65, donde las tasas aumentan ligeramente.
+</Callout>
+
+| Rareza | Tasa de Cazador | Tasa de Arma | Probabilidad Total |
+| :--- | :--- | :--- | :--- |
+| **SSR (Legendario)** | 0.6% | 0.6% | 1.2% |
+| **SR (Épico)** | 4.0% | 4.0% | 8.0% |
+| **R (Raro)** | 45.4% | 45.4% | 90.8% |
+
+</Section>
+
+<Section icon={Target} title="Guía de Reroll Paso a Paso para Nuevos Jugadores">
+
+Maximizar tus tiradas iniciales en el **gacha de Solo Leveling KARMA** es la forma más efectiva de asegurar una experiencia fluida en el inicio del juego. Dado que los elementos roguelite pueden ser implacables, comenzar con un personaje DPS de nivel alto te permite limpiar portales de mayor dificultad más rápido, otorgándote mejores recursos para la meta-progresión.
+
+<Steps>
+  <Step num="1" title="Iniciar Sesión con Cuenta de Invitado">
+    Inicia el juego usando una Cuenta de Invitado. Completa el tutorial hasta llegar al vestíbulo principal (La Asociación de Cazadores). Esto suele tomar alrededor de 10 minutos.
+  </Step>
+  <Step num="2" title="Reclamar Recompensas del Buzón">
+    Recoge todas las recompensas de prerregistro y las piedras de "Celebración de Lanzamiento" de tu buzón. Deberías tener suficiente para al menos dos multi-invocaciones (20 tiradas).
+  </Step>
+  <Step num="3" title="Configurar la Selección de Reclutamiento">
+    Dirígete al banner de Selección de Reclutamiento. Agrega a tus cuatro personajes SSR deseados a la "Lista de Rate-Up" para asegurar que, si obtienes un SSR, sea uno que realmente quieras.
+  </Step>
+  <Step num="4" title="Realizar las Invocaciones">
+    Ejecuta tus multi-tiradas. Si no obtienes al menos un Cazador de Rango S (como Cha Hae-In o Choi Jong-In), procede al siguiente paso.
+  </Step>
+  <Step num="5" title="Restablecer y Repetir">
+    Ve a Ajustes > Cuenta > Eliminar Cuenta. Escribe la cadena de confirmación requerida y reinicia el proceso. No vincules tu correo electrónico hasta que estés satisfecho con el resultado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tirada Inicial Ideal">
+La "Tirada Divina" para 2026 consiste en un Cazador SSR y su correspondiente Arma Insignia SR o SSR. Esta sinergia proporciona un aumento del 20% de daño en las etapas iniciales del roguelite.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personajes de Máximo Nivel a Buscar en el Gacha">
+
+No todos los SSR son creados iguales en el **gacha de Solo Leveling KARMA**. Debido a que el juego presenta un combate de estilo Diablo con perspectiva aérea en muchos escenarios, los personajes con grandes habilidades de Área de Efecto (AoE) y control de masas dominan actualmente el meta.
+
+<CardGrid cols={3}>
+  <Card title="Cha Hae-In (DPS de Luz)">
+    - **Alta Movilidad**: Excelente para esquivar las mecánicas de los jefes.
+    - **Maestría Crítica**: Escala increíblemente bien con el equipamiento de juego tardío.
+    - **Ideal para**: Encuentros con jefes y speedruns.
+  </Card>
+  <Card title="Choi Jong-In (Mago de Fuego)">
+    - **Inmenso AoE**: Despeja oleadas de enemigos al estilo \"vampire survivors\" al instante.
+    - **Daño por Quemadura**: Proporciona un DPS constante a lo largo del tiempo.
+    - **Ideal para**: Misiones de defensa y eliminación de hordas.
+  </Card>
+  <Card title="Seo Jiwoo (Tanque de Agua)">
+    - **Generación de Escudos**: Esencial para la supervivencia en incursiones roguelite de alto nivel.
+    - **Daño de Ruptura**: Necesario para destruir la armadura de los jefes.
+    - **Ideal para**: Progresión en modo difícil y mazmorras largas.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Bono de Sinergia">
+Los personajes del mismo elemento otorgan una mejora de "Resonancia", aumentando el daño elemental en un 10%. Intenta construir equipos de un solo elemento para tipos específicos de mazmorras.
+</Callout>
+
+| Nivel de Personaje | Nombre | Rol | Fuerza Clave |
+| :--- | :--- | :--- | :--- |
+| **Rango S** | Cha Hae-In | Asesino | Reinicios de esquive infinitos |
+| **Rango S** | Choi Jong-In | Mago | Explosiones que cubren toda la pantalla |
+| **Rango A** | Emma Laurent | Tanque | Alta conversión de HP a Ataque |
+| **Rango A** | Lim Tae-Gyu | Tirador | Seguridad a larga distancia |
+| **Rango B** | Woo Jinchul | Luchador | Control de masas decente pero poco daño |
+
+</Section>
+
+<Section icon={Trophy} title="Progresión Diaria y Cultivo de Recursos">
+
+Para seguir invocando en el **gacha de Solo Leveling KARMA**, necesitas un flujo constante de Piedras de Esencia y Tickets de Reclutamiento. Dado que el juego es un roguelite, gran parte de tu divisa se obtiene a través de incursiones repetitivas que recompensan con "Fragmentos de Karma", los cuales se pueden canjear por materiales de gacha.
+
+<Checklist
+  id="daily-tasks"
+  title="Cultivo Esencial Diario para Gacha:"
+  items={[
+    "Completa 3 Misiones de Portal (se recomienda dificultad 5 o superior)",
+    "Reclama la Recompensa de Inicio de Sesión Diario en la Tienda",
+    "Participa en la 'Batalla de las Mareas' para obtener piedras semanales",
+    "Supera el piso 10 de la Biblioteca Infinita",
+    "Canjea 500 Fragmentos de Karma por un Ticket de Selección de Reclutamiento"
+  ]}
+/>
+
+<Callout type="warning" title="Gestión de Inventario">
+No desmanteles las armas SR de inmediato. Muchas armas SR con 5 estrellas de evolución superan a las armas SSR de 0 estrellas en construcciones roguelite específicas.
+</Callout>
+
+| Recurso | Fuente Primaria | Uso | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Piedras de Esencia** | Misiones / Logros | Cualquier Banner | Alta |
+| **Tickets de Selección** | Tareas Semanales / Tienda | Banner Estándar | Media |
+| **Tickets de Rate-Up** | Eventos / Tienda Premium | Banner Limitado | Muy Alta |
+| **Fragmentos de Karma** | Incursiones en Mazmorras | Tienda de Canje | Media |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el gacha de Solo Leveling KARMA amigable para jugadores F2P?",
+    answer: "Sí, el juego proporciona suficiente divisa a través del sistema roguelite de 'Karma' para alcanzar la garantía en uno de cada dos banners limitados, siempre y cuando completes todos los desafíos diarios y semanales."
+  },
+  {
+    question: "¿Debería invocar por armas o por personajes primero?",
+    answer: "Siempre prioriza los personajes. Aunque las armas son poderosas, se requiere un elenco diverso de Cazadores para superar las resistencias elementales que se encuentran en las mazmorras de alto nivel."
+  },
+  {
+    question: "¿Qué es el sistema 'Enlace de Karma' en el gacha?",
+    answer: "El Enlace de Karma te permite compartir el nivel y el equipamiento de tus Cazadores de mayor nivel con las unidades recién obtenidas, reduciendo significativamente el esfuerzo de cultivo de recursos."
+  },
+  {
+    question: "¿Cuándo se reinicia el contador de garantía (pity)?",
+    answer: "La garantía solo se reinicia cuando obtienes un SSR. No se reinicia cuando termina un banner; el progreso se transfiere al siguiente banner del mismo tipo."
+  }
+]} />
+
+<Callout type="success" title="Estrategia Final">
+Ahorra al menos 16,000 Piedras de Esencia antes de una actualización importante. Esto asegura que puedas alcanzar el pity del 50/50 y potencialmente asegurar al personaje promocional incluso con mala suerte.
+</Callout>
+
+</Section>
